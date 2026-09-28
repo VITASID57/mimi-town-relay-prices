@@ -5,348 +5,6 @@
   "known": true
  },
  "offers": {
-  "gemini-2-5-flash": {
-   "mode": "token",
-   "input": 0.3,
-   "output": 0.75,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-7-flash-storybook": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 0.225,
-   "output": 1.125,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "deepseek-v4-flash-vision-exp": {
-   "mode": "token",
-   "input": 0.05,
-   "output": 1.5,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "gemini-3-6-flash": {
-   "mode": "token",
-   "input": 0.45,
-   "output": 2.25,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 5,
-   "output": 25,
-   "group": "AWS（AWS渠道claude）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "低价小克"
-  },
-  "gemini-3-1-pro-preview-canvas": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gpt-5-5": {
-   "mode": "token",
-   "input": 3,
-   "output": 18,
-   "group": "GPT-官key（超高缓-不卡不降智-(卡了是官方问题，已经是尊贵的官key了允许向openai官方哈气)-不许破限-检测到破限封号不退款！！）"
-  },
-  "gemini-3-1-pro": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3.6,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 0.225,
-   "output": 1.125,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-8-flash-deepsearch": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-5-flash-canvas": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "deepseek-v4-flash": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 4.5,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "qwen3-reranker-8b": {
-   "mode": "token",
-   "input": 0.01,
-   "output": 0.01,
-   "group": "神奇分组-里面啥都有"
-  },
-  "claude-fable-5-1": {
-   "mode": "token",
-   "input": 8,
-   "output": 40,
-   "group": "深夜福利（今日是逆向ccmax，这个价格想测纯就测吧）"
-  },
-  "kimi-k2-7-code-highspeed": {
-   "mode": "token",
-   "input": 6.5,
-   "output": 27,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "低价小克"
-  },
-  "grok-4-3": {
-   "mode": "token",
-   "input": 0.25,
-   "output": 0.5,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "gemini-3-8-flash-medium": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "grok-4-20-0309-non-reasoning": {
-   "mode": "token",
-   "input": 0.5,
-   "output": 6.25,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 2.4,
-   "group": "GPT（没有luna了）"
-  },
-  "gemini-3-5-flash": {
-   "mode": "token",
-   "input": 0.45,
-   "output": 2.7,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "低价小克"
-  },
-  "grok-composer-2-5-fast": {
-   "mode": "token",
-   "input": 0.2,
-   "output": 0.4,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "token",
-   "input": 0.15,
-   "output": 0.9,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-stt": {
-   "mode": "token",
-   "input": 2.8,
-   "output": 16.8,
-   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
-  },
-  "gemini-3-1-pro-storybook": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "低价小克"
-  },
-  "deepseek-v4-pro-0813": {
-   "mode": "token",
-   "input": 4.5,
-   "output": 13.5,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "gemini-3-5-flash-extended": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "grok-4-20-reasoning": {
-   "mode": "token",
-   "input": 0.25,
-   "output": 0.5,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "gemini-2-5-flash-lite": {
-   "mode": "token",
-   "input": 0.03,
-   "output": 0.12,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "glm-5-2": {
-   "mode": "token",
-   "input": 4,
-   "output": 14,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "grok-4-20-0309-reasoning": {
-   "mode": "token",
-   "input": 0.25,
-   "output": 0.5,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "kimi-k2-6": {
-   "mode": "token",
-   "input": 0.39,
-   "output": 1.62,
-   "group": "限时活动（中秋福利来啦）"
-  },
-  "deepseek-v4-pro": {
-   "mode": "token",
-   "input": 4.5,
-   "output": 13.5,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "gemini-3-8-flash-storybook": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "glm-5-3-flash": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 0.14,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "glm-5-3": {
-   "mode": "token",
-   "input": 4,
-   "output": 14,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "gemini-3-6-flash-deepsearch": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-7-flash-extended": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 1,
-   "output": 6,
-   "group": "GPT（没有luna了）"
-  },
-  "gemini-3-7-flash-deepsearch": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-1-pro-preview-low": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3.6,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-6-stt": {
-   "mode": "token",
-   "input": 8.4,
-   "output": 42,
-   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
-  },
-  "grok-4-6": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.2,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "qwen3-reranker-4b": {
-   "mode": "token",
-   "input": 0.01,
-   "output": 0.01,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-2-5-pro": {
-   "mode": "token",
-   "input": 0.375,
-   "output": 3,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "grok-4-5": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.2,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "gemini-3-1-flash-lite": {
-   "mode": "token",
-   "input": 0.075,
-   "output": 0.45,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "低价小克"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3.6,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-6-flash-low": {
-   "mode": "token",
-   "input": 0.45,
-   "output": 2.25,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-1-flash-lite-preview": {
-   "mode": "token",
-   "input": 0.15,
-   "output": 0.9,
-   "group": "Gemini-cli-按量（gemini cli还活着，活多久看谷歌）"
-  },
-  "gemini-3-6-flash-medium": {
-   "mode": "token",
-   "input": 0.45,
-   "output": 2.25,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "低价小克"
-  },
-  "glm-5-1": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "deepseek-v4-flash-0731": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 4.5,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
   "gemini-3-pro-preview": {
    "mode": "token",
    "input": 0.6,
@@ -365,68 +23,11 @@
    "output": 1.125,
    "group": "Gemini-按量（24小时稳定）"
   },
-  "gemini-3-1-pro-high": {
+  "gemini-3-flash-preview": {
    "mode": "token",
-   "input": 0.6,
-   "output": 3.6,
+   "input": 0.15,
+   "output": 0.9,
    "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-1-pro-low": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3.6,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-7-flash-canvas": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 45,
-   "output": 90,
-   "group": "GPT-官key（超高缓-不卡不降智-(卡了是官方问题，已经是尊贵的官key了允许向openai官方哈气)-不许破限-检测到破限封号不退款！！）"
-  },
-  "gemini-3-6-flash-high": {
-   "mode": "token",
-   "input": 0.45,
-   "output": 2.25,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-5-stt": {
-   "mode": "token",
-   "input": 8.4,
-   "output": 50.4,
-   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
-  },
-  "grok-4-20-non-reasoning": {
-   "mode": "token",
-   "input": 0.25,
-   "output": 0.5,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "grok-3-mini": {
-   "mode": "token",
-   "input": 0.06,
-   "output": 0.1,
-   "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "gpt-4o": {
-   "mode": "token",
-   "input": 0.5,
-   "output": 2,
-   "group": "GPT（没有luna了）"
-  },
-  "gemini-3-6-flash-storybook": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-8-flash-low": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
   },
   "kimi-k3": {
    "mode": "token",
@@ -434,11 +35,184 @@
    "output": 6,
    "group": "限时活动（中秋福利来啦）"
   },
-  "qwen3-reranker-0-6b": {
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 0.5,
+   "output": 2.5,
+   "group": "低价小克"
+  },
+  "gemini-3-1-flash-lite-preview": {
+   "mode": "token",
+   "input": 0.15,
+   "output": 0.9,
+   "group": "Gemini-cli-按量（gemini cli还活着，活多久看谷歌）"
+  },
+  "deepseek-v4-flash": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 4.5,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
+  },
+  "gemini-2-5-pro-search": {
+   "mode": "call",
+   "perCall": 0.08,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-7-flash": {
+   "mode": "token",
+   "input": 0.225,
+   "output": 1.125,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "claude-fable-5-1": {
+   "mode": "token",
+   "input": 8,
+   "output": 40,
+   "group": "深夜福利（今日是逆向ccmax，这个价格想测纯就测吧）"
+  },
+  "glm-5-3": {
+   "mode": "token",
+   "input": 4,
+   "output": 14,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
+  },
+  "gemini-2-5-flash": {
+   "mode": "token",
+   "input": 0.3,
+   "output": 0.75,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3.6,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "qwen3-reranker-4b": {
    "mode": "token",
    "input": 0.01,
    "output": 0.01,
    "group": "神奇分组-里面啥都有"
+  },
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 5,
+   "output": 25,
+   "group": "AWS（AWS渠道claude）"
+  },
+  "gemini-3-7-flash-deepsearch": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-6-flash-canvas": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "grok-4-20-0309-reasoning": {
+   "mode": "token",
+   "input": 0.25,
+   "output": 0.5,
+   "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "gemini-3-1-pro": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3.6,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-6-flash-high": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.25,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-7-flash-storybook": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-5-flash-lite": {
+   "mode": "token",
+   "input": 0.09,
+   "output": 0.75,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "token",
+   "input": 0.375,
+   "output": 3,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-6-flash-extended": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "低价小克"
+  },
+  "gemini-3-8-flash-medium": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-6-flash-tiered": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.25,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-8-flash-storybook": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-5-stt": {
+   "mode": "token",
+   "input": 8.4,
+   "output": 50.4,
+   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
+  },
+  "grok-4-20-0309-non-reasoning": {
+   "mode": "token",
+   "input": 0.5,
+   "output": 6.25,
+   "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "低价小克"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 0.225,
+   "output": 1.125,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.25,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "grok-4-3": {
+   "mode": "token",
+   "input": 0.25,
+   "output": 0.5,
+   "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "deepseek-v4-flash-0731": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 4.5,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
   },
   "kimi-k2-7-code": {
    "mode": "token",
@@ -446,16 +220,92 @@
    "output": 1.62,
    "group": "限时活动（中秋福利来啦）"
   },
-  "gpt-6-astra": {
+  "deepseek-v4-flash-vision-exp": {
    "mode": "token",
-   "input": 2,
-   "output": 10,
-   "group": "GPT（没有luna了）"
+   "input": 0.05,
+   "output": 1.5,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
   },
-  "gemini-3-5-flash-storybook": {
+  "gemini-3-1-pro-preview-low": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3.6,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-1-pro-preview-search": {
    "mode": "call",
-   "perCall": 0.04,
+   "perCall": 0.08,
    "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "glm-5-1": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-1-pro-low": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3.6,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-6-stt": {
+   "mode": "token",
+   "input": 8.4,
+   "output": 42,
+   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "token",
+   "input": 1,
+   "output": 1,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.7,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gpt-oss-20b": {
+   "mode": "call",
+   "perCall": 0.01,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-6-flash-low": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.25,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-6-flash-medium": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.25,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-2-5-flash-lite": {
+   "mode": "token",
+   "input": 0.03,
+   "output": 0.12,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "grok-4-20-non-reasoning": {
+   "mode": "token",
+   "input": 0.25,
+   "output": 0.5,
+   "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "deepseek-v4-pro": {
+   "mode": "token",
+   "input": 4.5,
+   "output": 13.5,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
+  },
+  "gemini-3-1-pro-high": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3.6,
+   "group": "Gemini-按量（24小时稳定）"
   },
   "grok-4-7": {
    "mode": "token",
@@ -463,38 +313,72 @@
    "output": 1.2,
    "group": "Grok-按量（Grok Heavy满血版）"
   },
-  "gemini-3-1-pro-preview-thinking": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-6-flash-extended": {
+  "gemini-3-5-flash-canvas": {
    "mode": "call",
    "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次"
   },
-  "gemini-2-5-pro-search": {
+  "gemini-3-8-flash-extended": {
    "mode": "call",
-   "perCall": 0.08,
+   "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次"
   },
-  "gemini-2-5-stt": {
+  "kimi-k2-7-code-highspeed": {
    "mode": "token",
-   "input": 1.68,
-   "output": 14,
-   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
+   "input": 6.5,
+   "output": 27,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
   },
-  "gemini-3-1-pro-preview-deepsearch": {
+  "gemini-3-7-flash-canvas": {
    "mode": "call",
    "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次"
   },
-  "gemini-3-1-pro-preview-extended": {
+  "grok-3-mini": {
+   "mode": "token",
+   "input": 0.06,
+   "output": 0.1,
+   "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "gpt-5-5-pro": {
+   "mode": "call",
+   "perCall": 0.4,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-1-flash-lite": {
+   "mode": "token",
+   "input": 0.075,
+   "output": 0.45,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-5-flash-extended": {
    "mode": "call",
    "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次"
   },
-  "gemini-3-1-pro-preview-storybook": {
+  "gemini-3-6-flash-storybook": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "glm-5-3-flash": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 0.14,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
+  },
+  "grok-composer-2-5-fast": {
+   "mode": "token",
+   "input": 0.2,
+   "output": 0.4,
+   "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "gemini-3-5-flash-deepsearch": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-8-flash-low": {
    "mode": "call",
    "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次"
@@ -505,28 +389,55 @@
    "output": 10,
    "group": "低价小克"
   },
-  "grok-3-mini-fast": {
+  "grok-build-latest": {
    "mode": "token",
-   "input": 0.06,
-   "output": 0.14,
+   "input": 0.2,
+   "output": 0.4,
    "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "gpt-4o": {
+   "mode": "token",
+   "input": 0.5,
+   "output": 2,
+   "group": "GPT（没有luna了）"
   },
   "gpt-5-4-pro": {
    "mode": "call",
    "perCall": 0.28,
    "group": "按次大分组-注意embedding模型不是按次"
   },
-  "gemini-3-6-flash-tiered": {
+  "grok-4-20-reasoning": {
    "mode": "token",
-   "input": 0.45,
-   "output": 2.25,
-   "group": "Gemini-按量（24小时稳定）"
+   "input": 0.25,
+   "output": 0.5,
+   "group": "Grok-按量（Grok Heavy满血版）"
   },
-  "claude-haiku-4-5": {
+  "gemini-3-1-pro-preview-thinking": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "claude-sonnet-4-6": {
    "mode": "token",
-   "input": 0.5,
-   "output": 2.5,
-   "group": "低价小克"
+   "input": 1.5,
+   "output": 7.5,
+   "group": "AWS（AWS渠道claude）"
+  },
+  "gemini-3-1-pro-preview-deepsearch": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "kimi-k2-6": {
+   "mode": "token",
+   "input": 0.39,
+   "output": 1.62,
+   "group": "限时活动（中秋福利来啦）"
+  },
+  "gemini-3-8-flash-deepsearch": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
   },
   "gpt-4o-mini": {
    "mode": "token",
@@ -534,78 +445,167 @@
    "output": 0.12,
    "group": "GPT（没有luna了）"
   },
-  "grok-build-latest": {
+  "qwen3-reranker-0-6b": {
    "mode": "token",
-   "input": 0.2,
-   "output": 0.4,
+   "input": 0.01,
+   "output": 0.01,
+   "group": "神奇分组-里面啥都有"
+  },
+  "grok-3-mini-fast": {
+   "mode": "token",
+   "input": 0.06,
+   "output": 0.14,
    "group": "Grok-按量（Grok Heavy满血版）"
-  },
-  "gemini-3-5-flash-lite": {
-   "mode": "token",
-   "input": 0.09,
-   "output": 0.75,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-1-pro-preview-search": {
-   "mode": "call",
-   "perCall": 0.08,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-1-pro-extended": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-8-flash-extended": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-6-flash-canvas": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-1-pro-deepsearch": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "gemini-3-1-pro-canvas": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "token",
-   "input": 1,
-   "output": 1,
-   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
-  },
-  "gemini-3-8-flash-canvas": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "按次大分组-注意embedding模型不是按次"
   },
   "gemini-3-7-flash-thinking": {
    "mode": "call",
    "perCall": 0.06,
    "group": "按次大分组-注意embedding模型不是按次"
   },
-  "gemini-3-5-flash-deepsearch": {
+  "gemini-3-1-pro-storybook": {
    "mode": "call",
    "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次"
   },
-  "gpt-5-5-pro": {
+  "gemini-3-6-flash-deepsearch": {
    "mode": "call",
-   "perCall": 0.4,
+   "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次"
   },
-  "gpt-oss-20b": {
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "低价小克"
+  },
+  "gemini-3-1-pro-preview-storybook": {
    "mode": "call",
-   "perCall": 0.01,
+   "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "低价小克"
+  },
+  "gemini-3-1-pro-preview-canvas": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "glm-5-2": {
+   "mode": "token",
+   "input": 4,
+   "output": 14,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
+  },
+  "gemini-3-1-pro-preview-extended": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "低价小克"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 45,
+   "output": 90,
+   "group": "GPT-官key（超高缓-不卡不降智-(卡了是官方问题，已经是尊贵的官key了允许向openai官方哈气)-不许破限-检测到破限封号不退款！！）"
+  },
+  "grok-4-6": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.2,
+   "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "gemini-3-1-pro-extended": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-7-flash-extended": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gemini-3-stt": {
+   "mode": "token",
+   "input": 2.8,
+   "output": 16.8,
+   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
+  },
+  "qwen3-reranker-8b": {
+   "mode": "token",
+   "input": 0.01,
+   "output": 0.01,
+   "group": "神奇分组-里面啥都有"
+  },
+  "gpt-5-5": {
+   "mode": "token",
+   "input": 3,
+   "output": 18,
+   "group": "GPT-官key（超高缓-不卡不降智-(卡了是官方问题，已经是尊贵的官key了允许向openai官方哈气)-不许破限-检测到破限封号不退款！！）"
+  },
+  "gemini-3-1-pro-deepsearch": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "grok-4-5": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.2,
+   "group": "Grok-按量（Grok Heavy满血版）"
+  },
+  "deepseek-v4-pro-0813": {
+   "mode": "token",
+   "input": 4.5,
+   "output": 13.5,
+   "group": "国模（自部署-仅有模型自带甲没有官方甲-flash 60t/s pro 40t/s 全量部署）"
+  },
+  "gemini-2-5-stt": {
+   "mode": "token",
+   "input": 1.68,
+   "output": 14,
+   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
+  },
+  "gemini-3-5-flash-storybook": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 1,
+   "output": 6,
+   "group": "GPT（没有luna了）"
+  },
+  "gemini-3-8-flash-canvas": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 2,
+   "output": 10,
+   "group": "GPT（没有luna了）"
+  },
+  "gemini-3-1-pro-canvas": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 2.4,
+   "group": "GPT（没有luna了）"
   }
  }
 }

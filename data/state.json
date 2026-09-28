@@ -14,9 +14,8 @@
    "failStreak": 0
   },
   "ekan8": {
-   "lastOkAt": null,
-   "failStreak": 1,
-   "lastError": "fetch failed"
+   "lastOkAt": "2026-09-28",
+   "failStreak": 0
   },
   "qiyiguo": {
    "lastOkAt": "2026-09-28",
@@ -40,13 +39,12 @@
   },
   "chintao": {
    "lastOkAt": null,
-   "failStreak": 1,
+   "failStreak": 2,
    "lastError": "fetch failed"
   },
   "dawclaude": {
-   "lastOkAt": null,
-   "failStreak": 1,
-   "lastError": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+   "lastOkAt": "2026-09-28",
+   "failStreak": 0
   },
   "fate86": {
    "lastOkAt": "2026-09-28",
@@ -54,7 +52,7 @@
   },
   "fuka": {
    "lastOkAt": null,
-   "failStreak": 1,
+   "failStreak": 2,
    "lastError": "HTTP 401"
   },
   "goodream": {
@@ -107,7 +105,7 @@
   },
   "xfx": {
    "lastOkAt": null,
-   "failStreak": 1,
+   "failStreak": 2,
    "lastError": "fetch failed"
   },
   "zhailian": {
@@ -124,7 +122,7 @@
   },
   "alading": {
    "lastOkAt": null,
-   "failStreak": 1,
+   "failStreak": 2,
    "lastError": "fetch failed"
   },
   "ebutterfly": {
