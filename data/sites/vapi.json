@@ -5,28 +5,40 @@
   "known": true
  },
  "offers": {
-  "gpt-6-sol": {
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "兜底（兜底上游）"
+  },
+  "gemini-flash-lite-latest": {
+   "mode": "token",
+   "input": 0.06,
+   "output": 0.5,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-5-flash-lite": {
+   "mode": "token",
+   "input": 0.06,
+   "output": 0.5,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-5": {
    "mode": "token",
    "input": 15,
-   "output": 30,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 2,
    "group": "default（默认分组）"
   },
   "gpt-6-luna": {
    "mode": "token",
    "input": 15,
    "output": 30,
-   "group": "default（默认分组）"
-  },
-  "qwen3-8-omni-flash": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
    "group": "default（默认分组）"
   },
   "qwen3-8-max": {
@@ -41,10 +53,28 @@
    "output": 1.2,
    "group": "default（默认分组）"
   },
-  "gemini-flash-lite-latest": {
+  "claude-opus-4-5": {
    "mode": "token",
-   "input": 0.06,
-   "output": 0.5,
+   "input": 1,
+   "output": 5,
+   "group": "default（默认分组）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 15,
+   "output": 30,
+   "group": "default（默认分组）"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 15,
+   "output": 30,
+   "group": "default（默认分组）"
+  },
+  "grok-4-7": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
    "group": "default（默认分组）"
   },
   "claude-fable-5": {
@@ -65,40 +95,10 @@
    "output": 15,
    "group": "default（默认分组）"
   },
-  "claude-opus-5-5": {
+  "qwen3-8-omni-flash": {
    "mode": "token",
    "input": 15,
    "output": 15,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 2,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 15,
-   "output": 30,
-   "group": "default（默认分组）"
-  },
-  "grok-4-7": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-5-flash-lite": {
-   "mode": "token",
-   "input": 0.06,
-   "output": 0.5,
    "group": "default（默认分组）"
   }
  }

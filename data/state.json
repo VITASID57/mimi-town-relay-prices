@@ -39,7 +39,7 @@
   },
   "chintao": {
    "lastOkAt": null,
-   "failStreak": 2,
+   "failStreak": 3,
    "lastError": "fetch failed"
   },
   "dawclaude": {
@@ -52,7 +52,7 @@
   },
   "fuka": {
    "lastOkAt": null,
-   "failStreak": 2,
+   "failStreak": 3,
    "lastError": "HTTP 401"
   },
   "goodream": {
@@ -104,9 +104,8 @@
    "failStreak": 0
   },
   "xfx": {
-   "lastOkAt": null,
-   "failStreak": 2,
-   "lastError": "fetch failed"
+   "lastOkAt": "2026-09-28",
+   "failStreak": 0
   },
   "zhailian": {
    "lastOkAt": "2026-09-28",
@@ -122,7 +121,7 @@
   },
   "alading": {
    "lastOkAt": null,
-   "failStreak": 2,
+   "failStreak": 3,
    "lastError": "fetch failed"
   },
   "ebutterfly": {
