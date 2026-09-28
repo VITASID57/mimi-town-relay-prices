@@ -1,0 +1,170 @@
+{
+ "checkedAt": "2026-09-28",
+ "recharge": {
+  "rate": 7.3,
+  "known": true
+ },
+ "offers": {
+  "gemini-3-8-flash-high": {
+   "mode": "call",
+   "perCall": 0.1478,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 32.12,
+   "output": 160.6,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "call",
+   "perCall": 0.1478,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "call",
+   "perCall": 0.2891,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-1-pro": {
+   "mode": "call",
+   "perCall": 0.2891,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-1-pro-联网": {
+   "mode": "call",
+   "perCall": 0.4754,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "grok-4-2": {
+   "mode": "call",
+   "perCall": 0.1606,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 32.12,
+   "output": 160.6,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-1-pro-preview-search": {
+   "mode": "call",
+   "perCall": 0.2891,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 32.12,
+   "output": 160.6,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "call",
+   "perCall": 0.1478,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gpt-5-6": {
+   "mode": "call",
+   "perCall": 0.1799,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "call",
+   "perCall": 0.1478,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-2-5-flash": {
+   "mode": "call",
+   "perCall": 0.0771,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gpt-5-6-sol": {
+   "mode": "call",
+   "perCall": 0.6424,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-2-5-pro-search": {
+   "mode": "call",
+   "perCall": 0.2891,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-pro-preview": {
+   "mode": "call",
+   "perCall": 0.2891,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-7-flash": {
+   "mode": "call",
+   "perCall": 0.1478,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 19.272,
+   "output": 96.36,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 19.272,
+   "output": 96.36,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-1-pro-preview-thinking": {
+   "mode": "call",
+   "perCall": 0.5653,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gpt-5-5": {
+   "mode": "call",
+   "perCall": 0.1799,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gpt-5-4": {
+   "mode": "call",
+   "perCall": 0.1413,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "claude-opus-4-5": {
+   "mode": "call",
+   "perCall": 5.7559,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 32.12,
+   "output": 160.6,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "call",
+   "perCall": 2.8908,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-7-flash-high": {
+   "mode": "call",
+   "perCall": 0.1478,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "call",
+   "perCall": 0.3276,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-1-pro-preview-nothinking": {
+   "mode": "call",
+   "perCall": 0.334,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "call",
+   "perCall": 0.0771,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  },
+  "grok-4-1": {
+   "mode": "call",
+   "perCall": 0.1606,
+   "group": "88一起发活动折扣（每月8 18 28）"
+  }
+ }
+}
