@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-09-28",
+ "checkedAt": "2026-09-29",
  "recharge": {
   "rate": 0.2,
   "known": true
@@ -11,25 +11,9 @@
    "output": 4.8,
    "group": "cc_stable（claudecode稳定分组，2倍计价）"
   },
-  "gemini-3-5-flash": {
-   "mode": "token",
-   "input": 1.8,
-   "output": 7.2,
-   "group": "cc_stable（claudecode稳定分组，2倍计价）"
-  },
-  "claude-opus-4-6-c": {
-   "mode": "call",
-   "perCall": 0.144,
-   "group": "次数模型分组（次数模型分组，支持次数调用）"
-  },
   "claude-sonnet-4-6-c": {
    "mode": "call",
    "perCall": 0.144,
-   "group": "次数模型分组（次数模型分组，支持次数调用）"
-  },
-  "gemini-3-flash-c": {
-   "mode": "call",
-   "perCall": 0.0084,
    "group": "次数模型分组（次数模型分组，支持次数调用）"
   },
   "claude-opus-4-6": {
@@ -44,16 +28,32 @@
    "output": 3.6,
    "group": "cursor（cursorClaude）"
   },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 2,
-   "output": 10,
-   "group": "cc_stable（claudecode稳定分组，2倍计价）"
-  },
   "gemini-3-1-flash-lite": {
    "mode": "token",
    "input": 0.6,
    "output": 2.4,
+   "group": "cc_stable（claudecode稳定分组，2倍计价）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 1.8,
+   "output": 7.2,
+   "group": "cc_stable（claudecode稳定分组，2倍计价）"
+  },
+  "claude-opus-4-6-c": {
+   "mode": "call",
+   "perCall": 0.144,
+   "group": "次数模型分组（次数模型分组，支持次数调用）"
+  },
+  "gemini-3-flash-c": {
+   "mode": "call",
+   "perCall": 0.0084,
+   "group": "次数模型分组（次数模型分组，支持次数调用）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 2,
+   "output": 10,
    "group": "cc_stable（claudecode稳定分组，2倍计价）"
   }
  }
