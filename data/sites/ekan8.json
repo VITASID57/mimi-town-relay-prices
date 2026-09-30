@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-09-29",
+ "checkedAt": "2026-09-30",
  "recharge": {
   "rate": 1,
   "known": true
@@ -10,14 +10,19 @@
    "perCall": 0.04,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-pro-high": {
+  "gemini-3-7-flash": {
    "mode": "call",
-   "perCall": 0.045,
+   "perCall": 0.03,
    "group": "default（默认分组）"
   },
-  "gpt-5-6-sol": {
+  "gemini-3-8-flash": {
    "mode": "call",
-   "perCall": 0.09,
+   "perCall": 0.035,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-8-flash-high": {
+   "mode": "call",
+   "perCall": 0.035,
    "group": "default（默认分组）"
   },
   "gemini-3-1-pro-preview-search": {
@@ -30,16 +35,6 @@
    "perCall": 0.035,
    "group": "default（默认分组）"
   },
-  "gemini-3-8-flash-high": {
-   "mode": "call",
-   "perCall": 0.035,
-   "group": "default（默认分组）"
-  },
-  "gpt-5-5": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（默认分组）"
-  },
   "gemini-3-5-flash": {
    "mode": "call",
    "perCall": 0.025,
@@ -50,14 +45,19 @@
    "perCall": 0.035,
    "group": "default（默认分组）"
   },
-  "gemini-3-7-flash": {
+  "gemini-3-1-pro-high": {
    "mode": "call",
-   "perCall": 0.03,
+   "perCall": 0.045,
    "group": "default（默认分组）"
   },
-  "gemini-3-8-flash": {
+  "gpt-5-6-sol": {
    "mode": "call",
-   "perCall": 0.035,
+   "perCall": 0.09,
+   "group": "default（默认分组）"
+  },
+  "gpt-5-5": {
+   "mode": "call",
+   "perCall": 0.04,
    "group": "default（默认分组）"
   },
   "gemini-3-flash-preview": {

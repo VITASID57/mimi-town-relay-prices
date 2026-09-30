@@ -1,10 +1,16 @@
 {
- "checkedAt": "2026-09-29",
+ "checkedAt": "2026-09-30",
  "recharge": {
   "rate": 0.2,
   "known": true
  },
  "offers": {
+  "grok-4-5": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
   "qwen3-8-omni-flash": {
    "mode": "token",
    "input": 15,
@@ -17,16 +23,16 @@
    "output": 5,
    "group": "兜底（兜底上游）"
   },
-  "gemini-3-5-flash-lite": {
-   "mode": "token",
-   "input": 0.06,
-   "output": 0.5,
-   "group": "default（默认分组）"
-  },
   "claude-fable-5": {
    "mode": "token",
    "input": 2,
    "output": 10,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
    "group": "default（默认分组）"
   },
   "gpt-6-luna": {
@@ -35,22 +41,10 @@
    "output": 30,
    "group": "default（默认分组）"
   },
-  "kimi-k3": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
   "qwen3-8-max": {
    "mode": "token",
    "input": 15,
    "output": 15,
-   "group": "default（默认分组）"
-  },
-  "gemini-flash-lite-latest": {
-   "mode": "token",
-   "input": 0.06,
-   "output": 0.5,
    "group": "default（默认分组）"
   },
   "grok-4-6": {
@@ -65,10 +59,10 @@
    "output": 15,
    "group": "default（默认分组）"
   },
-  "claude-opus-5-5": {
+  "gemini-flash-lite-latest": {
    "mode": "token",
-   "input": 15,
-   "output": 15,
+   "input": 0.06,
+   "output": 0.5,
    "group": "default（默认分组）"
   },
   "gpt-6-astra": {
@@ -83,10 +77,16 @@
    "output": 30,
    "group": "default（默认分组）"
   },
-  "grok-4-5": {
+  "kimi-k3": {
    "mode": "token",
    "input": 15,
    "output": 15,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-5-flash-lite": {
+   "mode": "token",
+   "input": 0.06,
+   "output": 0.5,
    "group": "default（默认分组）"
   },
   "claude-opus-4-5": {

@@ -1,18 +1,18 @@
 {
- "checkedAt": "2026-09-29",
+ "checkedAt": "2026-09-30",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "gemini-3-flash-preview": {
+  "gemini-2-5-pro": {
    "mode": "call",
-   "perCall": 0.01,
+   "perCall": 0.08,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-flash-lite": {
+  "gemini-3-1-pro-preview": {
    "mode": "call",
-   "perCall": 0.01,
+   "perCall": 0.08,
    "group": "default（默认分组）"
   },
   "gemini-3-1-pro-high": {
@@ -21,11 +21,6 @@
    "group": "default（默认分组）"
   },
   "gemini-3-6-flash": {
-   "mode": "call",
-   "perCall": 0.03,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-7-flash-high": {
    "mode": "call",
    "perCall": 0.03,
    "group": "default（默认分组）"
@@ -40,14 +35,19 @@
    "perCall": 0.03,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-pro-preview": {
+  "gemini-3-flash-preview": {
    "mode": "call",
-   "perCall": 0.08,
+   "perCall": 0.01,
    "group": "default（默认分组）"
   },
-  "gemini-2-5-pro": {
+  "gemini-3-1-flash-lite": {
    "mode": "call",
-   "perCall": 0.08,
+   "perCall": 0.01,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-7-flash-high": {
+   "mode": "call",
+   "perCall": 0.03,
    "group": "default（默认分组）"
   }
  }
