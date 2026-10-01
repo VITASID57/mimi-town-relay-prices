@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-09-30",
+ "checkedAt": "2026-10-01",
  "recharge": {
   "rate": 1,
   "known": false
@@ -9,12 +9,6 @@
    "mode": "token",
    "input": 450,
    "output": 2250,
-   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 60,
-   "output": 300,
    "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
   },
   "claude-sonnet-4": {
@@ -29,34 +23,16 @@
    "output": 1500,
    "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
   },
-  "claude-haiku-4-5": {
+  "kimi-k3": {
    "mode": "token",
-   "input": 30,
-   "output": 150,
-   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 150,
-   "output": 750,
-   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
+   "input": 1400,
+   "output": 7000,
+   "group": "Kimi（kimi-3）"
   },
   "claude-opus-4-7": {
    "mode": "token",
    "input": 150,
    "output": 750,
-   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
-  },
-  "claude-opus-4": {
-   "mode": "token",
-   "input": 450,
-   "output": 2250,
-   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "token",
-   "input": 90,
-   "output": 450,
    "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
   },
   "claude-opus-4-6": {
@@ -65,13 +41,31 @@
    "output": 750,
    "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
   },
-  "kimi-k3": {
+  "claude-sonnet-4-5": {
    "mode": "token",
-   "input": 1400,
-   "output": 7000,
-   "group": "Kimi（kimi-3）"
+   "input": 90,
+   "output": 450,
+   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 150,
+   "output": 750,
+   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
   },
   "claude-opus-5": {
+   "mode": "token",
+   "input": 150,
+   "output": 750,
+   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 150,
+   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
+  },
+  "claude-opus-4-5": {
    "mode": "token",
    "input": 150,
    "output": 750,
@@ -83,10 +77,16 @@
    "output": 450,
    "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
   },
-  "claude-opus-4-5": {
+  "claude-opus-4": {
    "mode": "token",
-   "input": 150,
-   "output": 750,
+   "input": 450,
+   "output": 2250,
+   "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 60,
+   "output": 300,
    "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
   }
  }

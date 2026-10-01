@@ -1,131 +1,131 @@
 {
- "updatedAt": "2026-09-30",
+ "updatedAt": "2026-10-01",
  "sites": {
   "ckff": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "dzzi": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "gemai": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "ekan8": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "qiyiguo": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "msuicode": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "camel": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "jiushi": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "cc-coding": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "chintao": {
    "lastOkAt": null,
-   "failStreak": 5,
+   "failStreak": 6,
    "lastError": "fetch failed"
   },
   "dawclaude": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "fate86": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "fuka": {
    "lastOkAt": null,
-   "failStreak": 5,
+   "failStreak": 6,
    "lastError": "HTTP 401"
   },
   "goodream": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "jixiang": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "juziqishui": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "kbq": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "luckylunch": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "qwqtao": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "rua": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "shufulei": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "spritnest": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "tghan": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "uu6": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "vapi": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "xfx": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "zhailian": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "zhiyun": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "lantian": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   },
   "alading": {
    "lastOkAt": null,
-   "failStreak": 5,
+   "failStreak": 6,
    "lastError": "fetch failed"
   },
   "ebutterfly": {
-   "lastOkAt": "2026-09-30",
+   "lastOkAt": "2026-10-01",
    "failStreak": 0
   }
  }
