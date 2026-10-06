@@ -1,51 +1,32 @@
 {
- "checkedAt": "2026-10-04",
+ "checkedAt": "2026-10-06",
  "recharge": {
   "rate": 7.3,
   "known": true
  },
  "offers": {
-  "gemini-3-8-flash": {
-   "mode": "call",
-   "perCall": 0.1679,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "call",
-   "perCall": 2.409,
-   "group": "default（默认分组）"
-  },
-  "gemini-2-5-pro": {
+  "gemini-3-pro-preview": {
    "mode": "call",
    "perCall": 0.3285,
    "group": "default（默认分组）"
   },
-  "gemini-3-5-flash": {
-   "mode": "call",
-   "perCall": 0.1679,
-   "group": "default（默认分组）"
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 98.55,
+   "output": 492.75,
+   "group": "莫吉托ccmax按量（莫吉托ccmax按量）"
   },
   "gpt-5-5": {
    "mode": "call",
    "perCall": 0.2044,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-pro-preview-search": {
+  "gemini-3-1-pro-preview-thinking": {
    "mode": "call",
    "perCall": 0.3285,
    "group": "default（默认分组）"
   },
-  "gpt-5-6": {
-   "mode": "call",
-   "perCall": 0.2044,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "call",
-   "perCall": 0.1679,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-5-thinking": {
+  "claude-opus-5-5-thinking": {
    "mode": "call",
    "perCall": 2.409,
    "group": "default（默认分组）"
@@ -55,23 +36,38 @@
    "perCall": 0.0876,
    "group": "default（默认分组）"
   },
-  "claude-opus-4-8": {
+  "claude-opus-4-6": {
    "mode": "token",
    "input": 98.55,
    "output": 492.75,
    "group": "莫吉托ccmax按量（莫吉托ccmax按量）"
+  },
+  "gemini-3-pro-preview-thinking": {
+   "mode": "call",
+   "perCall": 0.3285,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "call",
+   "perCall": 0.1679,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro": {
+   "mode": "call",
+   "perCall": 0.3285,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "call",
+   "perCall": 0.1679,
+   "group": "default（默认分组）"
   },
   "gemini-3-1-pro-preview": {
    "mode": "call",
    "perCall": 0.3285,
    "group": "default（默认分组）"
   },
-  "gemini-3-7-flash-high": {
-   "mode": "call",
-   "perCall": 0.1679,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-preview-thinking": {
+  "gemini-3-1-pro-preview-search": {
    "mode": "call",
    "perCall": 0.3285,
    "group": "default（默认分组）"
@@ -82,24 +78,9 @@
    "output": 295.65,
    "group": "莫吉托ccmax按量（莫吉托ccmax按量）"
   },
-  "gemini-3-1-pro": {
+  "gpt-5-4": {
    "mode": "call",
-   "perCall": 0.5402,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-6-flash": {
-   "mode": "call",
-   "perCall": 0.1679,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-7-thinking": {
-   "mode": "call",
-   "perCall": 2.409,
-   "group": "default（默认分组）"
-  },
-  "grok-4-2": {
-   "mode": "call",
-   "perCall": 0.1825,
+   "perCall": 0.1606,
    "group": "default（默认分组）"
   },
   "claude-opus-4-7": {
@@ -113,20 +94,14 @@
    "perCall": 2.409,
    "group": "default（默认分组）"
   },
+  "gemini-3-7-flash": {
+   "mode": "call",
+   "perCall": 0.1679,
+   "group": "default（默认分组）"
+  },
   "grok-4-1": {
    "mode": "call",
    "perCall": 0.1825,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 98.55,
-   "output": 492.75,
-   "group": "莫吉托ccmax按量（莫吉托ccmax按量）"
-  },
-  "claude-opus-4-5": {
-   "mode": "call",
-   "perCall": 6.5408,
    "group": "default（默认分组）"
   },
   "claude-opus-5": {
@@ -135,28 +110,47 @@
    "output": 492.75,
    "group": "莫吉托ccmax按量（莫吉托ccmax按量）"
   },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 59.13,
-   "output": 295.65,
-   "group": "莫吉托ccmax按量（莫吉托ccmax按量）"
-  },
-  "gpt-5-6-sol": {
+  "gemini-3-6-flash": {
    "mode": "call",
-   "perCall": 0.73,
+   "perCall": 0.1679,
    "group": "default（默认分组）"
   },
-  "gemini-3-pro-preview": {
+  "gemini-2-5-pro": {
    "mode": "call",
    "perCall": 0.3285,
    "group": "default（默认分组）"
   },
-  "gemini-2-5-pro-search": {
+  "gemini-3-7-flash-high": {
    "mode": "call",
-   "perCall": 0.3285,
+   "perCall": 0.1679,
    "group": "default（默认分组）"
   },
-  "claude-sonnet-4-6-thinking": {
+  "claude-opus-4-5": {
+   "mode": "call",
+   "perCall": 6.5408,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-联网": {
+   "mode": "call",
+   "perCall": 0.5402,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-7-thinking": {
+   "mode": "call",
+   "perCall": 2.409,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-8-flash-high": {
+   "mode": "call",
+   "perCall": 0.1679,
+   "group": "default（默认分组）"
+  },
+  "grok-4-2": {
+   "mode": "call",
+   "perCall": 0.1825,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-5": {
    "mode": "call",
    "perCall": 2.409,
    "group": "default（默认分组）"
@@ -166,32 +160,33 @@
    "perCall": 0.0876,
    "group": "default（默认分组）"
   },
-  "gemini-2-5-pro-thinking": {
+  "gpt-5-6": {
+   "mode": "call",
+   "perCall": 0.2044,
+   "group": "default（默认分组）"
+  },
+  "gemini-2-5-pro-search": {
    "mode": "call",
    "perCall": 0.3285,
    "group": "default（默认分组）"
   },
-  "gemini-3-pro-preview-thinking": {
+  "gemini-3-1-pro-preview-nothinking": {
    "mode": "call",
-   "perCall": 0.3285,
+   "perCall": 0.3796,
    "group": "default（默认分组）"
   },
-  "gpt-5-4": {
-   "mode": "call",
-   "perCall": 0.1606,
-   "group": "default（默认分组）"
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 59.13,
+   "output": 295.65,
+   "group": "莫吉托ccmax按量（莫吉托ccmax按量）"
   },
-  "gemini-3-8-flash-high": {
-   "mode": "call",
-   "perCall": 0.1679,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-5-5-thinking": {
+  "claude-opus-4-6-thinking": {
    "mode": "call",
    "perCall": 2.409,
    "group": "default（默认分组）"
   },
-  "claude-opus-5-5": {
+  "claude-sonnet-4-6-thinking": {
    "mode": "call",
    "perCall": 2.409,
    "group": "default（默认分组）"
@@ -201,14 +196,9 @@
    "perCall": 2.409,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-pro-preview-nothinking": {
+  "claude-sonnet-5-thinking": {
    "mode": "call",
-   "perCall": 0.3796,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-联网": {
-   "mode": "call",
-   "perCall": 0.5402,
+   "perCall": 2.409,
    "group": "default（默认分组）"
   }
  }
