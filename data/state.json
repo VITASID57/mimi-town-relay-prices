@@ -39,7 +39,7 @@
   },
   "chintao": {
    "lastOkAt": null,
-   "failStreak": 10,
+   "failStreak": 11,
    "lastError": "fetch failed"
   },
   "dawclaude": {
@@ -52,7 +52,7 @@
   },
   "fuka": {
    "lastOkAt": null,
-   "failStreak": 10,
+   "failStreak": 11,
    "lastError": "HTTP 401"
   },
   "goodream": {
@@ -121,7 +121,7 @@
   },
   "alading": {
    "lastOkAt": null,
-   "failStreak": 10,
+   "failStreak": 11,
    "lastError": "fetch failed"
   },
   "ebutterfly": {

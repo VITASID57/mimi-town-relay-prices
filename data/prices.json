@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-06T00:42:36.481Z",
+ "generatedAt": "2026-10-06T22:57:29.850Z",
  "unit": "元 / 百万 token；按次模型为元 / 次",
  "fx": {
   "usdCny": 6.7145,
@@ -18,7 +18,7 @@
     "rate": 1,
     "known": true
    },
-   "modelCount": 66
+   "modelCount": 65
   },
   {
    "id": "dzzi",
@@ -66,7 +66,7 @@
     "rate": 1,
     "known": true
    },
-   "modelCount": 46
+   "modelCount": 43
   },
   {
    "id": "msuicode",
@@ -90,7 +90,7 @@
     "rate": 0.8,
     "known": true
    },
-   "modelCount": 274
+   "modelCount": 275
   },
   {
    "id": "jiushi",
@@ -150,7 +150,7 @@
     "rate": 1,
     "known": false
    },
-   "modelCount": 14
+   "modelCount": 1
   },
   {
    "id": "jixiang",
@@ -186,7 +186,7 @@
     "rate": 1,
     "known": true
    },
-   "modelCount": 66
+   "modelCount": 67
   },
   {
    "id": "luckylunch",
@@ -198,7 +198,7 @@
     "rate": 7.3,
     "known": true
    },
-   "modelCount": 30
+   "modelCount": 31
   },
   {
    "id": "qwqtao",
@@ -222,7 +222,7 @@
     "rate": 1,
     "known": true
    },
-   "modelCount": 88
+   "modelCount": 89
   },
   {
    "id": "shufulei",
@@ -234,7 +234,7 @@
     "rate": 7.3,
     "known": true
    },
-   "modelCount": 31
+   "modelCount": 30
   },
   {
    "id": "spritnest",
@@ -270,7 +270,7 @@
     "rate": 0.1,
     "known": true
    },
-   "modelCount": 26
+   "modelCount": 27
   },
   {
    "id": "vapi",
@@ -294,7 +294,7 @@
     "rate": 1,
     "known": false
    },
-   "modelCount": 32
+   "modelCount": 35
   },
   {
    "id": "zhailian",
@@ -342,7 +342,7 @@
     "rate": 1,
     "known": true
    },
-   "modelCount": 34
+   "modelCount": 33
   }
  ],
  "delisted": [
@@ -476,7 +476,7 @@
      "mode": "token",
      "input": 50,
      "output": 300,
-     "group": "vip（default分组和绘画分组的集合）",
+     "group": "default（用户分组）",
      "ratio": 3.72
     },
     {
@@ -880,7 +880,7 @@
      "mode": "token",
      "input": 1.5,
      "output": 9,
-     "group": "default（默认分组，所有模型都在这里）",
+     "group": "雪椰芯（官方正向哈基米，稳定好吃）",
      "ratio": 0.11
     },
     {
@@ -1037,7 +1037,7 @@
      "site": "kbq",
      "mode": "token",
      "input": 75,
-     "output": 75,
+     "output": 150,
      "group": "default（默认分组）",
      "ratio": 5.58
     },
@@ -1148,7 +1148,7 @@
      "mode": "token",
      "input": 75,
      "output": 150,
-     "group": "default（默认分组）",
+     "group": "GPT-pro（gpt-pro分组）",
      "ratio": 5.58
     },
     {
@@ -1396,14 +1396,6 @@
    },
    "offers": [
     {
-     "site": "rua",
-     "mode": "token",
-     "input": 0.5,
-     "output": 2,
-     "group": "GPT（没有luna了）",
-     "ratio": 0.03
-    },
-    {
      "site": "msuicode",
      "mode": "token",
      "input": 1.5,
@@ -1431,7 +1423,7 @@
      "site": "dzzi",
      "mode": "token",
      "input": 150,
-     "output": 450,
+     "output": 600,
      "group": "按量（按量分组，和按次是一样的渠道）",
      "ratio": 8.94
     }
@@ -1450,14 +1442,6 @@
    },
    "offers": [
     {
-     "site": "rua",
-     "mode": "token",
-     "input": 0.03,
-     "output": 0.12,
-     "group": "GPT（没有luna了）",
-     "ratio": 0.03
-    },
-    {
      "site": "msuicode",
      "mode": "token",
      "input": 0.09,
@@ -1468,10 +1452,10 @@
     {
      "site": "camel",
      "mode": "token",
-     "input": 0.09,
-     "output": 0.36,
+     "input": 0.12,
+     "output": 0.48,
      "group": "default（全模型，高可用，不保缓存）",
-     "ratio": 0.09
+     "ratio": 0.12
     },
     {
      "site": "dzzi",
@@ -2856,7 +2840,7 @@
      "mode": "token",
      "input": 2.5,
      "output": 12.5,
-     "group": "AWS（AWS渠道claude）",
+     "group": "低价小克",
      "ratio": 0.07
     },
     {
@@ -2948,14 +2932,6 @@
      "ratio": 3.72
     },
     {
-     "site": "goodream",
-     "mode": "token",
-     "input": 150,
-     "output": 750,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
      "site": "zhiyun",
      "mode": "token",
      "input": 150,
@@ -2980,6 +2956,378 @@
    ]
   },
   {
+   "key": "claude-opus-4-7",
+   "vendor": "Claude",
+   "name": "Claude Opus 4.7",
+   "official": {
+    "name": "Claude Opus 4.7",
+    "inputUsd": 5,
+    "outputUsd": 25,
+    "input": 33.5725,
+    "output": 167.8625
+   },
+   "offers": [
+    {
+     "site": "zhailian",
+     "mode": "token",
+     "input": 1.35,
+     "output": 12.21,
+     "group": "claude按量（小克[按量]）",
+     "ratio": 0.04
+    },
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 1.6,
+     "output": 8,
+     "group": "特惠cc（特惠Claude，有缓存）",
+     "ratio": 0.05
+    },
+    {
+     "site": "ebutterfly",
+     "mode": "token",
+     "input": 1.85,
+     "output": 9.25,
+     "group": "default（🦋包含站内全部模型）",
+     "ratio": 0.06
+    },
+    {
+     "site": "ckff",
+     "mode": "token",
+     "input": 1.875,
+     "output": 9.375,
+     "group": "kiro（kiro）",
+     "ratio": 0.06
+    },
+    {
+     "site": "kbq",
+     "mode": "token",
+     "input": 2,
+     "output": 10,
+     "group": "default（默认分组）",
+     "ratio": 0.06
+    },
+    {
+     "site": "qwqtao",
+     "mode": "token",
+     "input": 2,
+     "output": 10,
+     "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）",
+     "ratio": 0.06
+    },
+    {
+     "site": "msuicode",
+     "mode": "token",
+     "input": 2.5,
+     "output": 12.5,
+     "group": "claude（按量的kiro claude稳定聪明，适合跑代码和文本创作，长期渠道）",
+     "ratio": 0.07
+    },
+    {
+     "site": "rua",
+     "mode": "token",
+     "input": 2.5,
+     "output": 12.5,
+     "group": "AWS（AWS渠道claude）",
+     "ratio": 0.07
+    },
+    {
+     "site": "uu6",
+     "mode": "token",
+     "input": 4,
+     "output": 20,
+     "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）",
+     "ratio": 0.12
+    },
+    {
+     "site": "cc-coding",
+     "mode": "token",
+     "input": 5,
+     "output": 25,
+     "group": "default（默认分组）",
+     "ratio": 0.15
+    },
+    {
+     "site": "jiushi",
+     "mode": "token",
+     "input": 7,
+     "output": 35,
+     "group": "default",
+     "ratio": 0.21
+    },
+    {
+     "site": "qiyiguo",
+     "mode": "token",
+     "input": 8,
+     "output": 40,
+     "group": "claude code专用（claude code专用 其他客户端不可用）",
+     "ratio": 0.24
+    },
+    {
+     "site": "luckylunch",
+     "mode": "token",
+     "input": 9.125,
+     "output": 45.625,
+     "group": "default（默认分组）",
+     "ratio": 0.27
+    },
+    {
+     "site": "jixiang",
+     "mode": "token",
+     "input": 10.95,
+     "output": 54.75,
+     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））",
+     "ratio": 0.33
+    },
+    {
+     "site": "dzzi",
+     "mode": "token",
+     "input": 20,
+     "output": 100,
+     "group": "按量克",
+     "ratio": 0.6
+    },
+    {
+     "site": "dawclaude",
+     "mode": "token",
+     "input": 37.5,
+     "output": 187.5,
+     "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）",
+     "ratio": 1.12
+    },
+    {
+     "site": "shufulei",
+     "mode": "token",
+     "input": 87.6,
+     "output": 438,
+     "group": "按量计费（按量计费模型）",
+     "ratio": 2.61
+    },
+    {
+     "site": "juziqishui",
+     "mode": "token",
+     "input": 98.55,
+     "output": 492.75,
+     "group": "莫吉托ccmax按量（莫吉托ccmax按量）",
+     "ratio": 2.94
+    },
+    {
+     "site": "zhiyun",
+     "mode": "token",
+     "input": 150,
+     "output": 750,
+     "group": "default（默认分组）",
+     "ratio": 4.47
+    },
+    {
+     "site": "gemai",
+     "mode": "token",
+     "input": 600,
+     "output": 3000,
+     "group": "default（默认分组）",
+     "ratio": 17.87
+    },
+    {
+     "site": "fate86",
+     "mode": "call",
+     "perCall": 0.06,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "xfx",
+     "mode": "call",
+     "perCall": 6.5,
+     "group": "vip（default分组和绘画分组的集合）"
+    }
+   ]
+  },
+  {
+   "key": "claude-opus-5-5",
+   "vendor": "Claude",
+   "name": "Claude Opus 5.5",
+   "official": {
+    "name": "Claude Opus 5.5",
+    "inputUsd": 4,
+    "outputUsd": 20,
+    "input": 26.858,
+    "output": 134.29
+   },
+   "offers": [
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 1.28,
+     "output": 6.4,
+     "group": "特惠cc（特惠Claude，有缓存）",
+     "ratio": 0.05
+    },
+    {
+     "site": "ebutterfly",
+     "mode": "token",
+     "input": 1.48,
+     "output": 7.4,
+     "group": "default（🦋包含站内全部模型）",
+     "ratio": 0.06
+    },
+    {
+     "site": "rua",
+     "mode": "token",
+     "input": 2,
+     "output": 10,
+     "group": "低价小克",
+     "ratio": 0.07
+    },
+    {
+     "site": "cc-coding",
+     "mode": "token",
+     "input": 4,
+     "output": 20,
+     "group": "default（默认分组）",
+     "ratio": 0.15
+    },
+    {
+     "site": "uu6",
+     "mode": "token",
+     "input": 4,
+     "output": 20,
+     "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）",
+     "ratio": 0.15
+    },
+    {
+     "site": "jiushi",
+     "mode": "token",
+     "input": 5.6,
+     "output": 28,
+     "group": "default",
+     "ratio": 0.21
+    },
+    {
+     "site": "qiyiguo",
+     "mode": "token",
+     "input": 6.4,
+     "output": 32,
+     "group": "claude code专用（claude code专用 其他客户端不可用）",
+     "ratio": 0.24
+    },
+    {
+     "site": "msuicode",
+     "mode": "token",
+     "input": 6.4,
+     "output": 32,
+     "group": "cc2（cc max普通分组，稳定，不限客户端）",
+     "ratio": 0.24
+    },
+    {
+     "site": "jixiang",
+     "mode": "token",
+     "input": 8.76,
+     "output": 43.8,
+     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））",
+     "ratio": 0.33
+    },
+    {
+     "site": "luckylunch",
+     "mode": "token",
+     "input": 9.125,
+     "output": 45.625,
+     "group": "default（默认分组）",
+     "ratio": 0.34
+    },
+    {
+     "site": "tghan",
+     "mode": "token",
+     "input": 9.125,
+     "output": 45.625,
+     "group": "default（默认分组）",
+     "ratio": 0.34
+    },
+    {
+     "site": "zhailian",
+     "mode": "token",
+     "input": 9.2,
+     "output": 46,
+     "group": "哆Claude Max按量（Claude Max cc按量）",
+     "ratio": 0.34
+    },
+    {
+     "site": "vapi",
+     "mode": "token",
+     "input": 15,
+     "output": 15,
+     "group": "default（默认分组）",
+     "ratio": 0.56
+    },
+    {
+     "site": "dzzi",
+     "mode": "token",
+     "input": 16,
+     "output": 80,
+     "group": "按量克",
+     "ratio": 0.6
+    },
+    {
+     "site": "dawclaude",
+     "mode": "token",
+     "input": 37.5,
+     "output": 37.5,
+     "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）",
+     "ratio": 1.4
+    },
+    {
+     "site": "ckff",
+     "mode": "token",
+     "input": 75,
+     "output": 75,
+     "group": "default（默认分组）",
+     "ratio": 2.79
+    },
+    {
+     "site": "kbq",
+     "mode": "token",
+     "input": 75,
+     "output": 75,
+     "group": "default（默认分组）",
+     "ratio": 2.79
+    },
+    {
+     "site": "qwqtao",
+     "mode": "token",
+     "input": 90,
+     "output": 90,
+     "group": "Claude（官渠无限制）（官渠无限制 不限制客户端）",
+     "ratio": 3.35
+    },
+    {
+     "site": "zhiyun",
+     "mode": "token",
+     "input": 160,
+     "output": 800,
+     "group": "default（默认分组）",
+     "ratio": 5.96
+    },
+    {
+     "site": "gemai",
+     "mode": "token",
+     "input": 600,
+     "output": 3000,
+     "group": "default（默认分组）",
+     "ratio": 22.34
+    },
+    {
+     "site": "shufulei",
+     "mode": "call",
+     "perCall": 1.752,
+     "group": "default（请选我~）"
+    },
+    {
+     "site": "juziqishui",
+     "mode": "call",
+     "perCall": 2.409,
+     "group": "default（默认分组）"
+    }
+   ]
+  },
+  {
    "key": "claude-sonnet-4-6",
    "vendor": "Claude",
    "name": "Claude Sonnet 4.6",
@@ -2997,6 +3345,14 @@
      "input": 0.6,
      "output": 3,
      "group": "default（默认分组）",
+     "ratio": 0.03
+    },
+    {
+     "site": "uu6",
+     "mode": "token",
+     "input": 0.6,
+     "output": 3,
+     "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））",
      "ratio": 0.03
     },
     {
@@ -3054,14 +3410,6 @@
      "output": 7.5,
      "group": "低价小克",
      "ratio": 0.07
-    },
-    {
-     "site": "uu6",
-     "mode": "token",
-     "input": 2.4,
-     "output": 12,
-     "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）",
-     "ratio": 0.12
     },
     {
      "site": "cc-coding",
@@ -3128,19 +3476,11 @@
      "ratio": 2.94
     },
     {
-     "site": "goodream",
-     "mode": "token",
-     "input": 90,
-     "output": 450,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
      "site": "xfx",
      "mode": "token",
      "input": 90,
      "output": 450,
-     "group": "default（用户分组）",
+     "group": "vip（default分组和绘画分组的集合）",
      "ratio": 4.47
     },
     {
@@ -3169,194 +3509,6 @@
      "site": "tghan",
      "mode": "call",
      "perCall": 0.73,
-     "group": "default（默认分组）"
-    }
-   ]
-  },
-  {
-   "key": "claude-opus-4-7",
-   "vendor": "Claude",
-   "name": "Claude Opus 4.7",
-   "official": {
-    "name": "Claude Opus 4.7",
-    "inputUsd": 5,
-    "outputUsd": 25,
-    "input": 33.5725,
-    "output": 167.8625
-   },
-   "offers": [
-    {
-     "site": "zhailian",
-     "mode": "token",
-     "input": 1.35,
-     "output": 12.21,
-     "group": "claude按量（小克[按量]）",
-     "ratio": 0.04
-    },
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 1.6,
-     "output": 8,
-     "group": "特惠cc（特惠Claude，有缓存）",
-     "ratio": 0.05
-    },
-    {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 1.85,
-     "output": 9.25,
-     "group": "机械信使（🦋按量Claude：按量kiro，带缓存）",
-     "ratio": 0.06
-    },
-    {
-     "site": "ckff",
-     "mode": "token",
-     "input": 1.875,
-     "output": 9.375,
-     "group": "kiro（kiro）",
-     "ratio": 0.06
-    },
-    {
-     "site": "kbq",
-     "mode": "token",
-     "input": 2,
-     "output": 10,
-     "group": "default（默认分组）",
-     "ratio": 0.06
-    },
-    {
-     "site": "qwqtao",
-     "mode": "token",
-     "input": 2,
-     "output": 10,
-     "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）",
-     "ratio": 0.06
-    },
-    {
-     "site": "msuicode",
-     "mode": "token",
-     "input": 2.5,
-     "output": 12.5,
-     "group": "claude（按量的kiro claude稳定聪明，适合跑代码和文本创作，长期渠道）",
-     "ratio": 0.07
-    },
-    {
-     "site": "rua",
-     "mode": "token",
-     "input": 2.5,
-     "output": 12.5,
-     "group": "AWS（AWS渠道claude）",
-     "ratio": 0.07
-    },
-    {
-     "site": "uu6",
-     "mode": "token",
-     "input": 4,
-     "output": 20,
-     "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）",
-     "ratio": 0.12
-    },
-    {
-     "site": "cc-coding",
-     "mode": "token",
-     "input": 5,
-     "output": 25,
-     "group": "vip（官号）",
-     "ratio": 0.15
-    },
-    {
-     "site": "jiushi",
-     "mode": "token",
-     "input": 7,
-     "output": 35,
-     "group": "default",
-     "ratio": 0.21
-    },
-    {
-     "site": "qiyiguo",
-     "mode": "token",
-     "input": 8,
-     "output": 40,
-     "group": "胭脂莓（备用高价小克渠道）",
-     "ratio": 0.24
-    },
-    {
-     "site": "luckylunch",
-     "mode": "token",
-     "input": 9.125,
-     "output": 45.625,
-     "group": "default（默认分组）",
-     "ratio": 0.27
-    },
-    {
-     "site": "jixiang",
-     "mode": "token",
-     "input": 10.95,
-     "output": 54.75,
-     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））",
-     "ratio": 0.33
-    },
-    {
-     "site": "dzzi",
-     "mode": "token",
-     "input": 20,
-     "output": 100,
-     "group": "按量克",
-     "ratio": 0.6
-    },
-    {
-     "site": "dawclaude",
-     "mode": "token",
-     "input": 37.5,
-     "output": 187.5,
-     "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）",
-     "ratio": 1.12
-    },
-    {
-     "site": "shufulei",
-     "mode": "token",
-     "input": 87.6,
-     "output": 438,
-     "group": "按量计费（按量计费模型）",
-     "ratio": 2.61
-    },
-    {
-     "site": "juziqishui",
-     "mode": "token",
-     "input": 98.55,
-     "output": 492.75,
-     "group": "莫吉托ccmax按量（莫吉托ccmax按量）",
-     "ratio": 2.94
-    },
-    {
-     "site": "goodream",
-     "mode": "token",
-     "input": 150,
-     "output": 750,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
-     "site": "zhiyun",
-     "mode": "token",
-     "input": 150,
-     "output": 750,
-     "group": "default（默认分组）",
-     "ratio": 4.47
-    },
-    {
-     "site": "gemai",
-     "mode": "token",
-     "input": 600,
-     "output": 3000,
-     "group": "default（默认分组）",
-     "ratio": 17.87
-    },
-    {
-     "site": "fate86",
-     "mode": "call",
-     "perCall": 0.06,
      "group": "default（默认分组）"
     }
    ]
@@ -3458,7 +3610,7 @@
      "mode": "token",
      "input": 8,
      "output": 40,
-     "group": "claude code专用（claude code专用 其他客户端不可用）",
+     "group": "胭脂莓（备用高价小克渠道）",
      "ratio": 0.24
     },
     {
@@ -3510,14 +3662,6 @@
      "ratio": 2.94
     },
     {
-     "site": "goodream",
-     "mode": "token",
-     "input": 150,
-     "output": 750,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
      "site": "zhiyun",
      "mode": "token",
      "input": 150,
@@ -3538,6 +3682,12 @@
      "mode": "call",
      "perCall": 0.06,
      "group": "default（默认分组）"
+    },
+    {
+     "site": "xfx",
+     "mode": "call",
+     "perCall": 6.5,
+     "group": "default（用户分组）"
     }
    ]
   },
@@ -3682,14 +3832,6 @@
      "ratio": 2.94
     },
     {
-     "site": "goodream",
-     "mode": "token",
-     "input": 150,
-     "output": 750,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
      "site": "zhiyun",
      "mode": "token",
      "input": 150,
@@ -3709,179 +3851,137 @@
      "site": "fate86",
      "mode": "call",
      "perCall": 0.06,
-     "group": "次卡模型（按次计费分组）"
+     "group": "default（默认分组）"
     },
     {
      "site": "shufulei",
      "mode": "call",
      "perCall": 1.752,
      "group": "default（请选我~）"
+    },
+    {
+     "site": "xfx",
+     "mode": "call",
+     "perCall": 6.5,
+     "group": "default（用户分组）"
     }
    ]
   },
   {
-   "key": "claude-opus-5-5",
+   "key": "claude-opus-4-6-thinking",
    "vendor": "Claude",
-   "name": "Claude Opus 5.5",
-   "official": {
-    "name": "Claude Opus 5.5",
-    "inputUsd": 4,
-    "outputUsd": 20,
-    "input": 26.858,
-    "output": 134.29
-   },
+   "name": "claude-opus-4-6-thinking",
+   "official": null,
    "offers": [
     {
-     "site": "camel",
+     "site": "kbq",
      "mode": "token",
-     "input": 1.28,
-     "output": 6.4,
-     "group": "特惠cc（特惠Claude，有缓存）",
-     "ratio": 0.05
-    },
-    {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 1.48,
-     "output": 7.4,
-     "group": "default（🦋包含站内全部模型）",
-     "ratio": 0.06
-    },
-    {
-     "site": "rua",
-     "mode": "token",
-     "input": 2,
-     "output": 10,
-     "group": "低价小克",
-     "ratio": 0.07
-    },
-    {
-     "site": "cc-coding",
-     "mode": "token",
-     "input": 4,
-     "output": 20,
-     "group": "default（默认分组）",
-     "ratio": 0.15
+     "input": 1,
+     "output": 5,
+     "group": "default（默认分组）"
     },
     {
      "site": "uu6",
      "mode": "token",
-     "input": 4,
-     "output": 20,
-     "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）",
-     "ratio": 0.15
+     "input": 1,
+     "output": 5,
+     "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
+    },
+    {
+     "site": "ebutterfly",
+     "mode": "token",
+     "input": 1.85,
+     "output": 9.25,
+     "group": "default（🦋包含站内全部模型）"
+    },
+    {
+     "site": "spritnest",
+     "mode": "token",
+     "input": 2,
+     "output": 10,
+     "group": "cc_stable（claudecode稳定分组，2倍计价）"
     },
     {
      "site": "jiushi",
      "mode": "token",
-     "input": 5.6,
-     "output": 28,
-     "group": "default",
-     "ratio": 0.21
+     "input": 2.5,
+     "output": 12.5,
+     "group": "default"
+    },
+    {
+     "site": "cc-coding",
+     "mode": "token",
+     "input": 5,
+     "output": 25,
+     "group": "vip（官号）"
     },
     {
      "site": "qiyiguo",
      "mode": "token",
-     "input": 6.4,
-     "output": 32,
-     "group": "claude code专用（claude code专用 其他客户端不可用）",
-     "ratio": 0.24
-    },
-    {
-     "site": "msuicode",
-     "mode": "token",
-     "input": 6.4,
-     "output": 32,
-     "group": "cc2（cc max普通分组，稳定，不限客户端）",
-     "ratio": 0.24
+     "input": 8,
+     "output": 40,
+     "group": "claude code专用（claude code专用 其他客户端不可用）"
     },
     {
      "site": "jixiang",
      "mode": "token",
-     "input": 8.76,
-     "output": 43.8,
-     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））",
-     "ratio": 0.33
+     "input": 10.95,
+     "output": 54.75,
+     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
     },
     {
      "site": "tghan",
      "mode": "token",
-     "input": 9.125,
-     "output": 45.625,
-     "group": "default（默认分组）",
-     "ratio": 0.34
-    },
-    {
-     "site": "zhailian",
-     "mode": "token",
-     "input": 9.2,
-     "output": 46,
-     "group": "哆Claude Max按量（Claude Max cc按量）",
-     "ratio": 0.34
-    },
-    {
-     "site": "vapi",
-     "mode": "token",
-     "input": 15,
-     "output": 15,
-     "group": "default（默认分组）",
-     "ratio": 0.56
+     "input": 11.68,
+     "output": 58.4,
+     "group": "default（默认分组）"
     },
     {
      "site": "dzzi",
      "mode": "token",
-     "input": 16,
-     "output": 80,
-     "group": "按量克",
-     "ratio": 0.6
+     "input": 20,
+     "output": 100,
+     "group": "按量克"
     },
     {
-     "site": "dawclaude",
+     "site": "camel",
      "mode": "token",
-     "input": 37.5,
-     "output": 37.5,
-     "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）",
-     "ratio": 1.4
+     "input": 22,
+     "output": 110,
+     "group": "9Guan55（酒馆用户专用·5.5倍率）"
     },
     {
-     "site": "ckff",
+     "site": "luckylunch",
      "mode": "token",
-     "input": 75,
-     "output": 75,
-     "group": "default（默认分组）",
-     "ratio": 2.79
+     "input": 22.8125,
+     "output": 114.0625,
+     "group": "default（默认分组）"
     },
     {
-     "site": "kbq",
+     "site": "xfx",
      "mode": "token",
-     "input": 75,
-     "output": 75,
-     "group": "default（默认分组）",
-     "ratio": 2.79
-    },
-    {
-     "site": "qwqtao",
-     "mode": "token",
-     "input": 90,
-     "output": 90,
-     "group": "Claude（官渠无限制）（官渠无限制 不限制客户端）",
-     "ratio": 3.35
+     "input": 150,
+     "output": 750,
+     "group": "default（用户分组）"
     },
     {
      "site": "zhiyun",
      "mode": "token",
-     "input": 160,
-     "output": 800,
-     "group": "default（默认分组）",
-     "ratio": 5.96
+     "input": 175,
+     "output": 875,
+     "group": "default（默认分组）"
     },
     {
-     "site": "gemai",
-     "mode": "token",
-     "input": 600,
-     "output": 3000,
-     "group": "default（默认分组）",
-     "ratio": 22.34
+     "site": "zhailian",
+     "mode": "call",
+     "perCall": 0.3,
+     "group": "claude（小克[按次]）"
+    },
+    {
+     "site": "msuicode",
+     "mode": "call",
+     "perCall": 0.34,
+     "group": "claude次卡（kiro的claude次卡，适合文本创作）"
     },
     {
      "site": "shufulei",
@@ -3893,6 +3993,12 @@
      "site": "juziqishui",
      "mode": "call",
      "perCall": 2.409,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "gemai",
+     "mode": "call",
+     "perCall": 14,
      "group": "default（默认分组）"
     }
    ]
@@ -4038,14 +4144,6 @@
      "ratio": 4.4
     },
     {
-     "site": "goodream",
-     "mode": "token",
-     "input": 60,
-     "output": 300,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
      "site": "gemai",
      "mode": "token",
      "input": 360,
@@ -4142,7 +4240,7 @@
      "mode": "token",
      "input": 5,
      "output": 25,
-     "group": "低价小克",
+     "group": "AWS（AWS渠道claude）",
      "ratio": 0.07
     },
     {
@@ -4202,14 +4300,6 @@
      "ratio": 1.74
     },
     {
-     "site": "goodream",
-     "mode": "token",
-     "input": 300,
-     "output": 1500,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
      "site": "zhiyun",
      "mode": "token",
      "input": 300,
@@ -4236,141 +4326,6 @@
    ]
   },
   {
-   "key": "claude-opus-4-6-thinking",
-   "vendor": "Claude",
-   "name": "claude-opus-4-6-thinking",
-   "official": null,
-   "offers": [
-    {
-     "site": "kbq",
-     "mode": "token",
-     "input": 1,
-     "output": 5,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 1.85,
-     "output": 9.25,
-     "group": "default（🦋包含站内全部模型）"
-    },
-    {
-     "site": "spritnest",
-     "mode": "token",
-     "input": 2,
-     "output": 10,
-     "group": "cc_stable（claudecode稳定分组，2倍计价）"
-    },
-    {
-     "site": "jiushi",
-     "mode": "token",
-     "input": 2.5,
-     "output": 12.5,
-     "group": "default"
-    },
-    {
-     "site": "uu6",
-     "mode": "token",
-     "input": 4,
-     "output": 20,
-     "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
-    },
-    {
-     "site": "cc-coding",
-     "mode": "token",
-     "input": 5,
-     "output": 25,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "qiyiguo",
-     "mode": "token",
-     "input": 8,
-     "output": 40,
-     "group": "claude code专用（claude code专用 其他客户端不可用）"
-    },
-    {
-     "site": "jixiang",
-     "mode": "token",
-     "input": 10.95,
-     "output": 54.75,
-     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-    },
-    {
-     "site": "dzzi",
-     "mode": "token",
-     "input": 20,
-     "output": 100,
-     "group": "按量克"
-    },
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 22,
-     "output": 110,
-     "group": "9Guan55（酒馆用户专用·5.5倍率）"
-    },
-    {
-     "site": "luckylunch",
-     "mode": "token",
-     "input": 22.8125,
-     "output": 114.0625,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "xfx",
-     "mode": "token",
-     "input": 150,
-     "output": 750,
-     "group": "default（用户分组）"
-    },
-    {
-     "site": "zhiyun",
-     "mode": "token",
-     "input": 175,
-     "output": 875,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "zhailian",
-     "mode": "call",
-     "perCall": 0.3,
-     "group": "claude（小克[按次]）"
-    },
-    {
-     "site": "msuicode",
-     "mode": "call",
-     "perCall": 0.34,
-     "group": "claude次卡特价（kiro的claude次卡，适合文本创作）"
-    },
-    {
-     "site": "tghan",
-     "mode": "call",
-     "perCall": 0.949,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "shufulei",
-     "mode": "call",
-     "perCall": 1.752,
-     "group": "default（请选我~）"
-    },
-    {
-     "site": "juziqishui",
-     "mode": "call",
-     "perCall": 2.409,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "gemai",
-     "mode": "call",
-     "perCall": 14,
-     "group": "default（默认分组）"
-    }
-   ]
-  },
-  {
    "key": "claude-fable-5-1",
    "vendor": "Claude",
    "name": "Claude Fable 5.1",
@@ -4383,20 +4338,20 @@
    },
    "offers": [
     {
+     "site": "camel",
+     "mode": "token",
+     "input": 3.2,
+     "output": 16,
+     "group": "特惠cc（特惠Claude，有缓存）",
+     "ratio": 0.05
+    },
+    {
      "site": "msuicode",
      "mode": "token",
      "input": 5,
      "output": 25,
      "group": "claude（按量的kiro claude稳定聪明，适合跑代码和文本创作，长期渠道）",
      "ratio": 0.07
-    },
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 6.4,
-     "output": 32,
-     "group": "9GuanK（酒馆用户专用·Kiro）",
-     "ratio": 0.1
     },
     {
      "site": "rua",
@@ -4439,14 +4394,6 @@
      "ratio": 0.22
     },
     {
-     "site": "qiyiguo",
-     "mode": "token",
-     "input": 16,
-     "output": 80,
-     "group": "胭脂莓（备用高价小克渠道）",
-     "ratio": 0.24
-    },
-    {
      "site": "cc-coding",
      "mode": "token",
      "input": 20,
@@ -4459,7 +4406,7 @@
      "mode": "token",
      "input": 20,
      "output": 100,
-     "group": "default（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）",
+     "group": "cc（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）",
      "ratio": 0.3
     },
     {
@@ -4509,6 +4456,132 @@
      "output": 600,
      "group": "Anthropic（Anthropic官KEY）",
      "ratio": 8.94
+    }
+   ]
+  },
+  {
+   "key": "claude-haiku-4-5",
+   "vendor": "Claude",
+   "name": "Claude Haiku 4.5",
+   "official": {
+    "name": "Claude Haiku 4.5",
+    "inputUsd": 1,
+    "outputUsd": 5,
+    "input": 6.7145,
+    "output": 33.5725
+   },
+   "offers": [
+    {
+     "site": "cc-coding",
+     "mode": "token",
+     "input": 0.14,
+     "output": 0.7,
+     "group": "default（默认分组）",
+     "ratio": 0.02
+    },
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 0.24,
+     "output": 1.2,
+     "group": "特惠cc（特惠Claude，有缓存）",
+     "ratio": 0.04
+    },
+    {
+     "site": "zhailian",
+     "mode": "token",
+     "input": 0.268,
+     "output": 2.21,
+     "group": "claude按量（小克[按量]）",
+     "ratio": 0.04
+    },
+    {
+     "site": "qwqtao",
+     "mode": "token",
+     "input": 0.4,
+     "output": 2,
+     "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）",
+     "ratio": 0.06
+    },
+    {
+     "site": "dawclaude",
+     "mode": "token",
+     "input": 0.5,
+     "output": 2.5,
+     "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）",
+     "ratio": 0.07
+    },
+    {
+     "site": "rua",
+     "mode": "token",
+     "input": 0.5,
+     "output": 2.5,
+     "group": "低价小克",
+     "ratio": 0.07
+    },
+    {
+     "site": "ckff",
+     "mode": "token",
+     "input": 1.35,
+     "output": 6.75,
+     "group": "cc-max（claude code only）",
+     "ratio": 0.2
+    },
+    {
+     "site": "ebutterfly",
+     "mode": "token",
+     "input": 1.4,
+     "output": 7,
+     "group": "default（🦋包含站内全部模型）",
+     "ratio": 0.21
+    },
+    {
+     "site": "kbq",
+     "mode": "token",
+     "input": 1.5,
+     "output": 7.5,
+     "group": "default（默认分组）",
+     "ratio": 0.22
+    },
+    {
+     "site": "qiyiguo",
+     "mode": "token",
+     "input": 1.6,
+     "output": 8,
+     "group": "胭脂莓（备用高价小克渠道）",
+     "ratio": 0.24
+    },
+    {
+     "site": "msuicode",
+     "mode": "token",
+     "input": 1.8,
+     "output": 9,
+     "group": "claude正向（cc max，稳定，不限客户端）",
+     "ratio": 0.27
+    },
+    {
+     "site": "jixiang",
+     "mode": "token",
+     "input": 2.19,
+     "output": 10.95,
+     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））",
+     "ratio": 0.33
+    },
+    {
+     "site": "dzzi",
+     "mode": "token",
+     "input": 4,
+     "output": 20,
+     "group": "按量克",
+     "ratio": 0.6
+    },
+    {
+     "site": "gemai",
+     "mode": "token",
+     "input": 120,
+     "output": 600,
+     "group": "default（默认分组）",
+     "ratio": 17.87
     }
    ]
   },
@@ -4605,28 +4678,12 @@
      "ratio": 0.33
     },
     {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 25,
-     "output": 125,
-     "group": "default（🦋包含站内全部模型）",
-     "ratio": 0.74
-    },
-    {
      "site": "dzzi",
      "mode": "token",
      "input": 40,
      "output": 200,
      "group": "Anthropic（Anthropic官KEY）",
      "ratio": 1.19
-    },
-    {
-     "site": "goodream",
-     "mode": "token",
-     "input": 150,
-     "output": 750,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
     },
     {
      "site": "zhiyun",
@@ -4649,252 +4706,6 @@
      "mode": "call",
      "perCall": 6.5408,
      "group": "default（默认分组）"
-    }
-   ]
-  },
-  {
-   "key": "claude-haiku-4-5",
-   "vendor": "Claude",
-   "name": "Claude Haiku 4.5",
-   "official": {
-    "name": "Claude Haiku 4.5",
-    "inputUsd": 1,
-    "outputUsd": 5,
-    "input": 6.7145,
-    "output": 33.5725
-   },
-   "offers": [
-    {
-     "site": "cc-coding",
-     "mode": "token",
-     "input": 0.14,
-     "output": 0.7,
-     "group": "default（默认分组）",
-     "ratio": 0.02
-    },
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 0.24,
-     "output": 1.2,
-     "group": "特惠cc（特惠Claude，有缓存）",
-     "ratio": 0.04
-    },
-    {
-     "site": "zhailian",
-     "mode": "token",
-     "input": 0.268,
-     "output": 2.21,
-     "group": "claude按量（小克[按量]）",
-     "ratio": 0.04
-    },
-    {
-     "site": "qwqtao",
-     "mode": "token",
-     "input": 0.4,
-     "output": 2,
-     "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）",
-     "ratio": 0.06
-    },
-    {
-     "site": "dawclaude",
-     "mode": "token",
-     "input": 0.5,
-     "output": 2.5,
-     "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）",
-     "ratio": 0.07
-    },
-    {
-     "site": "rua",
-     "mode": "token",
-     "input": 0.5,
-     "output": 2.5,
-     "group": "低价小克",
-     "ratio": 0.07
-    },
-    {
-     "site": "ckff",
-     "mode": "token",
-     "input": 1.35,
-     "output": 6.75,
-     "group": "cc-max（claude code only）",
-     "ratio": 0.2
-    },
-    {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 1.4,
-     "output": 7,
-     "group": "default（🦋包含站内全部模型）",
-     "ratio": 0.21
-    },
-    {
-     "site": "kbq",
-     "mode": "token",
-     "input": 1.5,
-     "output": 7.5,
-     "group": "default（默认分组）",
-     "ratio": 0.22
-    },
-    {
-     "site": "qiyiguo",
-     "mode": "token",
-     "input": 1.6,
-     "output": 8,
-     "group": "claude code专用（claude code专用 其他客户端不可用）",
-     "ratio": 0.24
-    },
-    {
-     "site": "msuicode",
-     "mode": "token",
-     "input": 1.8,
-     "output": 9,
-     "group": "claude正向（cc max，稳定，不限客户端）",
-     "ratio": 0.27
-    },
-    {
-     "site": "jixiang",
-     "mode": "token",
-     "input": 2.19,
-     "output": 10.95,
-     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））",
-     "ratio": 0.33
-    },
-    {
-     "site": "dzzi",
-     "mode": "token",
-     "input": 4,
-     "output": 20,
-     "group": "按量克",
-     "ratio": 0.6
-    },
-    {
-     "site": "goodream",
-     "mode": "token",
-     "input": 30,
-     "output": 150,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
-     "site": "gemai",
-     "mode": "token",
-     "input": 120,
-     "output": 600,
-     "group": "default（默认分组）",
-     "ratio": 17.87
-    }
-   ]
-  },
-  {
-   "key": "claude-sonnet-4-5",
-   "vendor": "Claude",
-   "name": "Claude Sonnet 4.5",
-   "official": {
-    "name": "Claude Sonnet 4.5",
-    "inputUsd": 3,
-    "outputUsd": 15,
-    "input": 20.1435,
-    "output": 100.7175
-   },
-   "offers": [
-    {
-     "site": "zhailian",
-     "mode": "token",
-     "input": 0.7,
-     "output": 4,
-     "group": "claude按量（小克[按量]）",
-     "ratio": 0.03
-    },
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 0.72,
-     "output": 3.6,
-     "group": "特惠cc（特惠Claude，有缓存）",
-     "ratio": 0.04
-    },
-    {
-     "site": "msuicode",
-     "mode": "token",
-     "input": 1.5,
-     "output": 7.5,
-     "group": "claude（按量的kiro claude稳定聪明，适合跑代码和文本创作，长期渠道）",
-     "ratio": 0.07
-    },
-    {
-     "site": "qwqtao",
-     "mode": "token",
-     "input": 3.6,
-     "output": 18,
-     "group": "Claude（官渠无限制）（官渠无限制 不限制客户端）",
-     "ratio": 0.18
-    },
-    {
-     "site": "qiyiguo",
-     "mode": "token",
-     "input": 4.8,
-     "output": 24,
-     "group": "胭脂莓（备用高价小克渠道）",
-     "ratio": 0.24
-    },
-    {
-     "site": "jixiang",
-     "mode": "token",
-     "input": 5.256,
-     "output": 26.28,
-     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））",
-     "ratio": 0.26
-    },
-    {
-     "site": "dzzi",
-     "mode": "token",
-     "input": 24,
-     "output": 120,
-     "group": "Anthropic（Anthropic官KEY）",
-     "ratio": 1.19
-    },
-    {
-     "site": "kbq",
-     "mode": "token",
-     "input": 75,
-     "output": 375,
-     "group": "default（默认分组）",
-     "ratio": 3.72
-    },
-    {
-     "site": "goodream",
-     "mode": "token",
-     "input": 90,
-     "output": 450,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
-     "site": "gemai",
-     "mode": "token",
-     "input": 360,
-     "output": 1800,
-     "group": "default（默认分组）",
-     "ratio": 17.87
-    },
-    {
-     "site": "xfx",
-     "mode": "call",
-     "perCall": 0.001,
-     "group": "default（用户分组）"
-    },
-    {
-     "site": "ckff",
-     "mode": "call",
-     "perCall": 0.01,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "jiushi",
-     "mode": "call",
-     "perCall": 0.04,
-     "group": "default"
     }
    ]
   },
@@ -4930,7 +4741,7 @@
      "mode": "token",
      "input": 8,
      "output": 40,
-     "group": "claude code专用（claude code专用 其他客户端不可用）"
+     "group": "胭脂莓（备用高价小克渠道）"
     },
     {
      "site": "dzzi",
@@ -5156,6 +4967,110 @@
    ]
   },
   {
+   "key": "claude-sonnet-4-5",
+   "vendor": "Claude",
+   "name": "Claude Sonnet 4.5",
+   "official": {
+    "name": "Claude Sonnet 4.5",
+    "inputUsd": 3,
+    "outputUsd": 15,
+    "input": 20.1435,
+    "output": 100.7175
+   },
+   "offers": [
+    {
+     "site": "zhailian",
+     "mode": "token",
+     "input": 0.7,
+     "output": 4,
+     "group": "claude按量（小克[按量]）",
+     "ratio": 0.03
+    },
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 0.72,
+     "output": 3.6,
+     "group": "特惠cc（特惠Claude，有缓存）",
+     "ratio": 0.04
+    },
+    {
+     "site": "msuicode",
+     "mode": "token",
+     "input": 1.5,
+     "output": 7.5,
+     "group": "claude（按量的kiro claude稳定聪明，适合跑代码和文本创作，长期渠道）",
+     "ratio": 0.07
+    },
+    {
+     "site": "qwqtao",
+     "mode": "token",
+     "input": 3.6,
+     "output": 18,
+     "group": "Claude（官渠无限制）（官渠无限制 不限制客户端）",
+     "ratio": 0.18
+    },
+    {
+     "site": "qiyiguo",
+     "mode": "token",
+     "input": 4.8,
+     "output": 24,
+     "group": "胭脂莓（备用高价小克渠道）",
+     "ratio": 0.24
+    },
+    {
+     "site": "jixiang",
+     "mode": "token",
+     "input": 5.256,
+     "output": 26.28,
+     "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））",
+     "ratio": 0.26
+    },
+    {
+     "site": "dzzi",
+     "mode": "token",
+     "input": 24,
+     "output": 120,
+     "group": "Anthropic（Anthropic官KEY）",
+     "ratio": 1.19
+    },
+    {
+     "site": "kbq",
+     "mode": "token",
+     "input": 75,
+     "output": 375,
+     "group": "default（默认分组）",
+     "ratio": 3.72
+    },
+    {
+     "site": "gemai",
+     "mode": "token",
+     "input": 360,
+     "output": 1800,
+     "group": "default（默认分组）",
+     "ratio": 17.87
+    },
+    {
+     "site": "xfx",
+     "mode": "call",
+     "perCall": 0.001,
+     "group": "default（用户分组）"
+    },
+    {
+     "site": "ckff",
+     "mode": "call",
+     "perCall": 0.01,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "jiushi",
+     "mode": "call",
+     "perCall": 0.04,
+     "group": "default"
+    }
+   ]
+  },
+  {
    "key": "claude-sonnet-4-6-thinking",
    "vendor": "Claude",
    "name": "claude-sonnet-4-6-thinking",
@@ -5225,7 +5140,7 @@
      "site": "msuicode",
      "mode": "call",
      "perCall": 0.3,
-     "group": "claude次卡（kiro的claude次卡，适合文本创作）"
+     "group": "claude次卡特价（kiro的claude次卡，适合文本创作）"
     },
     {
      "site": "juziqishui",
@@ -5414,11 +5329,9 @@
     },
     {
      "site": "dzzi",
-     "mode": "token",
-     "input": 600,
-     "output": 600,
-     "group": "Claude福利A",
-     "ratio": 44.68
+     "mode": "call",
+     "perCall": 0.18,
+     "group": "default（默认按次分组，小白一般选这个即可）"
     }
    ]
   },
@@ -5612,94 +5525,6 @@
    ]
   },
   {
-   "key": "claude-opus-4-1",
-   "vendor": "Claude",
-   "name": "Claude Opus 4.1",
-   "official": {
-    "name": "Claude Opus 4.1",
-    "inputUsd": 15,
-    "outputUsd": 75,
-    "input": 100.7175,
-    "output": 503.5875
-   },
-   "offers": [
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 9,
-     "output": 45,
-     "group": "default（全模型，高可用，不保缓存）",
-     "ratio": 0.09
-    },
-    {
-     "site": "gemai",
-     "mode": "token",
-     "input": 75,
-     "output": 375,
-     "group": "default（默认分组）",
-     "ratio": 0.74
-    },
-    {
-     "site": "goodream",
-     "mode": "token",
-     "input": 450,
-     "output": 2250,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
-     "site": "jiushi",
-     "mode": "call",
-     "perCall": 0.63,
-     "group": "default"
-    }
-   ]
-  },
-  {
-   "key": "claude-sonnet-4",
-   "vendor": "Claude",
-   "name": "Claude Sonnet 4",
-   "official": {
-    "name": "Claude Sonnet 4",
-    "inputUsd": 3,
-    "outputUsd": 15,
-    "input": 20.1435,
-    "output": 100.7175
-   },
-   "offers": [
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 1.8,
-     "output": 9,
-     "group": "default（全模型，高可用，不保缓存）",
-     "ratio": 0.09
-    },
-    {
-     "site": "kbq",
-     "mode": "token",
-     "input": 75,
-     "output": 375,
-     "group": "default（默认分组）",
-     "ratio": 3.72
-    },
-    {
-     "site": "goodream",
-     "mode": "token",
-     "input": 90,
-     "output": 450,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）",
-     "ratio": 4.47
-    },
-    {
-     "site": "ckff",
-     "mode": "call",
-     "perCall": 0.01,
-     "group": "default（默认分组）"
-    }
-   ]
-  },
-  {
    "key": "claude-sonnet-4-5-20250929-thinking",
    "vendor": "Claude",
    "name": "claude-sonnet-4-5-20250929-thinking",
@@ -5793,30 +5618,73 @@
    ]
   },
   {
-   "key": "claude-opus-4",
+   "key": "claude-opus-4-1",
    "vendor": "Claude",
-   "name": "claude-opus-4",
-   "official": null,
+   "name": "Claude Opus 4.1",
+   "official": {
+    "name": "Claude Opus 4.1",
+    "inputUsd": 15,
+    "outputUsd": 75,
+    "input": 100.7175,
+    "output": 503.5875
+   },
    "offers": [
     {
      "site": "camel",
      "mode": "token",
      "input": 9,
      "output": 45,
-     "group": "default（全模型，高可用，不保缓存）"
-    },
-    {
-     "site": "goodream",
-     "mode": "token",
-     "input": 450,
-     "output": 2250,
-     "group": "Claude-DR量（AWS+CC渠道2折，满血支持高缓存）"
+     "group": "default（全模型，高可用，不保缓存）",
+     "ratio": 0.09
     },
     {
      "site": "gemai",
      "mode": "token",
-     "input": 1800,
-     "output": 9000,
+     "input": 75,
+     "output": 375,
+     "group": "default（默认分组）",
+     "ratio": 0.74
+    },
+    {
+     "site": "jiushi",
+     "mode": "call",
+     "perCall": 0.63,
+     "group": "default"
+    }
+   ]
+  },
+  {
+   "key": "claude-sonnet-4",
+   "vendor": "Claude",
+   "name": "Claude Sonnet 4",
+   "official": {
+    "name": "Claude Sonnet 4",
+    "inputUsd": 3,
+    "outputUsd": 15,
+    "input": 20.1435,
+    "output": 100.7175
+   },
+   "offers": [
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 1.8,
+     "output": 9,
+     "group": "default（全模型，高可用，不保缓存）",
+     "ratio": 0.09
+    },
+    {
+     "site": "kbq",
+     "mode": "token",
+     "input": 75,
+     "output": 375,
+     "group": "default（默认分组）",
+     "ratio": 3.72
+    },
+    {
+     "site": "ckff",
+     "mode": "call",
+     "perCall": 0.01,
      "group": "default（默认分组）"
     }
    ]
@@ -5878,7 +5746,7 @@
      "mode": "token",
      "input": 1.6,
      "output": 6.4,
-     "group": "Gemini（Gemini专用）",
+     "group": "default（全模型，高可用，不保缓存）",
      "ratio": 0.12
     },
     {
@@ -5906,14 +5774,6 @@
      "ratio": 0.22
     },
     {
-     "site": "kbq",
-     "mode": "token",
-     "input": 3,
-     "output": 18,
-     "group": "default（默认分组）",
-     "ratio": 0.22
-    },
-    {
      "site": "dzzi",
      "mode": "token",
      "input": 4,
@@ -5936,6 +5796,14 @@
      "output": 105.12,
      "group": "gemini-vex（按量Google Vertex直连满血Gemini）",
      "ratio": 1.3
+    },
+    {
+     "site": "kbq",
+     "mode": "token",
+     "input": 75,
+     "output": 75,
+     "group": "default（默认分组）",
+     "ratio": 5.58
     },
     {
      "site": "gemai",
@@ -6149,7 +6017,7 @@
      "site": "qiyiguo",
      "mode": "call",
      "perCall": 0.03,
-     "group": "default（默认分组，所有模型都在这里）"
+     "group": "珊瑚柚（倍率1，备用分组，没有特殊情况勿选）"
     },
     {
      "site": "shufulei",
@@ -6317,7 +6185,7 @@
      "site": "qiyiguo",
      "mode": "call",
      "perCall": 0.03,
-     "group": "珊瑚柚（倍率1，备用分组，没有特殊情况勿选）"
+     "group": "default（默认分组，所有模型都在这里）"
     },
     {
      "site": "ekan8",
@@ -6394,19 +6262,11 @@
      "ratio": 0.04
     },
     {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 1.08,
-     "output": 6.48,
-     "group": "default（🦋包含站内全部模型）",
-     "ratio": 0.11
-    },
-    {
      "site": "camel",
      "mode": "token",
      "input": 1.2,
      "output": 7.2,
-     "group": "9GuanG（酒馆用户专用·1.0倍率）",
+     "group": "default（全模型，高可用，不保缓存）",
      "ratio": 0.12
     },
     {
@@ -6448,6 +6308,14 @@
      "output": 18,
      "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）",
      "ratio": 0.3
+    },
+    {
+     "site": "ebutterfly",
+     "mode": "token",
+     "input": 3.6,
+     "output": 21.6,
+     "group": "default（🦋包含站内全部模型）",
+     "ratio": 0.36
     },
     {
      "site": "jixiang",
@@ -6513,7 +6381,7 @@
      "site": "xfx",
      "mode": "call",
      "perCall": 0.75,
-     "group": "vip（default分组和绘画分组的集合）"
+     "group": "default（用户分组）"
     },
     {
      "site": "zhiyun",
@@ -6580,7 +6448,7 @@
      "mode": "token",
      "input": 1.2,
      "output": 6,
-     "group": "Gemini（Gemini专用）",
+     "group": "9GuanG（酒馆用户专用·1.0倍率）",
      "ratio": 0.24
     },
     {
@@ -6635,7 +6503,7 @@
      "site": "qiyiguo",
      "mode": "call",
      "perCall": 0.03,
-     "group": "雪椰芯（官方正向哈基米，稳定好吃）"
+     "group": "default（默认分组，所有模型都在这里）"
     },
     {
      "site": "lantian",
@@ -6710,14 +6578,6 @@
      "ratio": 0.04
     },
     {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 0.9,
-     "output": 5.4,
-     "group": "default（🦋包含站内全部模型）",
-     "ratio": 0.11
-    },
-    {
      "site": "camel",
      "mode": "token",
      "input": 1,
@@ -6750,20 +6610,20 @@
      "ratio": 0.22
     },
     {
-     "site": "kbq",
-     "mode": "token",
-     "input": 1.875,
-     "output": 15,
-     "group": "default（默认分组）",
-     "ratio": 0.22
-    },
-    {
      "site": "dzzi",
      "mode": "token",
      "input": 2.5,
      "output": 20,
      "group": "按量（按量分组，和按次是一样的渠道）",
      "ratio": 0.3
+    },
+    {
+     "site": "ebutterfly",
+     "mode": "token",
+     "input": 3,
+     "output": 24,
+     "group": "default（🦋包含站内全部模型）",
+     "ratio": 0.36
     },
     {
      "site": "tghan",
@@ -6780,6 +6640,14 @@
      "output": 87.6,
      "group": "gemini-vex（按量Google Vertex直连满血Gemini）",
      "ratio": 1.3
+    },
+    {
+     "site": "kbq",
+     "mode": "token",
+     "input": 75,
+     "output": 75,
+     "group": "default（默认分组）",
+     "ratio": 8.94
     },
     {
      "site": "gemai",
@@ -6938,12 +6806,6 @@
      "group": "default"
     },
     {
-     "site": "qiyiguo",
-     "mode": "call",
-     "perCall": 0.03,
-     "group": "default（默认分组，所有模型都在这里）"
-    },
-    {
      "site": "juziqishui",
      "mode": "call",
      "perCall": 0.0876,
@@ -6984,14 +6846,6 @@
      "ratio": 0.06
     },
     {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 0.2,
-     "output": 1.2,
-     "group": "default（🦋包含站内全部模型）",
-     "ratio": 0.1
-    },
-    {
      "site": "camel",
      "mode": "token",
      "input": 0.24,
@@ -7006,6 +6860,14 @@
      "output": 0.75,
      "group": "Gemini-按量（24小时稳定）",
      "ratio": 0.15
+    },
+    {
+     "site": "ebutterfly",
+     "mode": "token",
+     "input": 0.72,
+     "output": 6,
+     "group": "default（🦋包含站内全部模型）",
+     "ratio": 0.36
     },
     {
      "site": "dawclaude",
@@ -7162,83 +7024,6 @@
    ]
   },
   {
-   "key": "gemini-3-1-pro-high",
-   "vendor": "Gemini",
-   "name": "gemini-3-1-pro-high",
-   "official": null,
-   "offers": [
-    {
-     "site": "kbq",
-     "mode": "token",
-     "input": 0.6,
-     "output": 3.6,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "rua",
-     "mode": "token",
-     "input": 0.6,
-     "output": 3.6,
-     "group": "Gemini-按量（24小时稳定）"
-    },
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 60,
-     "output": 240,
-     "group": "Gemini（Gemini专用）"
-    },
-    {
-     "site": "zhailian",
-     "mode": "call",
-     "perCall": 0.02,
-     "group": "default（二藤宏嵩分组[所有按次模型]）"
-    },
-    {
-     "site": "fate86",
-     "mode": "call",
-     "perCall": 0.025,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "ebutterfly",
-     "mode": "call",
-     "perCall": 0.04,
-     "group": "所有按次（🦋所有按次Gemini和Claude）"
-    },
-    {
-     "site": "ekan8",
-     "mode": "call",
-     "perCall": 0.045,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "lantian",
-     "mode": "call",
-     "perCall": 0.05,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "luckylunch",
-     "mode": "call",
-     "perCall": 0.2555,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "tghan",
-     "mode": "call",
-     "perCall": 0.2628,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "xfx",
-     "mode": "call",
-     "perCall": 1.5,
-     "group": "vip（default分组和绘画分组的集合）"
-    }
-   ]
-  },
-  {
    "key": "gemini-3-7-flash-high",
    "vendor": "Gemini",
    "name": "gemini-3-7-flash-high",
@@ -7263,7 +7048,7 @@
      "mode": "token",
      "input": 0.6,
      "output": 3,
-     "group": "Gemini（Gemini专用）"
+     "group": "9GuanG（酒馆用户专用·1.0倍率）"
     },
     {
      "site": "jixiang",
@@ -7366,7 +7151,7 @@
      "site": "zhailian",
      "mode": "call",
      "perCall": 0.08,
-     "group": "default（二藤宏嵩分组[所有按次模型]）"
+     "group": "gemini（哈基米[按次]）"
     },
     {
      "site": "tghan",
@@ -7381,16 +7166,86 @@
      "group": "default（默认分组）"
     },
     {
-     "site": "shufulei",
-     "mode": "call",
-     "perCall": 0.3431,
-     "group": "default（请选我~）"
-    },
-    {
      "site": "luckylunch",
      "mode": "call",
      "perCall": 0.511,
      "group": "default（默认分组）"
+    },
+    {
+     "site": "shufulei",
+     "mode": "call",
+     "perCall": 0.511,
+     "group": "default（请选我~）"
+    }
+   ]
+  },
+  {
+   "key": "gemini-3-1-pro-high",
+   "vendor": "Gemini",
+   "name": "gemini-3-1-pro-high",
+   "official": null,
+   "offers": [
+    {
+     "site": "kbq",
+     "mode": "token",
+     "input": 0.6,
+     "output": 3.6,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 60,
+     "output": 240,
+     "group": "Gemini（Gemini专用）"
+    },
+    {
+     "site": "zhailian",
+     "mode": "call",
+     "perCall": 0.02,
+     "group": "default（二藤宏嵩分组[所有按次模型]）"
+    },
+    {
+     "site": "fate86",
+     "mode": "call",
+     "perCall": 0.025,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "ebutterfly",
+     "mode": "call",
+     "perCall": 0.04,
+     "group": "default（🦋包含站内全部模型）"
+    },
+    {
+     "site": "ekan8",
+     "mode": "call",
+     "perCall": 0.045,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "lantian",
+     "mode": "call",
+     "perCall": 0.05,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "luckylunch",
+     "mode": "call",
+     "perCall": 0.2555,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "tghan",
+     "mode": "call",
+     "perCall": 0.2628,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "xfx",
+     "mode": "call",
+     "perCall": 1.5,
+     "group": "default（用户分组）"
     }
    ]
   },
@@ -7425,7 +7280,7 @@
      "site": "zhailian",
      "mode": "call",
      "perCall": 0.01,
-     "group": "default（二藤宏嵩分组[所有按次模型]）"
+     "group": "gemini（哈基米[按次]）"
     },
     {
      "site": "uu6",
@@ -7497,7 +7352,7 @@
      "mode": "token",
      "input": 1.6,
      "output": 6.4,
-     "group": "Gemini（Gemini专用）"
+     "group": "default（全模型，高可用，不保缓存）"
     },
     {
      "site": "luckylunch",
@@ -7566,7 +7421,7 @@
      "mode": "token",
      "input": 0.4,
      "output": 2.4,
-     "group": "9GuanG（酒馆用户专用·1.0倍率）"
+     "group": "Gemini（Gemini专用）"
     },
     {
      "site": "jixiang",
@@ -7579,7 +7434,7 @@
      "site": "ebutterfly",
      "mode": "call",
      "perCall": 0.015,
-     "group": "所有按次（🦋所有按次Gemini和Claude）"
+     "group": "default（🦋包含站内全部模型）"
     },
     {
      "site": "shufulei",
@@ -7626,7 +7481,7 @@
      "mode": "token",
      "input": 60,
      "output": 240,
-     "group": "9GuanG（酒馆用户专用·1.0倍率）"
+     "group": "Gemini（Gemini专用）"
     },
     {
      "site": "kbq",
@@ -7671,7 +7526,7 @@
      "site": "zhailian",
      "mode": "call",
      "perCall": 0.04,
-     "group": "default（二藤宏嵩分组[所有按次模型]）"
+     "group": "gemini（哈基米[按次]）"
     },
     {
      "site": "ekan8",
@@ -7689,7 +7544,7 @@
      "site": "ebutterfly",
      "mode": "call",
      "perCall": 0.06,
-     "group": "所有按次（🦋所有按次Gemini和Claude）"
+     "group": "所有按次（🦋所有按次计费模型）"
     },
     {
      "site": "rua",
@@ -7722,7 +7577,7 @@
      "mode": "token",
      "input": 4.8,
      "output": 28.8,
-     "group": "default（🦋包含站内全部模型）"
+     "group": "量子花园（🦋按量Gemini：Google AI Studio，满血高质量T3）"
     },
     {
      "site": "camel",
@@ -7752,7 +7607,7 @@
     {
      "site": "shufulei",
      "mode": "call",
-     "perCall": 0.3431,
+     "perCall": 0.584,
      "group": "default（请选我~）"
     },
     {
@@ -7824,6 +7679,46 @@
    ]
   },
   {
+   "key": "gemini-2-5-pro-thinking",
+   "vendor": "Gemini",
+   "name": "gemini-2-5-pro-thinking",
+   "official": null,
+   "offers": [
+    {
+     "site": "ebutterfly",
+     "mode": "token",
+     "input": 3,
+     "output": 24,
+     "group": "default（🦋包含站内全部模型）"
+    },
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 5,
+     "output": 40,
+     "group": "OFC（高质量稳定分组，价格较高）"
+    },
+    {
+     "site": "zhailian",
+     "mode": "call",
+     "perCall": 0.05,
+     "group": "gemini（哈基米[按次]）"
+    },
+    {
+     "site": "tghan",
+     "mode": "call",
+     "perCall": 0.146,
+     "group": "default（默认分组）"
+    },
+    {
+     "site": "gemai",
+     "mode": "call",
+     "perCall": 3,
+     "group": "default（默认分组）"
+    }
+   ]
+  },
+  {
    "key": "gemini-3-pro-preview-thinking",
    "vendor": "Gemini",
    "name": "gemini-3-pro-preview-thinking",
@@ -7855,95 +7750,9 @@
      "group": "default（默认分组）"
     },
     {
-     "site": "shufulei",
-     "mode": "call",
-     "perCall": 0.3431,
-     "group": "default（请选我~）"
-    },
-    {
      "site": "gemai",
      "mode": "call",
      "perCall": 5,
-     "group": "default（默认分组）"
-    }
-   ]
-  },
-  {
-   "key": "gemini-2-5-pro-thinking",
-   "vendor": "Gemini",
-   "name": "gemini-2-5-pro-thinking",
-   "official": null,
-   "offers": [
-    {
-     "site": "ebutterfly",
-     "mode": "token",
-     "input": 3,
-     "output": 24,
-     "group": "量子花园（🦋按量Gemini：Google AI Studio，满血高质量T3）"
-    },
-    {
-     "site": "camel",
-     "mode": "token",
-     "input": 5,
-     "output": 40,
-     "group": "OFC（高质量稳定分组，价格较高）"
-    },
-    {
-     "site": "zhailian",
-     "mode": "call",
-     "perCall": 0.05,
-     "group": "default（二藤宏嵩分组[所有按次模型]）"
-    },
-    {
-     "site": "tghan",
-     "mode": "call",
-     "perCall": 0.146,
-     "group": "default（默认分组）"
-    },
-    {
-     "site": "gemai",
-     "mode": "call",
-     "perCall": 3,
-     "group": "default（默认分组）"
-    }
-   ]
-  },
-  {
-   "key": "gemini-3-1-pro-low",
-   "vendor": "Gemini",
-   "name": "gemini-3-1-pro-low",
-   "official": null,
-   "offers": [
-    {
-     "site": "rua",
-     "mode": "token",
-     "input": 0.6,
-     "output": 3.6,
-     "group": "Gemini-按量（24小时稳定）"
-    },
-    {
-     "site": "jixiang",
-     "mode": "token",
-     "input": 5.84,
-     "output": 35.04,
-     "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
-    },
-    {
-     "site": "uu6",
-     "mode": "call",
-     "perCall": 0.02,
-     "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
-    },
-    {
-     "site": "zhailian",
-     "mode": "call",
-     "perCall": 0.02,
-     "group": "default（二藤宏嵩分组[所有按次模型]）"
-    },
-    {
-     "site": "fate86",
-     "mode": "call",
-     "perCall": 0.025,
      "group": "default（默认分组）"
     }
    ]
@@ -7973,7 +7782,7 @@
      "mode": "token",
      "input": 0.08,
      "output": 0.32,
-     "group": "9GuanG（酒馆用户专用·1.0倍率）",
+     "group": "default（全模型，高可用，不保缓存）",
      "ratio": 0.12
     },
     {
@@ -8071,6 +7880,39 @@
    ]
   },
   {
+   "key": "gemini-3-1-pro-low",
+   "vendor": "Gemini",
+   "name": "gemini-3-1-pro-low",
+   "official": null,
+   "offers": [
+    {
+     "site": "jixiang",
+     "mode": "token",
+     "input": 5.84,
+     "output": 35.04,
+     "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
+    },
+    {
+     "site": "uu6",
+     "mode": "call",
+     "perCall": 0.02,
+     "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
+    },
+    {
+     "site": "zhailian",
+     "mode": "call",
+     "perCall": 0.02,
+     "group": "gemini（哈基米[按次]）"
+    },
+    {
+     "site": "fate86",
+     "mode": "call",
+     "perCall": 0.025,
+     "group": "default（默认分组）"
+    }
+   ]
+  },
+  {
    "key": "gemini-3-6-flash-tiered",
    "vendor": "Gemini",
    "name": "gemini-3-6-flash-tiered",
@@ -8094,6 +7936,74 @@
      "mode": "call",
      "perCall": 0.015,
      "group": "default"
+    },
+    {
+     "site": "tghan",
+     "mode": "call",
+     "perCall": 0.1095,
+     "group": "default（默认分组）"
+    }
+   ]
+  },
+  {
+   "key": "gemini-3-7-flash-low",
+   "vendor": "Gemini",
+   "name": "gemini-3-7-flash-low",
+   "official": null,
+   "offers": [
+    {
+     "site": "rua",
+     "mode": "token",
+     "input": 0.225,
+     "output": 1.125,
+     "group": "Gemini-按量（24小时稳定）"
+    },
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 0.6,
+     "output": 3,
+     "group": "default（全模型，高可用，不保缓存）"
+    },
+    {
+     "site": "zhailian",
+     "mode": "call",
+     "perCall": 0.01,
+     "group": "default（二藤宏嵩分组[所有按次模型]）"
+    },
+    {
+     "site": "tghan",
+     "mode": "call",
+     "perCall": 0.1095,
+     "group": "default（默认分组）"
+    }
+   ]
+  },
+  {
+   "key": "gemini-3-8-flash-low",
+   "vendor": "Gemini",
+   "name": "gemini-3-8-flash-low",
+   "official": null,
+   "offers": [
+    {
+     "site": "rua",
+     "mode": "token",
+     "input": 0.225,
+     "output": 1.125,
+     "group": "Gemini-按量（24小时稳定）"
+    },
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 0.6,
+     "output": 3,
+     "group": "Gemini（Gemini专用）"
+    },
+    {
+     "site": "zhailian",
+     "mode": "call",
+     "perCall": 0.01,
+     "group": "default（二藤宏嵩分组[所有按次模型]）"
     },
     {
      "site": "tghan",
@@ -8137,6 +8047,13 @@
    "official": null,
    "offers": [
     {
+     "site": "kbq",
+     "mode": "token",
+     "input": 0.45,
+     "output": 2.7,
+     "group": "default（默认分组）"
+    },
+    {
      "site": "rua",
      "mode": "token",
      "input": 0.45,
@@ -8148,14 +8065,7 @@
      "mode": "token",
      "input": 1.2,
      "output": 7.2,
-     "group": "9GuanG（酒馆用户专用·1.0倍率）"
-    },
-    {
-     "site": "kbq",
-     "mode": "token",
-     "input": 75,
-     "output": 75,
-     "group": "default（默认分组）"
+     "group": "Gemini（Gemini专用）"
     }
    ]
   },
@@ -8205,7 +8115,7 @@
      "mode": "token",
      "input": 60,
      "output": 240,
-     "group": "default（全模型，高可用，不保缓存）"
+     "group": "Gemini（Gemini专用）"
     },
     {
      "site": "zhailian",
@@ -8216,38 +8126,18 @@
    ]
   },
   {
-   "key": "gemini-3-7-flash-low",
+   "key": "gemini-3-7-flash-medium",
    "vendor": "Gemini",
-   "name": "gemini-3-7-flash-low",
+   "name": "gemini-3-7-flash-medium",
    "official": null,
    "offers": [
     {
-     "site": "camel",
+     "site": "rua",
      "mode": "token",
-     "input": 0.6,
-     "output": 3,
-     "group": "9GuanG（酒馆用户专用·1.0倍率）"
+     "input": 0.225,
+     "output": 1.125,
+     "group": "Gemini-按量（24小时稳定）"
     },
-    {
-     "site": "zhailian",
-     "mode": "call",
-     "perCall": 0.01,
-     "group": "default（二藤宏嵩分组[所有按次模型]）"
-    },
-    {
-     "site": "tghan",
-     "mode": "call",
-     "perCall": 0.1095,
-     "group": "default（默认分组）"
-    }
-   ]
-  },
-  {
-   "key": "gemini-3-8-flash-low",
-   "vendor": "Gemini",
-   "name": "gemini-3-8-flash-low",
-   "official": null,
-   "offers": [
     {
      "site": "camel",
      "mode": "token",
@@ -8260,12 +8150,34 @@
      "mode": "call",
      "perCall": 0.01,
      "group": "default（二藤宏嵩分组[所有按次模型]）"
+    }
+   ]
+  },
+  {
+   "key": "gemini-3-8-flash-medium",
+   "vendor": "Gemini",
+   "name": "gemini-3-8-flash-medium",
+   "official": null,
+   "offers": [
+    {
+     "site": "rua",
+     "mode": "token",
+     "input": 0.225,
+     "output": 0.9,
+     "group": "Gemini-按量（24小时稳定）"
     },
     {
-     "site": "tghan",
+     "site": "camel",
+     "mode": "token",
+     "input": 0.6,
+     "output": 3,
+     "group": "default（全模型，高可用，不保缓存）"
+    },
+    {
+     "site": "zhailian",
      "mode": "call",
-     "perCall": 0.1095,
-     "group": "default（默认分组）"
+     "perCall": 0.02,
+     "group": "default（二藤宏嵩分组[所有按次模型]）"
     }
    ]
   },
@@ -8285,7 +8197,7 @@
      "site": "ebutterfly",
      "mode": "call",
      "perCall": 0.04,
-     "group": "default（🦋包含站内全部模型）"
+     "group": "所有按次（🦋所有按次计费模型）"
     },
     {
      "site": "luckylunch",
@@ -8727,7 +8639,7 @@
      "mode": "token",
      "input": 75,
      "output": 75,
-     "group": "雪椰芯（官方正向哈基米，稳定好吃）",
+     "group": "default（默认分组，所有模型都在这里）",
      "ratio": 8.94
     },
     {
@@ -8882,7 +8794,7 @@
      "mode": "token",
      "input": 25,
      "output": 100,
-     "group": "vip（default分组和绘画分组的集合）",
+     "group": "default（用户分组）",
      "ratio": 12.41
     },
     {
@@ -8947,9 +8859,9 @@
    "name": "DeepSeek V4 Flash 0423",
    "official": {
     "name": "DeepSeek V4 Flash 0423",
-    "inputUsd": 0.03,
+    "inputUsd": 0.0275,
     "outputUsd": 1.28,
-    "input": 0.2014,
+    "input": 0.1846,
     "output": 8.5946
    },
    "offers": [
@@ -8959,7 +8871,7 @@
      "input": 0.12,
      "output": 0.48,
      "group": "cn_model（国产模型Key）",
-     "ratio": 0.6
+     "ratio": 0.65
     },
     {
      "site": "kbq",
@@ -8967,7 +8879,7 @@
      "input": 0.165,
      "output": 0.33,
      "group": "default（默认分组）",
-     "ratio": 0.82
+     "ratio": 0.89
     },
     {
      "site": "rua",
@@ -8975,7 +8887,7 @@
      "input": 0.75,
      "output": 2.25,
      "group": "限时活动（国庆活动在这里）",
-     "ratio": 3.72
+     "ratio": 4.06
     },
     {
      "site": "camel",
@@ -8983,7 +8895,7 @@
      "input": 1.2,
      "output": 3.6,
      "group": "default（全模型，高可用，不保缓存）",
-     "ratio": 5.96
+     "ratio": 6.5
     },
     {
      "site": "qwqtao",
@@ -8991,7 +8903,7 @@
      "input": 22.5,
      "output": 22.5,
      "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）",
-     "ratio": 111.72
+     "ratio": 121.89
     },
     {
      "site": "xfx",
@@ -8999,7 +8911,7 @@
      "input": 25,
      "output": 100,
      "group": "default（用户分组）",
-     "ratio": 124.13
+     "ratio": 135.43
     },
     {
      "site": "msuicode",
@@ -9007,7 +8919,7 @@
      "input": 45,
      "output": 45,
      "group": "国模通用（满血直连，非逆向，满血稳定，体验与官方接口一致）",
-     "ratio": 223.44
+     "ratio": 243.77
     },
     {
      "site": "gemai",
@@ -9015,7 +8927,7 @@
      "input": 100,
      "output": 200,
      "group": "default（默认分组）",
-     "ratio": 496.52
+     "ratio": 541.71
     },
     {
      "site": "zhailian",
@@ -9313,9 +9225,9 @@
    "name": "DeepSeek V4 Flash 0731",
    "official": {
     "name": "DeepSeek V4 Flash 0731",
-    "inputUsd": 0.0152,
+    "inputUsd": 0.0139,
     "outputUsd": 1.28,
-    "input": 0.1021,
+    "input": 0.0933,
     "output": 8.5946
    },
    "offers": [
@@ -9325,7 +9237,7 @@
      "input": 0.055,
      "output": 0.055,
      "group": "限时公益（羊毛渠道，不定时限量供应）",
-     "ratio": 0.54
+     "ratio": 0.59
     },
     {
      "site": "kbq",
@@ -9333,7 +9245,7 @@
      "input": 0.18,
      "output": 0.18,
      "group": "default（默认分组）",
-     "ratio": 1.76
+     "ratio": 1.93
     },
     {
      "site": "rua",
@@ -9341,7 +9253,7 @@
      "input": 0.75,
      "output": 2.25,
      "group": "限时活动（国庆活动在这里）",
-     "ratio": 7.35
+     "ratio": 8.04
     },
     {
      "site": "camel",
@@ -9349,7 +9261,7 @@
      "input": 1.2,
      "output": 3.6,
      "group": "default（全模型，高可用，不保缓存）",
-     "ratio": 11.75
+     "ratio": 12.86
     },
     {
      "site": "dawclaude",
@@ -9357,7 +9269,7 @@
      "input": 1.2,
      "output": 3.6,
      "group": "cn_model（国产模型Key）",
-     "ratio": 11.75
+     "ratio": 12.86
     },
     {
      "site": "qwqtao",
@@ -9365,7 +9277,7 @@
      "input": 22.5,
      "output": 22.5,
      "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）",
-     "ratio": 220.37
+     "ratio": 241.16
     },
     {
      "site": "dzzi",
@@ -9406,7 +9318,7 @@
      "mode": "token",
      "input": 1.2,
      "output": 3.6,
-     "group": "CN（国产模型专用分组）",
+     "group": "default（全模型，高可用，不保缓存）",
      "ratio": 0.83
     },
     {
@@ -9560,7 +9472,7 @@
      "mode": "token",
      "input": 0.864,
      "output": 0.864,
-     "group": "default（全模型，高可用，不保缓存）",
+     "group": "CN（国产模型专用分组）",
      "ratio": 0.48
     }
    ]
@@ -9593,10 +9505,10 @@
    "name": "Kimi K3",
    "official": {
     "name": "Kimi K3",
-    "inputUsd": 1.19,
-    "outputUsd": 14,
-    "input": 7.9903,
-    "output": 94.003
+    "inputUsd": 0.99,
+    "outputUsd": 15,
+    "input": 6.6474,
+    "output": 100.7175
    },
    "offers": [
     {
@@ -9613,7 +9525,7 @@
      "input": 2.4,
      "output": 12,
      "group": "cn_model（国产模型Key）",
-     "ratio": 0.3
+     "ratio": 0.36
     },
     {
      "site": "kbq",
@@ -9621,7 +9533,7 @@
      "input": 4,
      "output": 20,
      "group": "default（默认分组）",
-     "ratio": 0.5
+     "ratio": 0.6
     },
     {
      "site": "rua",
@@ -9629,7 +9541,7 @@
      "input": 5,
      "output": 25,
      "group": "限时活动（国庆活动在这里）",
-     "ratio": 0.63
+     "ratio": 0.75
     },
     {
      "site": "msuicode",
@@ -9637,7 +9549,7 @@
      "input": 12,
      "output": 60,
      "group": "国模通用（满血直连，非逆向，满血稳定，体验与官方接口一致）",
-     "ratio": 1.5
+     "ratio": 1.81
     },
     {
      "site": "vapi",
@@ -9645,15 +9557,15 @@
      "input": 15,
      "output": 15,
      "group": "default（默认分组）",
-     "ratio": 1.88
+     "ratio": 2.26
     },
     {
      "site": "camel",
      "mode": "token",
      "input": 16,
      "output": 80,
-     "group": "default（全模型，高可用，不保缓存）",
-     "ratio": 2
+     "group": "CN（国产模型专用分组）",
+     "ratio": 2.41
     },
     {
      "site": "qwqtao",
@@ -9661,7 +9573,7 @@
      "input": 22.5,
      "output": 22.5,
      "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）",
-     "ratio": 2.82
+     "ratio": 3.38
     },
     {
      "site": "goodream",
@@ -9669,7 +9581,7 @@
      "input": 1400,
      "output": 7000,
      "group": "Kimi（kimi-3）",
-     "ratio": 175.21
+     "ratio": 210.61
     },
     {
      "site": "gemai",
@@ -9677,7 +9589,7 @@
      "input": 2000,
      "output": 10000,
      "group": "default（默认分组）",
-     "ratio": 250.3
+     "ratio": 300.87
     },
     {
      "site": "zhailian",
@@ -9713,7 +9625,7 @@
      "site": "xfx",
      "mode": "call",
      "perCall": 4,
-     "group": "default（用户分组）"
+     "group": "vip（default分组和绘画分组的集合）"
     }
    ]
   },
@@ -9917,9 +9829,9 @@
    "name": "GLM 5.2",
    "official": {
     "name": "GLM 5.2",
-    "inputUsd": 0.0464,
+    "inputUsd": 0.152,
     "outputUsd": 12,
-    "input": 0.3116,
+    "input": 1.0206,
     "output": 80.574
    },
    "offers": [
@@ -9929,7 +9841,7 @@
      "input": 0.338,
      "output": 1.1831,
      "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）",
-     "ratio": 1.08
+     "ratio": 0.33
     },
     {
      "site": "dawclaude",
@@ -9937,7 +9849,7 @@
      "input": 0.9014,
      "output": 3.155,
      "group": "cn_model（国产模型Key）",
-     "ratio": 2.89
+     "ratio": 0.88
     },
     {
      "site": "rua",
@@ -9945,7 +9857,7 @@
      "input": 2,
      "output": 7,
      "group": "限时活动（国庆活动在这里）",
-     "ratio": 6.42
+     "ratio": 1.96
     },
     {
      "site": "kbq",
@@ -9953,7 +9865,7 @@
      "input": 2.8,
      "output": 9.8,
      "group": "default（默认分组）",
-     "ratio": 8.99
+     "ratio": 2.74
     },
     {
      "site": "msuicode",
@@ -9961,7 +9873,7 @@
      "input": 4.8,
      "output": 16.8,
      "group": "国模通用（满血直连，非逆向，满血稳定，体验与官方接口一致）",
-     "ratio": 15.4
+     "ratio": 4.7
     },
     {
      "site": "camel",
@@ -9969,7 +9881,7 @@
      "input": 6.4,
      "output": 22.4,
      "group": "default（全模型，高可用，不保缓存）",
-     "ratio": 20.54
+     "ratio": 6.27
     },
     {
      "site": "gemai",
@@ -9977,7 +9889,7 @@
      "input": 800,
      "output": 2800,
      "group": "default（默认分组）",
-     "ratio": 2567.39
+     "ratio": 783.85
     },
     {
      "site": "zhailian",
@@ -10107,7 +10019,7 @@
      "site": "qiyiguo",
      "mode": "call",
      "perCall": 0.06,
-     "group": "珊瑚柚（倍率1，备用分组，没有特殊情况勿选）"
+     "group": "default（默认分组，所有模型都在这里）"
     },
     {
      "site": "jiushi",
@@ -10204,7 +10116,7 @@
      "mode": "token",
      "input": 12.5,
      "output": 43.75,
-     "group": "default（用户分组）",
+     "group": "vip（default分组和绘画分组的集合）",
      "ratio": 12.41
     },
     {
@@ -10496,6 +10408,28 @@
    ]
   },
   {
+   "key": "glm-5-3-flashx",
+   "vendor": "GLM",
+   "name": "GLM 5.3 FlashX",
+   "official": {
+    "name": "GLM 5.3 FlashX",
+    "inputUsd": 0.37,
+    "outputUsd": 1.25,
+    "input": 2.4844,
+    "output": 8.3931
+   },
+   "offers": [
+    {
+     "site": "camel",
+     "mode": "token",
+     "input": 1.6,
+     "output": 5.6,
+     "group": "default（全模型，高可用，不保缓存）",
+     "ratio": 0.64
+    }
+   ]
+  },
+  {
    "key": "glm-5-turbo",
    "vendor": "GLM",
    "name": "GLM 5 Turbo",
@@ -10671,7 +10605,7 @@
      "mode": "token",
      "input": 0.64,
      "output": 2.16,
-     "group": "default（全模型，高可用，不保缓存）",
+     "group": "CN（国产模型专用分组）",
      "ratio": 0.64
     },
     {
@@ -10828,10 +10762,10 @@
    "name": "Qwen3.5-35B-A3B",
    "official": {
     "name": "Qwen3.5-35B-A3B",
-    "inputUsd": 0.15,
-    "outputUsd": 1,
-    "input": 1.0072,
-    "output": 6.7145
+    "inputUsd": 0.08,
+    "outputUsd": 0.75,
+    "input": 0.5372,
+    "output": 5.0359
    },
    "offers": [
     {
@@ -10840,7 +10774,7 @@
      "input": 0.24,
      "output": 1.92,
      "group": "default（全模型，高可用，不保缓存）",
-     "ratio": 0.24
+     "ratio": 0.45
     }
    ]
   },
@@ -10949,7 +10883,7 @@
      "mode": "token",
      "input": 60,
      "output": 60,
-     "group": "CN（国产模型专用分组）",
+     "group": "default（全模型，高可用，不保缓存）",
      "ratio": 47.66
     }
    ]

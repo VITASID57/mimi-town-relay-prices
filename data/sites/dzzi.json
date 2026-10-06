@@ -5,73 +5,166 @@
   "known": true
  },
  "offers": {
-  "claude-sonnet-5-5-thinking-high": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-6-flash-nothinking": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-3-5-turbo-16k": {
+  "gpt-live-1": {
    "mode": "token",
    "input": 150,
    "output": 300,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "gpt-4o": {
+  "gemini-3-5-flash": {
    "mode": "token",
-   "input": 150,
-   "output": 450,
+   "input": 3,
+   "output": 18,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "gemini-3-6-flash": {
+  "claude-opus-5-thinking": {
    "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
+   "input": 20,
+   "output": 100,
+   "group": "按量克"
   },
-  "gemini-3-6-flash-128": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 600,
-   "output": 600,
-   "group": "Claude福利A"
-  },
-  "gpt-3-5-turbo-instruct": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-2": {
+  "gpt-5-4": {
    "mode": "token",
    "input": 150,
    "output": 900,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "claude-opus-4-8-thinking-low": {
+  "gemini-3-1-pro-preview-128": {
+   "mode": "token",
+   "input": 4,
+   "output": 24,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-4-mini": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-sonnet-5-thinking": {
+   "mode": "token",
+   "input": 8,
+   "output": 40,
+   "group": "按量克"
+  },
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 20,
+   "output": 100,
+   "group": "按量克"
+  },
+  "gemini-3-5-flash-128-nothinking": {
+   "mode": "token",
+   "input": 3,
+   "output": 18,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "grok-4-3-thinking": {
+   "mode": "call",
+   "perCall": 0.045,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-flash-preview-128-nothinking": {
+   "mode": "token",
+   "input": 1,
+   "output": 6,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-6-thinking-high": {
    "mode": "call",
    "perCall": 0.27,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
-  "claude-opus-4-8-thinking-max": {
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 20,
+   "output": 100,
+   "group": "按量克"
+  },
+  "claude-opus-5-5-thinking-low": {
+   "mode": "call",
+   "perCall": 0.81,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-opus-5-thinking-max": {
    "mode": "call",
    "perCall": 0.45,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
-  "claude-opus-5-5-thinking-high": {
+  "o1-pro": {
+   "mode": "token",
+   "input": 150,
+   "output": 600,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 20,
+   "output": 100,
+   "group": "按量克"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
+   "group": "按量克"
+  },
+  "claude-sonnet-4-6-thinking": {
    "mode": "call",
-   "perCall": 0.81,
+   "perCall": 0.18,
    "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-1-pro-preview-online": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-4o-mini-transcribe": {
+   "mode": "token",
+   "input": 150,
+   "output": 600,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-sonnet-4-5": {
+   "mode": "token",
+   "input": 24,
+   "output": 120,
+   "group": "Anthropic（Anthropic官KEY）"
+  },
+  "gemini-3-flash-preview-nothinking": {
+   "mode": "token",
+   "input": 1,
+   "output": 6,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 20,
+   "output": 100,
+   "group": "按量克"
+  },
+  "gpt-6-astra-max": {
+   "mode": "call",
+   "perCall": 0.36,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-sonnet-5-5-thinking-high": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-3-5-turbo-instruct-0914": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
   },
   "gemini-3-8-flash": {
    "mode": "token",
@@ -85,416 +178,17 @@
    "output": 150,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "o4-mini": {
+  "gemini-3-7-flash-128-nothinking": {
    "mode": "token",
    "input": 150,
    "output": 150,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "按量克"
-  },
-  "gemini-3-8-flash-128-nothinking": {
-   "mode": "call",
-   "perCall": 0.005,
-   "group": "特价分组"
-  },
-  "claude-opus-5-5-thinking": {
-   "mode": "call",
-   "perCall": 0.315,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 8,
-   "output": 40,
-   "group": "按量克"
-  },
-  "gpt-4-1": {
+  "gpt-4-turbo": {
    "mode": "token",
    "input": 150,
-   "output": 300,
+   "output": 450,
    "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 16,
-   "output": 80,
-   "group": "按量克"
-  },
-  "claude-sonnet-5-thinking-high": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-flash-preview-128": {
-   "mode": "token",
-   "input": 1,
-   "output": 6,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-5-thinking-max": {
-   "mode": "call",
-   "perCall": 0.45,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-6-sol-max": {
-   "mode": "call",
-   "perCall": 0.36,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 40,
-   "output": 200,
-   "group": "按量克"
-  },
-  "claude-opus-4-6-thinking-max": {
-   "mode": "call",
-   "perCall": 0.45,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-opus-4-8-thinking-xhigh": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-opus-5-5-thinking-low": {
-   "mode": "call",
-   "perCall": 0.81,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "deepseek-v4-pro-thinking": {
-   "mode": "call",
-   "perCall": 0.054,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-sonnet-5-5-thinking": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-sonnet-5-5-thinking-low": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-4-nano": {
-   "mode": "token",
-   "input": 150,
-   "output": 937.5,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 20,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-8-thinking": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "按量克"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 24,
-   "output": 120,
-   "group": "Anthropic（Anthropic官KEY）"
-  },
-  "claude-sonnet-5-5-thinking-xhigh": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-7-flash-128": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-4o-mini-transcribe": {
-   "mode": "token",
-   "input": 150,
-   "output": 600,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-pro-preview-128": {
-   "mode": "call",
-   "perCall": 0.0315,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-8-flash-128": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-sonnet-5-thinking-xhigh": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "token",
-   "input": 1,
-   "output": 6,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-codex": {
-   "mode": "token",
-   "input": 150,
-   "output": 1200,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-mini": {
-   "mode": "token",
-   "input": 150,
-   "output": 1200,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-nano": {
-   "mode": "token",
-   "input": 150,
-   "output": 1200,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-7-thinking": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "按量克"
-  },
-  "claude-opus-5-thinking-xhigh": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "glm-5-2": {
-   "mode": "call",
-   "perCall": 0.054,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-2-5-pro-128-nothinking": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 20,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-1-pro-preview-128": {
-   "mode": "token",
-   "input": 4,
-   "output": 24,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-3-5-turbo-instruct-0914": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5": {
-   "mode": "token",
-   "input": 150,
-   "output": 1200,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-7-thinking-low": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-flash-preview-nothinking": {
-   "mode": "token",
-   "input": 1,
-   "output": 6,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-4-pro": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "按量克"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 4,
-   "output": 24,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-sonnet-5-thinking": {
-   "mode": "token",
-   "input": 8,
-   "output": 40,
-   "group": "按量克"
-  },
-  "claude-opus-4-8-thinking-high": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-1-pro-preview-nothinking": {
-   "mode": "token",
-   "input": 4,
-   "output": 24,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "o4-mini-deep-research": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-sonnet-4-6-thinking-high": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "kimi-k2-6": {
-   "mode": "call",
-   "perCall": 0.054,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-3-chat-latest": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-5-flash-nothinking": {
-   "mode": "token",
-   "input": 3,
-   "output": 18,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-6-max": {
-   "mode": "token",
-   "input": 40,
-   "output": 200,
-   "group": "Anthropic（Anthropic官KEY）"
-  },
-  "gpt-4-1-nano": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-4o-mini": {
-   "mode": "token",
-   "input": 150,
-   "output": 600,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-pro": {
-   "mode": "token",
-   "input": 150,
-   "output": 1200,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-6-thinking-low": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-pro-preview-thinking": {
-   "mode": "call",
-   "perCall": 0.0315,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "按量克"
-  },
-  "claude-fable-5-thinking": {
-   "mode": "token",
-   "input": 40,
-   "output": 200,
-   "group": "按量克"
-  },
-  "gemini-3-flash-preview-128-nothinking": {
-   "mode": "token",
-   "input": 1,
-   "output": 6,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "o3-mini": {
-   "mode": "token",
-   "input": 150,
-   "output": 600,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-6-thinking-high": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
-   "group": "按量克"
-  },
-  "deepseek-v4-pro": {
-   "mode": "call",
-   "perCall": 0.054,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-6-luna": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-5-5-thinking-xhigh": {
-   "mode": "call",
-   "perCall": 0.315,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "deepseek-v4-pro-0813": {
-   "mode": "call",
-   "perCall": 0.09,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-6-astra-max": {
-   "mode": "call",
-   "perCall": 0.36,
-   "group": "default（默认按次分组，小白一般选这个即可）"
   },
   "gpt-6-1-sol": {
    "mode": "token",
@@ -502,7 +196,40 @@
    "output": 300,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "gemini-2-5-pro-nothinking": {
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 8,
+   "output": 40,
+   "group": "按量克"
+  },
+  "claude-opus-4-8-thinking-max": {
+   "mode": "call",
+   "perCall": 0.45,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-6-flash-128-nothinking": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-7-max": {
+   "mode": "token",
+   "input": 40,
+   "output": 200,
+   "group": "Anthropic（Anthropic官KEY）"
+  },
+  "claude-opus-4-8-thinking-low": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "grok-4-6": {
+   "mode": "call",
+   "perCall": 0.045,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-2-5-pro-128-nothinking": {
    "mode": "token",
    "input": 2.5,
    "output": 20,
@@ -514,231 +241,38 @@
    "output": 24,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "gpt-3-5-turbo": {
+  "gemini-3-1-pro-preview-nothinking": {
    "mode": "token",
-   "input": 150,
-   "output": 300,
+   "input": 4,
+   "output": 24,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "gpt-4-turbo": {
-   "mode": "token",
-   "input": 150,
-   "output": 450,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "o3": {
-   "mode": "token",
-   "input": 150,
-   "output": 600,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-pro-preview-nothinking": {
+  "claude-sonnet-5-5": {
    "mode": "call",
-   "perCall": 0.0315,
+   "perCall": 0.18,
    "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "按量克"
-  },
-  "gpt-5-5": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "按量克"
-  },
-  "deepseek-v4-pro-0813-thinking": {
-   "mode": "call",
-   "perCall": 0.09,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-7-flash-128-nothinking": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-4-1-mini": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-2-codex": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-5-thinking": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "按量克"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-1-codex": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "token",
-   "input": 24,
-   "output": 120,
-   "group": "Anthropic（Anthropic官KEY）"
-  },
-  "gpt-4o-transcribe": {
-   "mode": "token",
-   "input": 150,
-   "output": 600,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-2-pro": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-live-transcribe": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-6-luna": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-7-flash-nothinking": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-6-flash-128-nothinking": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-5-thinking-low": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "deepseek-v4-flash": {
-   "mode": "call",
-   "perCall": 0.036,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-1": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-5-4": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-sonnet-4-6-thinking-max": {
-   "mode": "call",
-   "perCall": 0.315,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-search-api": {
-   "mode": "token",
-   "input": 150,
-   "output": 1200,
-   "group": "按量（按量分组，和按次是一样的渠道）"
   },
   "gpt-6-1-sol-max": {
    "mode": "call",
    "perCall": 0.36,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
-  "deepseek-v4-flash-0731": {
-   "mode": "call",
-   "perCall": 0.036,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "grok-4-3": {
-   "mode": "call",
-   "perCall": 0.045,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "kimi-k3": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "grok-4-6": {
-   "mode": "call",
-   "perCall": 0.045,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-4": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "grok-4-20-0309-non-reasoning": {
-   "mode": "call",
-   "perCall": 0.045,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "o1": {
-   "mode": "token",
-   "input": 150,
-   "output": 600,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-5-5-thinking-max": {
-   "mode": "call",
-   "perCall": 0.315,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-1-codex-max": {
+  "gpt-5-2": {
    "mode": "token",
    "input": 150,
    "output": 900,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "claude-haiku-4-5-thinking": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
-   "group": "按量克"
-  },
-  "claude-sonnet-4-6-thinking": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-transcribe": {
+  "gpt-5-4-pro": {
    "mode": "token",
    "input": 150,
-   "output": 300,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "o4-mini": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
   "claude-sonnet-4-5-20250929-thinking": {
@@ -747,15 +281,155 @@
    "output": 120,
    "group": "Anthropic（Anthropic官KEY）"
   },
+  "gemini-3-8-flash-128-nothinking": {
+   "mode": "call",
+   "perCall": 0.005,
+   "group": "特价分组"
+  },
+  "claude-sonnet-4-6-thinking-low": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-pro-preview-thinking": {
+   "mode": "call",
+   "perCall": 0.0315,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-haiku-4-5-thinking": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
+   "group": "按量克"
+  },
+  "claude-opus-4-7-thinking": {
+   "mode": "token",
+   "input": 20,
+   "output": 100,
+   "group": "按量克"
+  },
+  "claude-opus-4-7-thinking-low": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "token",
+   "input": 1,
+   "output": 6,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "grok-build-0-1": {
+   "mode": "call",
+   "perCall": 0.0207,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-2-pro": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-sonnet-4-6-thinking-high": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-sonnet-5-thinking-max": {
+   "mode": "call",
+   "perCall": 0.36,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-1": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "o3-mini": {
+   "mode": "token",
+   "input": 150,
+   "output": 600,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
   "claude-opus-4-6-medium": {
    "mode": "token",
    "input": 40,
    "output": 200,
    "group": "Anthropic（Anthropic官KEY）"
   },
-  "claude-opus-4-7-thinking-high": {
+  "claude-opus-5-5-thinking-xhigh": {
    "mode": "call",
-   "perCall": 0.27,
+   "perCall": 0.315,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "grok-4-20-0309-reasoning": {
+   "mode": "call",
+   "perCall": 0.045,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-codex": {
+   "mode": "token",
+   "input": 150,
+   "output": 1200,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-3-codex": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "o1": {
+   "mode": "token",
+   "input": 150,
+   "output": 600,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gemini-3-pro-preview-128-nothinking": {
+   "mode": "call",
+   "perCall": 0.0315,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-8-flash-128": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-4-1": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-7-low": {
+   "mode": "token",
+   "input": 40,
+   "output": 200,
+   "group": "Anthropic（Anthropic官KEY）"
+  },
+  "gemini-3-flash-preview-128": {
+   "mode": "token",
+   "input": 1,
+   "output": 6,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gemini-3-7-flash-128": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-5-5-thinking-high": {
+   "mode": "call",
+   "perCall": 0.81,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
   "gemini-3-5-flash-128": {
@@ -764,46 +438,117 @@
    "output": 18,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
+  "claude-sonnet-5-thinking-high": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 24,
+   "output": 120,
+   "group": "Anthropic（Anthropic官KEY）"
+  },
+  "gpt-5": {
+   "mode": "token",
+   "input": 150,
+   "output": 1200,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 20,
+   "output": 100,
+   "group": "按量克"
+  },
+  "gpt-4-0613": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-pro": {
+   "mode": "token",
+   "input": 150,
+   "output": 1200,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gemini-3-6-flash-128": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-3-5-turbo-instruct": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-nano": {
+   "mode": "token",
+   "input": 150,
+   "output": 1200,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-sonnet-4-6-thinking-max": {
+   "mode": "call",
+   "perCall": 0.315,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-sonnet-5-5-thinking": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
   "gpt-5-5-pro": {
    "mode": "token",
    "input": 150,
    "output": 900,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "claude-opus-4-5": {
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 40,
+   "output": 200,
+   "group": "按量克"
+  },
+  "claude-fable-5-thinking": {
+   "mode": "token",
+   "input": 40,
+   "output": 200,
+   "group": "按量克"
+  },
+  "claude-opus-4-7-medium": {
    "mode": "token",
    "input": 40,
    "output": 200,
    "group": "Anthropic（Anthropic官KEY）"
   },
-  "claude-opus-5-thinking-high": {
+  "deepseek-v4-pro-0813": {
    "mode": "call",
-   "perCall": 0.27,
+   "perCall": 0.09,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
-  "deepseek-v4-1-flash": {
-   "mode": "call",
-   "perCall": 0.054,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-5-flash": {
+  "gpt-3-5-turbo-0125": {
    "mode": "token",
-   "input": 3,
-   "output": 18,
+   "input": 150,
+   "output": 300,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "o1-pro": {
+  "gpt-4o": {
    "mode": "token",
    "input": 150,
    "output": 600,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "glm-5-3": {
-   "mode": "call",
-   "perCall": 0.09,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-3-codex": {
+  "gpt-5-1-codex-mini": {
    "mode": "token",
    "input": 150,
    "output": 900,
@@ -815,164 +560,34 @@
    "output": 600,
    "group": "Anthropic（Anthropic官KEY）"
   },
-  "claude-opus-4-7-max": {
-   "mode": "token",
-   "input": 40,
-   "output": 200,
-   "group": "Anthropic（Anthropic官KEY）"
-  },
-  "claude-opus-4-7-thinking-max": {
-   "mode": "call",
-   "perCall": 0.45,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-3-1-pro-preview-online": {
-   "mode": "token",
-   "input": 150,
-   "output": 150,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-live-1": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-3-5-turbo-0125": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gpt-3-5-turbo-1106": {
-   "mode": "token",
-   "input": 150,
-   "output": 300,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-6-high": {
-   "mode": "token",
-   "input": 40,
-   "output": 200,
-   "group": "Anthropic（Anthropic官KEY）"
-  },
-  "gpt-4o-transcribe-diarize": {
-   "mode": "token",
-   "input": 150,
-   "output": 600,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-7-thinking-xhigh": {
-   "mode": "call",
-   "perCall": 0.27,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gemini-2-5-pro-128": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 20,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-sonnet-4-6-thinking-low": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "grok-4-20-0309-reasoning": {
-   "mode": "call",
-   "perCall": 0.045,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-2-chat-latest": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-7-low": {
-   "mode": "token",
-   "input": 40,
-   "output": 200,
-   "group": "Anthropic（Anthropic官KEY）"
-  },
-  "claude-sonnet-5-thinking-max": {
-   "mode": "call",
-   "perCall": 0.36,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "grok-4-3-thinking": {
-   "mode": "call",
-   "perCall": 0.045,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-chat-latest": {
-   "mode": "token",
-   "input": 150,
-   "output": 1200,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-pro-preview": {
-   "mode": "call",
-   "perCall": 0.0315,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-1-chat-latest": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "grok-4-7": {
-   "mode": "call",
-   "perCall": 0.045,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
-  "gpt-5-4-mini": {
-   "mode": "token",
-   "input": 150,
-   "output": 900,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "gemini-3-5-flash-128-nothinking": {
-   "mode": "token",
-   "input": 3,
-   "output": 18,
-   "group": "按量（按量分组，和按次是一样的渠道）"
-  },
-  "claude-opus-4-6-low": {
-   "mode": "token",
-   "input": 40,
-   "output": 200,
-   "group": "Anthropic（Anthropic官KEY）"
-  },
-  "grok-4-5": {
-   "mode": "call",
-   "perCall": 0.045,
-   "group": "default（默认按次分组，小白一般选这个即可）"
-  },
   "claude-sonnet-5-thinking-low": {
    "mode": "call",
    "perCall": 0.18,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
-  "claude-sonnet-5-5-thinking-max": {
+  "deepseek-v4-pro": {
    "mode": "call",
-   "perCall": 0.18,
+   "perCall": 0.054,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
-  "gpt-4-0613": {
+  "gpt-3-5-turbo": {
    "mode": "token",
    "input": 150,
    "output": 300,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "gpt-5-1-codex-mini": {
+  "claude-sonnet-5-thinking-xhigh": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-1-codex-max": {
    "mode": "token",
    "input": 150,
    "output": 900,
    "group": "按量（按量分组，和按次是一样的渠道）"
   },
-  "claude-opus-4-7-medium": {
+  "claude-opus-4-5-20251101-thinking": {
    "mode": "token",
    "input": 40,
    "output": 200,
@@ -984,19 +599,220 @@
    "output": 200,
    "group": "Anthropic（Anthropic官KEY）"
   },
-  "gemini-3-pro-preview-128-nothinking": {
+  "gemini-2-5-pro": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 20,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-4-1-mini": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-6-thinking-low": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 4,
+   "output": 24,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-4o-mini": {
+   "mode": "token",
+   "input": 150,
+   "output": 600,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-4o-transcribe": {
+   "mode": "token",
+   "input": 150,
+   "output": 600,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-search-api": {
+   "mode": "token",
+   "input": 150,
+   "output": 1200,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-1-chat-latest": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-1-codex": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-5-5-thinking-max": {
+   "mode": "call",
+   "perCall": 0.315,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-3-5-turbo-16k": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-5": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "o3": {
+   "mode": "token",
+   "input": 150,
+   "output": 600,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-6-thinking-max": {
+   "mode": "call",
+   "perCall": 0.45,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-pro-preview": {
    "mode": "call",
    "perCall": 0.0315,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
-  "glm-5-2-thinking": {
+  "gpt-5-6-luna": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-live-transcribe": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-5": {
+   "mode": "token",
+   "input": 40,
+   "output": 200,
+   "group": "Anthropic（Anthropic官KEY）"
+  },
+  "o4-mini-deep-research": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-8-thinking-xhigh": {
    "mode": "call",
-   "perCall": 0.054,
+   "perCall": 0.27,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
-  "grok-build-0-1": {
+  "grok-4-20-0309-non-reasoning": {
    "mode": "call",
-   "perCall": 0.0207,
+   "perCall": 0.045,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-6-luna": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-8-thinking-high": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-7-flash-nothinking": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gemini-3-7-flash": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 16,
+   "output": 80,
+   "group": "按量克"
+  },
+  "glm-5-3": {
+   "mode": "call",
+   "perCall": 0.09,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-6-sol-max": {
+   "mode": "call",
+   "perCall": 0.36,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-2-5-pro-nothinking": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 20,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-4-1-nano": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "deepseek-v4-flash": {
+   "mode": "call",
+   "perCall": 0.036,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-2-codex": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-8-thinking": {
+   "mode": "token",
+   "input": 20,
+   "output": 100,
+   "group": "按量克"
+  },
+  "claude-sonnet-5-5-thinking-xhigh": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-5-flash-nothinking": {
+   "mode": "token",
+   "input": 3,
+   "output": 18,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-6-high": {
+   "mode": "token",
+   "input": 40,
+   "output": 200,
+   "group": "Anthropic（Anthropic官KEY）"
+  },
+  "grok-4-3": {
+   "mode": "call",
+   "perCall": 0.045,
    "group": "default（默认按次分组，小白一般选这个即可）"
   },
   "claude-opus-4-7-high": {
@@ -1005,11 +821,194 @@
    "output": 200,
    "group": "Anthropic（Anthropic官KEY）"
   },
-  "claude-opus-4-5-20251101-thinking": {
+  "gpt-transcribe": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-3-5-turbo-1106": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-sonnet-5-5-thinking-low": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "call",
+   "perCall": 0.054,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-mini": {
+   "mode": "token",
+   "input": 150,
+   "output": 1200,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-5-3-chat-latest": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gemini-3-6-flash-nothinking": {
+   "mode": "token",
+   "input": 150,
+   "output": 150,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-7-thinking-xhigh": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-opus-5-5-thinking": {
+   "mode": "call",
+   "perCall": 0.315,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-4": {
+   "mode": "token",
+   "input": 150,
+   "output": 300,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "gpt-4o-transcribe-diarize": {
+   "mode": "token",
+   "input": 150,
+   "output": 600,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-5-thinking-xhigh": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "kimi-k2-6": {
+   "mode": "call",
+   "perCall": 0.054,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "kimi-k3": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "deepseek-v4-flash-0731": {
+   "mode": "call",
+   "perCall": 0.036,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-4-nano": {
+   "mode": "token",
+   "input": 150,
+   "output": 937.5,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-6-max": {
    "mode": "token",
    "input": 40,
    "output": 200,
    "group": "Anthropic（Anthropic官KEY）"
+  },
+  "claude-opus-5-thinking-high": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-opus-4-6-low": {
+   "mode": "token",
+   "input": 40,
+   "output": 200,
+   "group": "Anthropic（Anthropic官KEY）"
+  },
+  "claude-opus-5-thinking-low": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "grok-4-7": {
+   "mode": "call",
+   "perCall": 0.045,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-opus-4-7-thinking-high": {
+   "mode": "call",
+   "perCall": 0.27,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "grok-4-5": {
+   "mode": "call",
+   "perCall": 0.045,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "claude-sonnet-5-5-thinking-max": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "glm-5-2": {
+   "mode": "call",
+   "perCall": 0.054,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "deepseek-v4-pro-thinking": {
+   "mode": "call",
+   "perCall": 0.054,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "deepseek-v4-pro-0813-thinking": {
+   "mode": "call",
+   "perCall": 0.09,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-chat-latest": {
+   "mode": "token",
+   "input": 150,
+   "output": 1200,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "claude-opus-4-7-thinking-max": {
+   "mode": "call",
+   "perCall": 0.45,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-pro-preview-nothinking": {
+   "mode": "call",
+   "perCall": 0.0315,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-3-pro-preview-128": {
+   "mode": "call",
+   "perCall": 0.0315,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gemini-2-5-pro-128": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 20,
+   "group": "按量（按量分组，和按次是一样的渠道）"
+  },
+  "glm-5-2-thinking": {
+   "mode": "call",
+   "perCall": 0.054,
+   "group": "default（默认按次分组，小白一般选这个即可）"
+  },
+  "gpt-5-2-chat-latest": {
+   "mode": "token",
+   "input": 150,
+   "output": 900,
+   "group": "按量（按量分组，和按次是一样的渠道）"
   }
  }
 }
