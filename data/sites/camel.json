@@ -1,16 +1,10 @@
 {
- "checkedAt": "2026-10-06",
+ "checkedAt": "2026-10-07",
  "recharge": {
   "rate": 0.8,
   "known": true
  },
  "offers": {
-  "gemini-3-1-pro": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 6.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
   "gemini-2-5-pro": {
    "mode": "token",
    "input": 1,
@@ -23,10 +17,195 @@
    "output": 11.2,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "deepseek-v3-1": {
+  "gpt-4-32k-0613": {
    "mode": "token",
-   "input": 2.4,
+   "input": 192,
+   "output": 384,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "claude-sonnet-4-5": {
+   "mode": "token",
+   "input": 0.72,
+   "output": 3.6,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "grok-imagine-video": {
+   "mode": "call",
+   "perCall": 0.24,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-5-pro": {
+   "mode": "token",
+   "input": 18,
+   "output": 108,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-4-5": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-5-flash-low": {
+   "mode": "token",
+   "input": 1.2,
    "output": 7.2,
+   "group": "Gemini（Gemini专用）"
+  },
+  "qwen3-5-397b-a17b": {
+   "mode": "token",
+   "input": 0.72,
+   "output": 4.32,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 0.64,
+   "output": 3.2,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "gemini-3-1-pro": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 6.4,
+   "group": "Gemini（Gemini专用）"
+  },
+  "qwen3-8-27b": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-coder": {
+   "mode": "token",
+   "input": 18,
+   "output": 72,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 8,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 1.04,
+   "output": 8.32,
+   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
+  },
+  "deepseek-v4-flash-of-0731": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-build-0-1": {
+   "mode": "token",
+   "input": 0.8,
+   "output": 1.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 8,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "deepseek-v4-pro": {
+   "mode": "token",
+   "input": 3.6,
+   "output": 10.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "glm-4-7": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-max": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-1-codex-max": {
+   "mode": "token",
+   "input": 1,
+   "output": 8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-7-flash": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-2-0-flash": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.6,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-4": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 7.2,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "qwen3-6-27b": {
+   "mode": "token",
+   "input": 1.8,
+   "output": 10.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-1-chat": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "glm-4-5": {
+   "mode": "token",
+   "input": 0.96,
+   "output": 3.84,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-5-flash-lite": {
+   "mode": "token",
+   "input": 0.24,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-v4-flash": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 3.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-3-chat-latest": {
+   "mode": "token",
+   "input": 1.05,
+   "output": 8.4,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "kimi-k3": {
+   "mode": "token",
+   "input": 16,
+   "output": 80,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-4-pro": {
+   "mode": "token",
+   "input": 18,
+   "output": 108,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-4-vision-preview": {
+   "mode": "token",
+   "input": 6,
+   "output": 12,
    "group": "default（全模型，高可用，不保缓存）"
   },
   "claude-opus-4": {
@@ -35,28 +214,52 @@
    "output": 45,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gpt-5-1-chat-latest": {
+  "gemini-3-flash": {
    "mode": "token",
-   "input": 0.75,
-   "output": 6,
+   "input": 0.4,
+   "output": 2.4,
+   "group": "Gemini（Gemini专用）"
+  },
+  "gpt-5-codex-mini": {
+   "mode": "token",
+   "input": 4.8,
+   "output": 38.4,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gpt-5-2-codex": {
+  "deepseek-chat": {
    "mode": "token",
-   "input": 1.4,
-   "output": 11.2,
+   "input": 0.6,
+   "output": 0.9,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gpt-5-2-chat-latest": {
+  "gpt-5-3-chat": {
    "mode": "token",
-   "input": 0.84,
-   "output": 6.72,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+   "input": 1.05,
+   "output": 8.4,
+   "group": "default（全模型，高可用，不保缓存）"
   },
-  "gemini-3-5-flash-low": {
+  "grok-4-20-non-reasoning": {
    "mode": "token",
-   "input": 1.2,
-   "output": 7.2,
+   "input": 1,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-1-pro-preview-medium": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 8,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "kimi-k2-5": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 12.6,
    "group": "default（全模型，高可用，不保缓存）"
   },
   "gpt-5-1-codex": {
@@ -65,75 +268,40 @@
    "output": 8,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gpt-5-codex": {
+  "gpt-4-turbo": {
    "mode": "token",
-   "input": 0.75,
-   "output": 6,
+   "input": 6,
+   "output": 18,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gemini-3-6-flash": {
+  "gpt-5-6-sol": {
    "mode": "token",
-   "input": 1.2,
-   "output": 6,
-   "group": "9GuanG（酒馆用户专用·1.0倍率）"
+   "input": 2.6,
+   "output": 20.8,
+   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
   },
-  "deepseek-v3-2-exp": {
+  "qwen-turbo": {
    "mode": "token",
-   "input": 1.2,
+   "input": 0.9,
    "output": 1.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "o3": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-pro-preview-thinking-*": {
-   "mode": "token",
-   "input": 300,
-   "output": 1800,
    "group": "OFC（高质量稳定分组，价格较高）"
   },
-  "gemini-robotics-er-1-5-preview": {
+  "deepseek-v4-1-flash-0910": {
    "mode": "token",
-   "input": 1.2,
-   "output": 10,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "qwen3-5-flash": {
-   "mode": "token",
-   "input": 60,
-   "output": 60,
+   "input": 1.6,
+   "output": 6.4,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "grok-imagine-video": {
-   "mode": "call",
-   "perCall": 0.24,
+  "gpt-5-pro": {
+   "mode": "token",
+   "input": 9,
+   "output": 72,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "qwen3-coder-480b-a35b-instruct": {
+  "gemini-3-7-flash-low": {
    "mode": "token",
-   "input": 0.009,
-   "output": 0.036,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "grok-4-1-fast-reasoning": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-3-5-turbo": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 0.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-1-codex-mini": {
-   "mode": "token",
-   "input": 0.2,
-   "output": 1.6,
+   "input": 0.6,
+   "output": 3,
    "group": "default（全模型，高可用，不保缓存）"
   },
   "qwen-vl-max": {
@@ -148,47 +316,77 @@
    "output": 240,
    "group": "Gemini（Gemini专用）"
   },
-  "gpt-5-all": {
+  "qwen3-5-122b-a10b": {
    "mode": "token",
-   "input": 3.75,
-   "output": 30,
+   "input": 0.48,
+   "output": 3.84,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-3-5-turbo-instruct": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 2.4,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-pro-preview-11-2025": {
+   "mode": "token",
+   "input": 4.8,
+   "output": 28.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-flash-thinking-128": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 2.4,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "glm-5-3-flash": {
+   "mode": "token",
+   "input": 0.64,
+   "output": 2.24,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-4-fast-non-reasoning": {
+   "mode": "token",
+   "input": 1,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-4-1": {
+   "mode": "token",
+   "input": 5,
+   "output": 10,
    "group": "OFC（高质量稳定分组，价格较高）"
   },
-  "gemini-3-8-flash": {
+  "gpt-5-5-openai-compact": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 14.4,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "gemini-pro-latest": {
+   "mode": "token",
+   "input": 24,
+   "output": 96,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "qwen3-6-plus": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 1.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-4-1-mini": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gemini-3-7-flash": {
    "mode": "token",
    "input": 0.6,
    "output": 3,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-5-2": {
-   "mode": "token",
-   "input": 6.4,
-   "output": 22.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-4-1106-preview": {
-   "mode": "token",
-   "input": 6,
-   "output": 12,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-nano": {
-   "mode": "token",
-   "input": 0.03,
-   "output": 0.24,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 2.6,
-   "output": 20.8,
-   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
-  },
-  "gpt-5-6-pro": {
-   "mode": "token",
-   "input": 300,
-   "output": 2400,
-   "group": "OFC（高质量稳定分组，价格较高）"
+   "group": "Gemini（Gemini专用）"
   },
   "gpt-4o-mini": {
    "mode": "token",
@@ -196,220 +394,64 @@
    "output": 0.48,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "qwen3-7-flash": {
-   "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-6-luna": {
-   "mode": "token",
-   "input": 0.128,
-   "output": 1.024,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "gpt-5-4-mini": {
-   "mode": "token",
-   "input": 0.45,
-   "output": 2.7,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-1": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 3.2,
-   "output": 16,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "gpt-4-1-nano": {
-   "mode": "token",
-   "input": 0.06,
-   "output": 0.24,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-flash-preview-nothinking": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "qwen3-coder-plus": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 9.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-6-luna": {
-   "mode": "token",
-   "input": 48,
-   "output": 96,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "gemini-3-5-flash-thinking": {
-   "mode": "token",
-   "input": 6,
-   "output": 36,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-5-instant": {
-   "mode": "token",
-   "input": 60,
-   "output": 360,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "kimi-k2-instruct": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 9.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "o3-mini": {
-   "mode": "token",
-   "input": 3.3,
-   "output": 13.2,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "qwen-plus": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 6,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-2-5-flash-thinking-*": {
-   "mode": "token",
-   "input": 0.12,
-   "output": 1,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-6-35b-a3b": {
-   "mode": "token",
-   "input": 1.08,
-   "output": 6.48,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-6-terra-max": {
+  "gpt-5-2-2025-12-11⁠": {
    "mode": "token",
    "input": 60,
    "output": 480,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "qwen3-8-flash": {
+  "gpt-5-4-high": {
    "mode": "token",
-   "input": 0.64,
-   "output": 2.16,
-   "group": "CN（国产模型专用分组）"
-  },
-  "gemini-flash-lite-latest-thinking": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.6,
+   "input": 10,
+   "output": 60,
    "group": "OFC（高质量稳定分组，价格较高）"
   },
-  "gemini-3-flash-preview-thinking": {
+  "gemini-2-5-flash-lite": {
    "mode": "token",
-   "input": 2,
-   "output": 12,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-5-pro": {
-   "mode": "token",
-   "input": 18,
-   "output": 108,
+   "input": 0.08,
+   "output": 0.32,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gpt-5-mini": {
+  "kimi-k2-7-code": {
+   "mode": "token",
+   "input": 5.2,
+   "output": 21.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 7.2,
+   "group": "Gemini（Gemini专用）"
+  },
+  "deepseek-v3-250324": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "CN（国产模型专用分组）"
+  },
+  "gemini-3-6-flash-high": {
+   "mode": "token",
+   "input": 60,
+   "output": 240,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "claude-opus-4-5": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 6,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "gpt-5-chat-latest": {
    "mode": "token",
    "input": 0.75,
    "output": 6,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-2-5-flash-thinking": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 10,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-3-codex-spark": {
-   "mode": "token",
-   "input": 1.12,
-   "output": 8.96,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "gpt-5-1-codex-max": {
-   "mode": "token",
-   "input": 1,
-   "output": 8,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "qwen3-7-plus": {
+  "gemini-3-pro-preview-thinking": {
    "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-2-chat": {
-   "mode": "token",
-   "input": 1.05,
-   "output": 8.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-3-5-turbo-0125": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 0.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-flash": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 3.2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-4-nano": {
-   "mode": "token",
-   "input": 0.12,
-   "output": 0.75,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-3-turbo": {
-   "mode": "token",
-   "input": 4.5,
-   "output": 4.5,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 8,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "kimi-k2-250905": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 9.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 0.24,
-   "output": 1.2,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "o1": {
-   "mode": "token",
-   "input": 45,
-   "output": 180,
+   "input": 8,
+   "output": 48,
    "group": "OFC（高质量稳定分组，价格较高）"
   },
   "gpt-4-1": {
@@ -418,79 +460,259 @@
    "output": 4.8,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gemini-3-5-flash": {
+  "claude-opus-4-1": {
    "mode": "token",
-   "input": 1.2,
-   "output": 7.2,
+   "input": 9,
+   "output": 45,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "qwen3-vl-30b-a3b-instruct": {
+  "deepseek-r1-250528": {
    "mode": "token",
-   "input": 0.45,
-   "output": 1.8,
+   "input": 2.4,
+   "output": 9.6,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gpt-3-5-turbo-0613": {
+  "kimi-k2-250905": {
    "mode": "token",
-   "input": 6,
-   "output": 12,
+   "input": 2.4,
+   "output": 9.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "o1-pro": {
+   "mode": "token",
+   "input": 600,
+   "output": 2400,
    "group": "OFC（高质量稳定分组，价格较高）"
   },
-  "gemini-3-5-flash-lite": {
+  "gemini-flash-latest-thinking": {
    "mode": "token",
-   "input": 0.24,
-   "output": 2,
+   "input": 1.2,
+   "output": 10,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "glm-4-flash": {
+   "mode": "token",
+   "input": 0.18,
+   "output": 0.72,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "kimi-k3": {
+  "claude-fable-5-1": {
    "mode": "token",
-   "input": 16,
-   "output": 80,
+   "input": 3.2,
+   "output": 16,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "deepseek-v4-pro-0813": {
+   "mode": "token",
+   "input": 3.6,
+   "output": 10.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-coder-480b-a35b-instruct": {
+   "mode": "token",
+   "input": 0.009,
+   "output": 0.036,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-6-sol-pro": {
+   "mode": "token",
+   "input": 300,
+   "output": 2400,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "token",
+   "input": 0.8,
+   "output": 3.2,
    "group": "CN（国产模型专用分组）"
   },
-  "deepseek-v3-2": {
+  "gpt-chat-latest": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-2-5-pro-thinking-512": {
+   "mode": "token",
+   "input": 5,
+   "output": 40,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-6-pro": {
+   "mode": "token",
+   "input": 300,
+   "output": 2400,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 5.2,
+   "output": 10.4,
+   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
+  },
+  "gemini-omni-flash-preview": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "deepseek-v3-2-exp": {
    "mode": "token",
    "input": 1.2,
    "output": 1.8,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "o3-deep-research": {
+  "gpt-4-dalle": {
    "mode": "token",
-   "input": 40,
-   "output": 160,
+   "input": 300,
+   "output": 600,
    "group": "OFC（高质量稳定分组，价格较高）"
   },
-  "gemini-3-flash-preview": {
+  "gemini-3-1-pro-preview-thinking-128": {
    "mode": "token",
-   "input": 0.4,
-   "output": 2.4,
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-4-1-nano": {
+   "mode": "token",
+   "input": 0.06,
+   "output": 0.24,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "glm-4-5": {
+  "qwen3-vl-235b-a22b-instruct": {
    "mode": "token",
-   "input": 0.96,
-   "output": 3.84,
+   "input": 1.2,
+   "output": 4.8,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gpt-6-1-sol": {
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 1.28,
+   "output": 6.4,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "gpt-6-sol": {
    "mode": "token",
    "input": 1.04,
    "output": 2.08,
    "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
   },
-  "gemini-3-1-pro-preview-low": {
+  "grok-4-1-fast-reasoning": {
    "mode": "token",
-   "input": 1.6,
-   "output": 6.4,
+   "input": 1,
+   "output": 2,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "gpt-5-6": {
+  "gpt-5-all": {
    "mode": "token",
-   "input": 48,
-   "output": 384,
+   "input": 3.75,
+   "output": 30,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "grok-3": {
+   "mode": "token",
+   "input": 1,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "claude-sonnet-4-5-20250929-thinking": {
+   "mode": "token",
+   "input": 13.2,
+   "output": 66,
+   "group": "9Guan55（酒馆用户专用·5.5倍率）"
+  },
+  "gemini-3-flash-preview-thinking": {
+   "mode": "token",
+   "input": 2,
+   "output": 12,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-1-chat-latest": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "kimi-k2-instruct": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 9.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-v4-pro-of": {
+   "mode": "token",
+   "input": 3.6,
+   "output": 10.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 22,
+   "output": 110,
+   "group": "9Guan55（酒馆用户专用·5.5倍率）"
+  },
+  "gemini-robotics-er-1-5-preview": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 10,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "kimi-k2-6": {
+   "mode": "token",
+   "input": 3.9,
+   "output": 16.2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-6-luna-max": {
+   "mode": "token",
+   "input": 60,
+   "output": 480,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-3-5-turbo": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 0.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen-max": {
+   "mode": "token",
+   "input": 1.44,
+   "output": 5.76,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-3-codex-spark": {
+   "mode": "token",
+   "input": 1.12,
+   "output": 8.96,
    "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
   },
-  "qwen3-235b-a22b": {
+  "gemini-2-0-flash-lite": {
+   "mode": "token",
+   "input": 60,
+   "output": 240,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-235b-a22b-instruct-2507": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-2-pro": {
+   "mode": "token",
+   "input": 10.08,
+   "output": 80.64,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "grok-4": {
+   "mode": "token",
+   "input": 1,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-vl-32b-instruct": {
    "mode": "token",
    "input": 1.2,
    "output": 4.8,
@@ -502,59 +724,35 @@
    "output": 2,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "qwen3-6-plus": {
+  "gemini-3-6-flash-medium": {
    "mode": "token",
-   "input": 1.6,
-   "output": 1.6,
-   "group": "default（全模型，高可用，不保缓存）"
+   "input": 60,
+   "output": 240,
+   "group": "Gemini（Gemini专用）"
   },
-  "grok-4-7": {
+  "deepseek-flash": {
    "mode": "token",
-   "input": 1.6,
-   "output": 1.6,
-   "group": "default（全模型，高可用，不保缓存）"
+   "input": 0.8,
+   "output": 3.2,
+   "group": "CN（国产模型专用分组）"
   },
-  "claude-sonnet-4-5-20250929-thinking": {
+  "gpt-6-1-sol": {
    "mode": "token",
-   "input": 13.2,
-   "output": 66,
-   "group": "9Guan55（酒馆用户专用·5.5倍率）"
+   "input": 1.04,
+   "output": 2.08,
+   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
   },
-  "claude-fable-5-1": {
+  "glm-5": {
    "mode": "token",
    "input": 3.2,
-   "output": 16,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "gemini-2-5-pro-nothinking": {
-   "mode": "token",
-   "input": 20,
-   "output": 160,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 8,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "gpt-5-1-chat": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 6,
+   "output": 3.2,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "deepseek-r1-0528": {
+  "gemini-3-8-flash-high": {
    "mode": "token",
-   "input": 2.4,
-   "output": 9.6,
+   "input": 0.6,
+   "output": 3,
    "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-2-5-flash-nothinking": {
-   "mode": "token",
-   "input": 0.24,
-   "output": 2,
-   "group": "Gemini（Gemini专用）"
   },
   "o4-mini-deep-research": {
    "mode": "token",
@@ -562,76 +760,16 @@
    "output": 8,
    "group": "OFC（高质量稳定分组，价格较高）"
   },
-  "gemini-3-6-flash-medium": {
+  "gpt-5-1-codex-mini": {
    "mode": "token",
-   "input": 60,
-   "output": 240,
-   "group": "Gemini（Gemini专用）"
-  },
-  "grok-4-3": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
+   "input": 0.2,
+   "output": 1.6,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "deepseek-v4-flash-of-0731": {
+  "qwen3-5-35b-a3b": {
    "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "CN（国产模型专用分组）"
-  },
-  "gemini-2-5-flash-lite": {
-   "mode": "token",
-   "input": 0.08,
-   "output": 0.32,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v4-pro": {
-   "mode": "token",
-   "input": 3.6,
-   "output": 10.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-2-pro": {
-   "mode": "token",
-   "input": 10.08,
-   "output": 80.64,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "qwen-max": {
-   "mode": "token",
-   "input": 1.44,
-   "output": 5.76,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-pro-preview-11-2025": {
-   "mode": "token",
-   "input": 4.8,
-   "output": 28.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-2-5-pro-thinking-512": {
-   "mode": "token",
-   "input": 5,
-   "output": 40,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "claude-sonnet-4-6-thinking": {
-   "mode": "token",
-   "input": 13.2,
-   "output": 66,
-   "group": "9Guan55（酒馆用户专用·5.5倍率）"
-  },
-  "o4-mini": {
-   "mode": "token",
-   "input": 3.3,
-   "output": 13.2,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "qwen3-vl-32b-instruct": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
+   "input": 0.24,
+   "output": 1.92,
    "group": "default（全模型，高可用，不保缓存）"
   },
   "deepseek-reasoner": {
@@ -640,137 +778,11 @@
    "output": 4.8,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "qwen3-30b-a3b": {
+  "claude-sonnet-5": {
    "mode": "token",
-   "input": 0.896,
-   "output": 0.896,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen-turbo": {
-   "mode": "token",
-   "input": 0.9,
-   "output": 1.8,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-2-5-pro-thinking": {
-   "mode": "token",
-   "input": 5,
-   "output": 40,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "token",
-   "input": 0.72,
-   "output": 3.6,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "gpt-4-1-mini": {
-   "mode": "token",
-   "input": 1.2,
+   "input": 0.96,
    "output": 4.8,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "kimi-k2-7-code-highspeed": {
-   "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-5-3": {
-   "mode": "token",
-   "input": 6.4,
-   "output": 22.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-codex-mini": {
-   "mode": "token",
-   "input": 4.8,
-   "output": 38.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-6-sol-openai-compact": {
-   "mode": "token",
-   "input": 48,
-   "output": 384,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "Gemini（Gemini专用）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 1.04,
-   "output": 8.32,
-   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 6.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-5-plus": {
-   "mode": "token",
-   "input": 0.48,
-   "output": 2.88,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-6-sol-max": {
-   "mode": "token",
-   "input": 60,
-   "output": 480,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-omni-flash-preview": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-2-5-flash-lite-preview-06-17": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.6,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 6,
    "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "glm-4-air": {
-   "mode": "token",
-   "input": 0.9,
-   "output": 0.9,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "qwen3-7-max": {
-   "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-flash-latest-thinking-*": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "qwen3-235b-a22b-instruct-2507": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-flash-latest-nothinking": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
   },
   "gemini-2-5-pro-thinking-128": {
    "mode": "token",
@@ -778,11 +790,53 @@
    "output": 40,
    "group": "OFC（高质量稳定分组，价格较高）"
   },
-  "gpt-5-2-2025-12-11⁠": {
+  "gemini-3-pro-preview-thinking-*": {
    "mode": "token",
-   "input": 60,
-   "output": 480,
+   "input": 300,
+   "output": 1800,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-6-luna-pro": {
+   "mode": "token",
+   "input": 300,
+   "output": 2400,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "deepseek-v4-flash-vision-exp": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 3.6,
    "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-6-35b-a3b": {
+   "mode": "token",
+   "input": 1.08,
+   "output": 6.48,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-4o": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "glm-4-5-flash": {
+   "mode": "token",
+   "input": 1.12,
+   "output": 1.12,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gemini-2-5-pro-nothinking": {
+   "mode": "token",
+   "input": 20,
+   "output": 160,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "o3-mini": {
+   "mode": "token",
+   "input": 3.3,
+   "output": 13.2,
+   "group": "OFC（高质量稳定分组，价格较高）"
   },
   "qwen-plus-character": {
    "mode": "token",
@@ -790,16 +844,82 @@
    "output": 1.2,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "claude-opus-5-5-thinking": {
+  "gemini-3-8-flash-medium": {
    "mode": "token",
-   "input": 1.28,
-   "output": 6.4,
+   "input": 0.6,
+   "output": 3,
+   "group": "Gemini（Gemini专用）"
+  },
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 8,
    "group": "特惠cc（特惠Claude，有缓存）"
   },
-  "deepseek-r1": {
+  "qwen3-30b-a3b": {
    "mode": "token",
-   "input": 2.4,
-   "output": 9.6,
+   "input": 0.896,
+   "output": 0.896,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "o1": {
+   "mode": "token",
+   "input": 45,
+   "output": 180,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "qwen2-5-72b-instruct": {
+   "mode": "token",
+   "input": 12,
+   "output": 36,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gemini-flash-lite-latest-nothinking": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-reranker-0-6b": {
+   "mode": "token",
+   "input": 0.112,
+   "output": 0.112,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-codex": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "kimi-k2-7-code-highspeed": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-vl-8b-instruct": {
+   "mode": "token",
+   "input": 0.3,
+   "output": 1.2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-7-plus": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-vl-plus": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 6,
    "group": "default（全模型，高可用，不保缓存）"
   },
   "deepseek-v3": {
@@ -808,11 +928,700 @@
    "output": 4.8,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "grok-4-20-non-reasoning": {
+  "deepseek-v4-pro-of-0813": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-7-max": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "glm-5-1": {
+   "mode": "token",
+   "input": 4.8,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-1": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-6-luna": {
+   "mode": "token",
+   "input": 0.128,
+   "output": 1.024,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "gpt-5-5": {
+   "mode": "token",
+   "input": 1.95,
+   "output": 11.7,
+   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
+  },
+  "claude-opus-4-5-20251101-thinking": {
+   "mode": "token",
+   "input": 22,
+   "output": 110,
+   "group": "9Guan55（酒馆用户专用·5.5倍率）"
+  },
+  "qwen3-coder-plus": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 9.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-8-flash": {
+   "mode": "token",
+   "input": 0.64,
+   "output": 2.16,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-3-5-turbo-16k": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "o3": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-r1": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 9.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-6": {
+   "mode": "token",
+   "input": 48,
+   "output": 384,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "gemini-3-pro-preview": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 9.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-4-1-fast-non-reasoning": {
    "mode": "token",
    "input": 1,
    "output": 2,
    "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-6-flash": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-2-5-pro-thinking": {
+   "mode": "token",
+   "input": 5,
+   "output": 40,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "o3-deep-research": {
+   "mode": "token",
+   "input": 40,
+   "output": 160,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 3.2,
+   "output": 16,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "glm-4-long": {
+   "mode": "token",
+   "input": 0.18,
+   "output": 0.72,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-5-flash-thinking": {
+   "mode": "token",
+   "input": 6,
+   "output": 36,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-4-nano": {
+   "mode": "token",
+   "input": 0.12,
+   "output": 0.75,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-2-5-flash-lite-preview-06-17": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.6,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-2-codex": {
+   "mode": "token",
+   "input": 1.4,
+   "output": 11.2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-v4-flash-0731": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 3.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-3-codex-openai-compact": {
+   "mode": "token",
+   "input": 1.12,
+   "output": 8.96,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "qwen3-5-plus": {
+   "mode": "token",
+   "input": 0.48,
+   "output": 2.88,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-3-5-turbo-0613": {
+   "mode": "token",
+   "input": 6,
+   "output": 12,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 0.96,
+   "output": 4.8,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "gpt-4-1106-preview": {
+   "mode": "token",
+   "input": 6,
+   "output": 12,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-6-terra-ultra": {
+   "mode": "token",
+   "input": 60,
+   "output": 480,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-2-5-pro-thinking-*": {
+   "mode": "token",
+   "input": 1,
+   "output": 8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-4-mini": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.7,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-3-5-turbo-0125": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 0.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-3-mini": {
+   "mode": "token",
+   "input": 1,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-v3-0324": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 6.4,
+   "group": "Gemini（Gemini专用）"
+  },
+  "deepseek-v3-1": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 7.2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-r1-0528": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 9.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-2-5-flash": {
+   "mode": "token",
+   "input": 0.24,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "claude-sonnet-4-6-thinking": {
+   "mode": "token",
+   "input": 13.2,
+   "output": 66,
+   "group": "9Guan55（酒馆用户专用·5.5倍率）"
+  },
+  "gpt-5-2": {
+   "mode": "token",
+   "input": 0.84,
+   "output": 6.72,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "gpt-6-luna": {
+   "mode": "token",
+   "input": 48,
+   "output": 96,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "glm-5-2": {
+   "mode": "token",
+   "input": 6.4,
+   "output": 22.4,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-5-27b": {
+   "mode": "token",
+   "input": 0.48,
+   "output": 0.48,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "glm-4-air": {
+   "mode": "token",
+   "input": 0.9,
+   "output": 0.9,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "claude-sonnet-4": {
+   "mode": "token",
+   "input": 1.8,
+   "output": 9,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-1-pro-high": {
+   "mode": "token",
+   "input": 60,
+   "output": 240,
+   "group": "Gemini（Gemini专用）"
+  },
+  "gemini-3-flash-preview-nothinking": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-3-5-turbo-16k-0613": {
+   "mode": "token",
+   "input": 12,
+   "output": 24,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-4-openai-compact": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 7.2,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "gpt-5-6-terra-openai-compact": {
+   "mode": "token",
+   "input": 48,
+   "output": 384,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "gemini-2-5-flash-thinking-*": {
+   "mode": "token",
+   "input": 0.12,
+   "output": 1,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-pro-latest-thinking-*": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gemini-3-1-flash-lite": {
+   "mode": "token",
+   "input": 0.2,
+   "output": 1.2,
+   "group": "Gemini（Gemini专用）"
+  },
+  "qwen-max-latest": {
+   "mode": "token",
+   "input": 1.44,
+   "output": 5.76,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-4o-all": {
+   "mode": "token",
+   "input": 15,
+   "output": 60,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-6-terra-max": {
+   "mode": "token",
+   "input": 60,
+   "output": 480,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-r1-distill-qwen-7b": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 3,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gemini-flash-latest-nothinking": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "grok-4-3": {
+   "mode": "token",
+   "input": 1,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-oss-120b": {
+   "mode": "token",
+   "input": 0.66,
+   "output": 2.64,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-4": {
+   "mode": "token",
+   "input": 18,
+   "output": 36,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-4-7": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 1.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-1-pro-preview-high": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-6-sol-max": {
+   "mode": "token",
+   "input": 60,
+   "output": 480,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3,
+   "group": "9GuanG（酒馆用户专用·1.0倍率）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 2.4,
+   "group": "Gemini（Gemini专用）"
+  },
+  "deepseek-v3-2-251201": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen3-235b-a22b": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-flash-lite-latest-thinking-*": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "glm-5-3-flashx": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 5.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-7-flash-medium": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3,
+   "group": "Gemini（Gemini专用）"
+  },
+  "qwen3-5-flash": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-chat": {
+   "mode": "token",
+   "input": 16,
+   "output": 128,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-nano": {
+   "mode": "token",
+   "input": 0.03,
+   "output": 0.24,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-flash-preview-thinking-128": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "glm-4": {
+   "mode": "token",
+   "input": 0.18,
+   "output": 0.72,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 0.24,
+   "output": 1.2,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "qwen-flash": {
+   "mode": "token",
+   "input": 0.09,
+   "output": 0.9,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-v3-1-terminus": {
+   "mode": "token",
+   "input": 0.864,
+   "output": 0.864,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-6-sol-openai-compact": {
+   "mode": "token",
+   "input": 48,
+   "output": 384,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "gpt-5-5-instant": {
+   "mode": "token",
+   "input": 60,
+   "output": 360,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-flash-preview-thinking-*": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gemini-pro-latest-thinking": {
+   "mode": "token",
+   "input": 24,
+   "output": 96,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-2-chat-latest": {
+   "mode": "token",
+   "input": 0.84,
+   "output": 6.72,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "gpt-reserve": {
+   "mode": "token",
+   "input": 48,
+   "output": 96,
+   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
+  },
+  "qwen3-8-max": {
+   "mode": "token",
+   "input": 9.6,
+   "output": 28.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "deepseek-v3-2": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 1.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-1-pro-preview-low": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 6.4,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-pro-preview-thinking-128": {
+   "mode": "token",
+   "input": 300,
+   "output": 1800,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "glm-4-6": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-imagine-video-1-5-preview": {
+   "mode": "call",
+   "perCall": 0.4,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "grok-4-6": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 4.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen-plus": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 6,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gemini-2-5-flash-nothinking": {
+   "mode": "token",
+   "input": 0.24,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-8-flash-low": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3,
+   "group": "Gemini（Gemini专用）"
+  },
+  "gemini-flash-lite-latest-thinking": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.6,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gpt-5-6-terra-pro": {
+   "mode": "token",
+   "input": 300,
+   "output": 2400,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "claude-opus-5-5-thinking": {
+   "mode": "token",
+   "input": 1.28,
+   "output": 6.4,
+   "group": "特惠cc（特惠Claude，有缓存）"
+  },
+  "glm-5-3": {
+   "mode": "token",
+   "input": 6.4,
+   "output": 22.4,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-flash-latest-thinking-*": {
+   "mode": "token",
+   "input": 300,
+   "output": 1200,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "grok-4-fast-reasoning": {
+   "mode": "token",
+   "input": 1,
+   "output": 2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-2-chat": {
+   "mode": "token",
+   "input": 1.05,
+   "output": 8.4,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "qwen-plus-latest": {
+   "mode": "token",
+   "input": 0.48,
+   "output": 1.2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-3-5-turbo-1106": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 1.2,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gpt-5-mini": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 6,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "deepseek-r1-250120": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 9.6,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "gemini-3-7-flash-high": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3,
+   "group": "9GuanG（酒馆用户专用·1.0倍率）"
+  },
+  "glm-3-turbo": {
+   "mode": "token",
+   "input": 4.5,
+   "output": 4.5,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "o4-mini": {
+   "mode": "token",
+   "input": 3.3,
+   "output": 13.2,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "qwen3-vl-30b-a3b-instruct": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 1.8,
+   "group": "default（全模型，高可用，不保缓存）"
+  },
+  "o1-mini": {
+   "mode": "token",
+   "input": 3.3,
+   "output": 13.2,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "grok-4-2": {
+   "mode": "token",
+   "input": 5,
+   "output": 10,
+   "group": "OFC（高质量稳定分组，价格较高）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 6,
+   "group": "Gemini（Gemini专用）"
+  },
+  "gemini-3-1-pro-preview-thinking": {
+   "mode": "token",
+   "input": 8,
+   "output": 32,
+   "group": "OFC（高质量稳定分组，价格较高）"
   },
   "gemini-3-5-flash-high": {
    "mode": "token",
@@ -826,832 +1635,17 @@
    "output": 480,
    "group": "default（全模型，高可用，不保缓存）"
   },
-  "deepseek-v3-2-251201": {
-   "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-r1-distill-qwen-7b": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 3,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-3-1-pro-preview-medium": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-3-chat": {
-   "mode": "token",
-   "input": 1.05,
-   "output": 8.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-5-1": {
-   "mode": "token",
-   "input": 4.8,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "o1-mini": {
-   "mode": "token",
-   "input": 3.3,
-   "output": 13.2,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-3-5-turbo-16k-0613": {
-   "mode": "token",
-   "input": 12,
-   "output": 24,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 22,
-   "output": 110,
-   "group": "9Guan55（酒馆用户专用·5.5倍率）"
-  },
-  "gemini-3-pro-preview-thinking": {
-   "mode": "token",
-   "input": 8,
-   "output": 48,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "grok-4": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-7-flash-low": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-5": {
-   "mode": "token",
-   "input": 1.95,
-   "output": 11.7,
-   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 1.04,
-   "output": 2.08,
-   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
-  },
-  "qwen3-vl-8b-instruct": {
-   "mode": "token",
-   "input": 0.3,
-   "output": 1.2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-pro-preview-thinking-128": {
-   "mode": "token",
-   "input": 300,
-   "output": 1800,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-pro-latest": {
-   "mode": "token",
-   "input": 24,
-   "output": 96,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-4-pro": {
-   "mode": "token",
-   "input": 18,
-   "output": 108,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 0.96,
-   "output": 4.8,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "deepseek-r1-250528": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 9.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v4-1-flash-0910": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 6.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-2-0-flash-lite": {
-   "mode": "token",
-   "input": 60,
-   "output": 240,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-4o-all": {
-   "mode": "token",
-   "input": 15,
-   "output": 60,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-4": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 7.2,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "deepseek-v4-pro-0813": {
-   "mode": "token",
-   "input": 3.6,
-   "output": 10.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-7-flash-high": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "9GuanG（酒馆用户专用·1.0倍率）"
-  },
-  "deepseek-r1-250120": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 9.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v4-flash-vision-exp": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 3.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "grok-4-6": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-4-6": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-flash-preview-thinking-128": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 8,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "gpt-chat-latest": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v4-pro-of-0813": {
-   "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-pro-latest-thinking": {
-   "mode": "token",
-   "input": 24,
-   "output": 96,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "grok-3-mini": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-pro": {
-   "mode": "token",
-   "input": 9,
-   "output": 72,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-3-chat-latest": {
-   "mode": "token",
-   "input": 1.05,
-   "output": 8.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen-flash": {
-   "mode": "token",
-   "input": 0.09,
-   "output": 0.9,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-3-codex-openai-compact": {
-   "mode": "token",
-   "input": 1.12,
-   "output": 8.96,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "qwen-plus-latest": {
-   "mode": "token",
-   "input": 0.48,
-   "output": 1.2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-max": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-flash-latest-thinking": {
+  "gemini-2-5-flash-thinking": {
    "mode": "token",
    "input": 1.2,
    "output": 10,
    "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-6-terra-ultra": {
-   "mode": "token",
-   "input": 60,
-   "output": 480,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-pro-latest-thinking-*": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "qwen3-vl-plus": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 6,
-   "group": "default（全模型，高可用，不保缓存）"
   },
   "gpt-6": {
    "mode": "token",
    "input": 48,
    "output": 96,
    "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "gpt-5-6-luna-max": {
-   "mode": "token",
-   "input": 60,
-   "output": 480,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v4-pro-of": {
-   "mode": "token",
-   "input": 3.6,
-   "output": 10.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v4-flash-0731": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 3.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-chat": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 0.9,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-2-0-flash": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.6,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-2": {
-   "mode": "token",
-   "input": 0.84,
-   "output": 6.72,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "gpt-3-5-turbo-instruct": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 2.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-7-flash-medium": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-4-vision-preview": {
-   "mode": "token",
-   "input": 6,
-   "output": 12,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "grok-3": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 3.2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-6-27b": {
-   "mode": "token",
-   "input": 1.8,
-   "output": 10.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "grok-4-fast-non-reasoning": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-2-5-pro-thinking-*": {
-   "mode": "token",
-   "input": 1,
-   "output": 8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "grok-4-5": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "grok-imagine-video-1-5-preview": {
-   "mode": "call",
-   "perCall": 0.4,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-5-397b-a17b": {
-   "mode": "token",
-   "input": 0.72,
-   "output": 4.32,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-reranker-0-6b": {
-   "mode": "token",
-   "input": 0.112,
-   "output": 0.112,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-4o": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-4-flash": {
-   "mode": "token",
-   "input": 0.18,
-   "output": 0.72,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "grok-4-2": {
-   "mode": "token",
-   "input": 5,
-   "output": 10,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-3-8-flash-high": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-1-pro-preview-high": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-flash-lite-latest-thinking-*": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-3-8-flash-medium": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v4-flash": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 3.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-4-7": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-4": {
-   "mode": "token",
-   "input": 0.18,
-   "output": 0.72,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-sonnet-4": {
-   "mode": "token",
-   "input": 1.8,
-   "output": 9,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-chat": {
-   "mode": "token",
-   "input": 16,
-   "output": 128,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 8,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "gemini-3-1-flash-lite": {
-   "mode": "token",
-   "input": 0.2,
-   "output": 1.2,
-   "group": "Gemini（Gemini专用）"
-  },
-  "gemini-3-1-pro-high": {
-   "mode": "token",
-   "input": 60,
-   "output": 240,
-   "group": "Gemini（Gemini专用）"
-  },
-  "glm-5-3-flash": {
-   "mode": "token",
-   "input": 0.32,
-   "output": 1.12,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-5-27b": {
-   "mode": "token",
-   "input": 0.48,
-   "output": 0.48,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-4": {
-   "mode": "token",
-   "input": 18,
-   "output": 36,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-4-5-flash": {
-   "mode": "token",
-   "input": 1.12,
-   "output": 1.12,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "deepseek-v3-250324": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "deepseek-v3-0324": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-oss-120b": {
-   "mode": "token",
-   "input": 0.66,
-   "output": 2.64,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-5-35b-a3b": {
-   "mode": "token",
-   "input": 0.24,
-   "output": 1.92,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-4-dalle": {
-   "mode": "token",
-   "input": 300,
-   "output": 600,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "qwen3-coder": {
-   "mode": "token",
-   "input": 18,
-   "output": 72,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-6-terra-openai-compact": {
-   "mode": "token",
-   "input": 48,
-   "output": 384,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "grok-build-0-1": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 1.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-1-pro-preview-thinking-128": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-3-8-flash-low": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "Gemini（Gemini专用）"
-  },
-  "glm-5": {
-   "mode": "token",
-   "input": 3.2,
-   "output": 3.2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-6-luna-pro": {
-   "mode": "token",
-   "input": 300,
-   "output": 2400,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-6-terra-pro": {
-   "mode": "token",
-   "input": 300,
-   "output": 2400,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-3-6-flash-high": {
-   "mode": "token",
-   "input": 60,
-   "output": 240,
-   "group": "Gemini（Gemini专用）"
-  },
-  "glm-4-long": {
-   "mode": "token",
-   "input": 0.18,
-   "output": 0.72,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "kimi-k2-6": {
-   "mode": "token",
-   "input": 3.9,
-   "output": 16.2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-opus-4-1": {
-   "mode": "token",
-   "input": 9,
-   "output": 45,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-4-high": {
-   "mode": "token",
-   "input": 10,
-   "output": 60,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "deepseek-v3-1-terminus": {
-   "mode": "token",
-   "input": 0.864,
-   "output": 0.864,
-   "group": "CN（国产模型专用分组）"
-  },
-  "qwen-max-latest": {
-   "mode": "token",
-   "input": 1.44,
-   "output": 5.76,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 1.28,
-   "output": 6.4,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "qwen2-5-72b-instruct": {
-   "mode": "token",
-   "input": 12,
-   "output": 36,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "claude-opus-4-5-20251101-thinking": {
-   "mode": "token",
-   "input": 22,
-   "output": 110,
-   "group": "9Guan55（酒馆用户专用·5.5倍率）"
-  },
-  "gemini-2-5-flash": {
-   "mode": "token",
-   "input": 0.24,
-   "output": 2,
-   "group": "Gemini（Gemini专用）"
-  },
-  "gpt-3-5-turbo-16k": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-5-122b-a10b": {
-   "mode": "token",
-   "input": 0.48,
-   "output": 3.84,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-5-openai-compact": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 14.4,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "kimi-k2-5": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 12.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 0.64,
-   "output": 3.2,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "qwen3-6-flash": {
-   "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "kimi-k2-7-code": {
-   "mode": "token",
-   "input": 5.2,
-   "output": 21.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-flash-lite-latest-nothinking": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "glm-5-3-flashx": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 5.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "grok-4-1": {
-   "mode": "token",
-   "input": 5,
-   "output": 10,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-3-pro-preview": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 9.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gemini-3-flash": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 2.4,
-   "group": "Gemini（Gemini专用）"
-  },
-  "gpt-3-5-turbo-1106": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 1.2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-4-turbo": {
-   "mode": "token",
-   "input": 6,
-   "output": 18,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-8-27b": {
-   "mode": "token",
-   "input": 60,
-   "output": 60,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 5.2,
-   "output": 10.4,
-   "group": "特惠codex（特惠gpt分组0.65x，稳定性一般）"
-  },
-  "qwen3-8-max": {
-   "mode": "token",
-   "input": 9.6,
-   "output": 28.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "qwen3-vl-235b-a22b-instruct": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-reserve": {
-   "mode": "token",
-   "input": 48,
-   "output": 96,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "gpt-4-32k-0613": {
-   "mode": "token",
-   "input": 192,
-   "output": 384,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-4-openai-compact": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 7.2,
-   "group": "CC2GPT（不用改任何设置，Claude系列映射到GPT上，全新玩法）"
-  },
-  "gemini-3-flash-preview-thinking-*": {
-   "mode": "token",
-   "input": 300,
-   "output": 1200,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gpt-5-chat-latest": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 0.96,
-   "output": 4.8,
-   "group": "特惠cc（特惠Claude，有缓存）"
-  },
-  "gemini-3-1-pro-preview-thinking": {
-   "mode": "token",
-   "input": 8,
-   "output": 32,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "grok-4-1-fast-non-reasoning": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "gpt-5-6-sol-pro": {
-   "mode": "token",
-   "input": 300,
-   "output": 2400,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "grok-4-fast-reasoning": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "glm-5-turbo": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 1.6,
-   "group": "default（全模型，高可用，不保缓存）"
-  },
-  "o1-pro": {
-   "mode": "token",
-   "input": 600,
-   "output": 2400,
-   "group": "OFC（高质量稳定分组，价格较高）"
-  },
-  "gemini-3-flash-thinking-128": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 2.4,
-   "group": "Gemini（Gemini专用）"
   }
  }
 }
