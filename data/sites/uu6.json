@@ -1,71 +1,24 @@
 {
- "checkedAt": "2026-10-07",
+ "checkedAt": "2026-10-08",
  "recharge": {
   "rate": 0.1,
   "known": true
  },
  "offers": {
-  "gpt-5-5": {
-   "mode": "token",
-   "input": 9,
-   "output": 54,
-   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
-  },
-  "claude-opus-4-7-thinking": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
-   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-sonnet-5-thinking": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 12,
-   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
   "gemini-3-1-pro-low": {
    "mode": "call",
    "perCall": 0.02,
    "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
   },
-  "gemini-3-8-flash-high": {
+  "gemini-3-6-flash-high": {
    "mode": "call",
    "perCall": 0.02,
    "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
   },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
-   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-5-thinking": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
-   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
-  },
-  "gemini-3-7-flash-high": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
-  },
-  "gpt-6-sol": {
+  "gpt-5-5": {
    "mode": "token",
    "input": 9,
-   "output": 18,
+   "output": 54,
    "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
   "gpt-6-1-sol": {
@@ -80,37 +33,19 @@
    "output": 20,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
-   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 9,
-   "output": 54,
-   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 9,
-   "output": 54,
-   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 9,
-   "output": 18,
-   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
   "claude-opus-4-5-thinking": {
    "mode": "token",
    "input": 4,
    "output": 20,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-opus-4-8": {
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
+  },
+  "claude-opus-4-7": {
    "mode": "token",
    "input": 4,
    "output": 20,
@@ -122,7 +57,25 @@
    "output": 20,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-opus-5-5": {
+  "claude-opus-5-5-thinking": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3,
+   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 9,
+   "output": 54,
+   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-opus-5-thinking": {
    "mode": "token",
    "input": 4,
    "output": 20,
@@ -134,38 +87,85 @@
    "output": 12,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-sonnet-5": {
+  "gpt-5-6-terra": {
    "mode": "token",
-   "input": 1.6,
-   "output": 8,
+   "input": 9,
+   "output": 54,
+   "group": "default（旧分组，别选，后面要删）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "gemini-3-7-flash-high": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
+  },
+  "gemini-3-8-flash-high": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
   },
   "claude-opus-5-5-high": {
    "mode": "call",
    "perCall": 0.2,
    "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
   },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
-   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "gemini-3-6-flash-high": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
-  },
   "grok-4-7": {
    "mode": "call",
    "perCall": 0.02,
    "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
   },
-  "claude-opus-5-5-thinking": {
+  "claude-opus-5-5": {
    "mode": "token",
    "input": 4,
    "output": 20,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 9,
+   "output": 18,
+   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 8,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-opus-4-7-thinking": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-sonnet-5-thinking": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 12,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 9,
+   "output": 18,
+   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
   }
  }
 }

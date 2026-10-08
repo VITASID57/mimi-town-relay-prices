@@ -1,234 +1,36 @@
 {
- "checkedAt": "2026-10-07",
+ "checkedAt": "2026-10-08",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "claude-opus-4-6": {
+  "claude-opus-4-7": {
    "mode": "token",
-   "input": 1.25,
-   "output": 6.25,
-   "group": "antigravity-1（self account antigravity 1）"
+   "input": 1.875,
+   "output": 9.375,
+   "group": "kiro（kiro）"
+  },
+  "claude-sonnet-4": {
+   "mode": "call",
+   "perCall": 0.01,
+   "group": "default（默认分组）"
+  },
+  "claude-sonnet-4-6-[不补]": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "default（默认分组）"
   },
   "deepseek-v3-2-thinking": {
    "mode": "call",
    "perCall": 0.008,
    "group": "default（默认分组）"
   },
-  "claude-fable-5-1": {
-   "mode": "token",
-   "input": 13.5,
-   "output": 67.5,
-   "group": "cc-max（claude code only）"
-  },
-  "claude-opus-4-7-[不补]": {
-   "mode": "token",
-   "input": 4.245,
-   "output": 21.225,
-   "group": "default（默认分组）"
-  },
-  "deepseek-3-2": {
-   "mode": "call",
-   "perCall": 0.008,
-   "group": "default（默认分组）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 4.5,
-   "group": "codex-plus（codex-plus分组）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 0.5,
-   "output": 3,
-   "group": "codex-pro（codex pro）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 0.2,
-   "output": 0.2,
-   "group": "default（默认分组）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 1.35,
-   "output": 6.75,
-   "group": "cc-max（claude code only）"
-  },
-  "claude-opus-4-5-[不补]": {
-   "mode": "token",
-   "input": 4.245,
-   "output": 21.225,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 0.66,
-   "output": 3.96,
-   "group": "antigravity-gemini-ext（antigravity-gemini-ext）"
-  },
-  "deepseek-v3-1": {
-   "mode": "call",
-   "perCall": 0.008,
-   "group": "default（默认分组）"
-  },
-  "kimi-k2-thinking": {
-   "mode": "call",
-   "perCall": 0.008,
-   "group": "default（默认分组）"
-  },
-  "glm-5": {
-   "mode": "call",
-   "perCall": 0.008,
-   "group": "default（默认分组）"
-  },
-  "glm-4-7": {
-   "mode": "call",
-   "perCall": 0.008,
-   "group": "default（默认分组）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "token",
-   "input": 0.3,
-   "output": 2.4,
-   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
-  },
-  "gemini-3-7-flash-[不补]": {
-   "mode": "token",
-   "input": 0.2475,
-   "output": 1.2375,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 11.25,
-   "output": 22.5,
-   "group": "codex-plus（codex-plus分组）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 0.6,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-4-5-[不补]": {
-   "mode": "token",
-   "input": 2.5475,
-   "output": 12.7375,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-5-[不补]": {
+  "glm-5-1-[不补]": {
    "mode": "token",
    "input": 75,
    "output": 75,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 0.36,
-   "output": 1.8,
-   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
-  },
-  "gemini-3-8-flash-[不补]": {
-   "mode": "token",
-   "input": 0.2475,
-   "output": 1.2375,
-   "group": "default（默认分组）"
-  },
-  "glm-5-2-venice-[不补]": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.5,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-5-flash": {
-   "mode": "token",
-   "input": 0.36,
-   "output": 2.16,
-   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 0.36,
-   "output": 1.8,
-   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-1-sol": {
-   "mode": "token",
-   "input": 11.25,
-   "output": 22.5,
-   "group": "codex-plus（codex-plus分组）"
-  },
-  "deepseek-v4-flash-0731-[不补]": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.2,
-   "group": "default（默认分组）"
-  },
-  "grok-4-7": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 1.5,
-   "group": "grok（grok）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "default（默认分组）"
-  },
-  "grok-4-3": {
-   "mode": "call",
-   "perCall": 0.01,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-flash": {
-   "mode": "token",
-   "input": 0.165,
-   "output": 0.99,
-   "group": "antigravity-gemini-ext（antigravity-gemini-ext）"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "call",
-   "perCall": 0.01,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 0.2,
-   "output": 1,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 30,
-   "output": 60,
-   "group": "codex-gpt-6-不降智（gpt-6 不降智）"
-  },
-  "deepseek-v4-pro-[不补]": {
-   "mode": "token",
-   "input": 1.368,
-   "output": 4.158,
-   "group": "default（默认分组）"
-  },
-  "glm-5-2-[不补]": {
-   "mode": "token",
-   "input": 3.43,
-   "output": 10.78,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-5-[不补]": {
-   "mode": "token",
-   "input": 2.5475,
-   "output": 2.5475,
    "group": "default（默认分组）"
   },
   "gemini-3-1-pro-preview-[不补]": {
@@ -237,23 +39,17 @@
    "output": 3.96,
    "group": "default（默认分组）"
   },
-  "claude-opus-4-6-[不补]": {
+  "claude-fable-5-1": {
    "mode": "token",
-   "input": 4.245,
-   "output": 21.225,
-   "group": "default（默认分组）"
+   "input": 13.5,
+   "output": 67.5,
+   "group": "cc-max（claude code only）"
   },
-  "claude-sonnet-4-6-[不补]": {
+  "gemini-3-1-pro": {
    "mode": "token",
-   "input": 2.5475,
-   "output": 12.7375,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 1.875,
-   "output": 9.375,
-   "group": "kiro（kiro）"
+   "input": 0.48,
+   "output": 2.88,
+   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
   },
   "gemini-3-1-flash-lite": {
    "mode": "token",
@@ -261,19 +57,33 @@
    "output": 0.36,
    "group": "反重力-gemini (没有缓存)（反重力 gemini）"
   },
-  "kimi-k2-5": {
-   "mode": "call",
-   "perCall": 0.008,
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 0.36,
+   "output": 1.8,
+   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
    "group": "default（默认分组）"
   },
-  "glm-4-6": {
+  "claude-sonnet-4-5": {
    "mode": "call",
-   "perCall": 0.008,
+   "perCall": 0.01,
    "group": "default（默认分组）"
   },
-  "gemini-2-5-pro-[不补]": {
-   "mode": "call",
-   "perCall": 0.04,
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 0.36,
+   "output": 1.8,
+   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
+  },
+  "claude-sonnet-5-[不补]": {
+   "mode": "token",
+   "input": 2.5475,
+   "output": 2.5475,
    "group": "default（默认分组）"
   },
   "kimi-k3-[不补]": {
@@ -282,23 +92,34 @@
    "output": 36.75,
    "group": "default（默认分组）"
   },
-  "deepseek-v4-flash-[不补]": {
+  "deepseek-v4-pro-[不补]": {
+   "mode": "token",
+   "input": 1.368,
+   "output": 4.158,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-preview": {
    "mode": "token",
    "input": 0.66,
-   "output": 1.98,
+   "output": 3.96,
+   "group": "antigravity-gemini-ext（antigravity-gemini-ext）"
+  },
+  "claude-opus-4-5-[不补]": {
+   "mode": "token",
+   "input": 4.245,
+   "output": 21.225,
    "group": "default（默认分组）"
   },
-  "glm-5-3-[不补]": {
-   "mode": "token",
-   "input": 3.43,
-   "output": 10.78,
+  "deepseek-v3-1": {
+   "mode": "call",
+   "perCall": 0.008,
    "group": "default（默认分组）"
   },
-  "claude-opus-5-5-[不补]": {
+  "gpt-6-sol": {
    "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "default（默认分组）"
+   "input": 11.25,
+   "output": 22.5,
+   "group": "codex-plus（codex-plus分组）"
   },
   "claude-sonnet-5": {
    "mode": "token",
@@ -306,26 +127,104 @@
    "output": 5.625,
    "group": "kiro（kiro）"
   },
-  "grok-4-6": {
-   "mode": "call",
-   "perCall": 0.01,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro": {
-   "mode": "token",
-   "input": 0.48,
-   "output": 2.88,
-   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
-  },
-  "gemini-3-6-flash": {
+  "gemini-3-7-flash": {
    "mode": "token",
    "input": 0.36,
    "output": 1.8,
    "group": "反重力-gemini (没有缓存)（反重力 gemini）"
   },
-  "claude-sonnet-4": {
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 1.35,
+   "output": 6.75,
+   "group": "cc-max（claude code only）"
+  },
+  "gemini-3-7-flash-[不补]": {
+   "mode": "token",
+   "input": 0.2475,
+   "output": 1.2375,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-flash": {
+   "mode": "token",
+   "input": 0.165,
+   "output": 0.99,
+   "group": "antigravity-gemini-ext（antigravity-gemini-ext）"
+  },
+  "claude-opus-4-8-[不补]": {
+   "mode": "token",
+   "input": 4.245,
+   "output": 21.225,
+   "group": "default（默认分组）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 30,
+   "output": 60,
+   "group": "codex-gpt-6-不降智（gpt-6 不降智）"
+  },
+  "gemini-3-8-flash-[不补]": {
+   "mode": "token",
+   "input": 0.2475,
+   "output": 1.2375,
+   "group": "default（默认分组）"
+  },
+  "glm-5": {
    "mode": "call",
-   "perCall": 0.01,
+   "perCall": 0.008,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "default（默认分组）"
+  },
+  "glm-4-7-flash": {
+   "mode": "call",
+   "perCall": 0.008,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 0.2,
+   "output": 0.2,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-6-thinking-[不补]": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-7-[不补]": {
+   "mode": "token",
+   "input": 4.245,
+   "output": 21.225,
+   "group": "default（默认分组）"
+  },
+  "claude-sonnet-4-6-thinking-[不补]": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "default（默认分组）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "token",
+   "input": 0.3,
+   "output": 2.4,
+   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
+  },
+  "grok-4-7": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 1.5,
+   "group": "grok（grok）"
+  },
+  "claude-opus-4-6-[不补]": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
    "group": "default（默认分组）"
   },
   "deepseek-v4-1-flash-[不补]": {
@@ -334,7 +233,25 @@
    "output": 1.98,
    "group": "default（默认分组）"
   },
-  "glm-4-7-flash": {
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 0.2,
+   "output": 1,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-[不补]": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "default（默认分组）"
+  },
+  "glm-5-3-[不补]": {
+   "mode": "token",
+   "input": 3.43,
+   "output": 10.78,
+   "group": "default（默认分组）"
+  },
+  "kimi-k2-thinking": {
    "mode": "call",
    "perCall": 0.008,
    "group": "default（默认分组）"
@@ -345,17 +262,111 @@
    "output": 3.75,
    "group": "antigravity-1（self account antigravity 1）"
   },
+  "grok-4-3": {
+   "mode": "call",
+   "perCall": 0.01,
+   "group": "default（默认分组）"
+  },
+  "grok-4-6": {
+   "mode": "call",
+   "perCall": 0.01,
+   "group": "default（默认分组）"
+  },
+  "glm-4-7": {
+   "mode": "call",
+   "perCall": 0.008,
+   "group": "default（默认分组）"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 4.5,
+   "group": "codex-plus（codex-plus分组）"
+  },
+  "deepseek-v3-2": {
+   "mode": "call",
+   "perCall": 0.008,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-5-[不补]": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-flash-[不补]": {
+   "mode": "token",
+   "input": 0.66,
+   "output": 1.98,
+   "group": "default（默认分组）"
+  },
   "gpt-6-luna": {
    "mode": "token",
    "input": 30,
    "output": 60,
    "group": "codex-gpt-6-不降智（gpt-6 不降智）"
   },
-  "glm-5-3-flash-[不补]": {
+  "claude-fable-5": {
    "mode": "token",
-   "input": 0.35,
-   "output": 1.17,
+   "input": 0.6,
+   "output": 0.6,
    "group": "default（默认分组）"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 0.5,
+   "output": 3,
+   "group": "codex-pro（codex pro）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 1.25,
+   "output": 6.25,
+   "group": "antigravity-1（self account antigravity 1）"
+  },
+  "claude-sonnet-4-5-[不补]": {
+   "mode": "token",
+   "input": 2.5475,
+   "output": 12.7375,
+   "group": "default（默认分组）"
+  },
+  "glm-4-6": {
+   "mode": "call",
+   "perCall": 0.008,
+   "group": "default（默认分组）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 11.25,
+   "output": 22.5,
+   "group": "codex-plus（codex-plus分组）"
+  },
+  "gemini-2-5-pro-[不补]": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "default（默认分组）"
+  },
+  "kimi-k2-5": {
+   "mode": "call",
+   "perCall": 0.008,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-flash-0731-[不补]": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.2,
+   "group": "default（默认分组）"
+  },
+  "deepseek-3-2": {
+   "mode": "call",
+   "perCall": 0.008,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 0.36,
+   "output": 2.16,
+   "group": "反重力-gemini (没有缓存)（反重力 gemini）"
   },
   "gpt-6-sol-[不补]": {
    "mode": "token",
@@ -363,15 +374,10 @@
    "output": 75,
    "group": "default（默认分组）"
   },
-  "deepseek-v3-2": {
-   "mode": "call",
-   "perCall": 0.008,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-8-[不补]": {
+  "glm-5-2-[不补]": {
    "mode": "token",
-   "input": 4.245,
-   "output": 21.225,
+   "input": 75,
+   "output": 75,
    "group": "default（默认分组）"
   }
  }
