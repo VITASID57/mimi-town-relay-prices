@@ -1,45 +1,15 @@
 {
- "checkedAt": "2026-10-08",
+ "checkedAt": "2026-10-09",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "glm-5-3": {
+  "deepseek-v4-pro-0813": {
    "mode": "token",
-   "input": 1.12,
-   "output": 3.52,
+   "input": 3.6,
+   "output": 10.8,
    "group": "cn_model（国产模型Key）"
-  },
-  "deepseek-v4-pro": {
-   "mode": "token",
-   "input": 1.392,
-   "output": 2.784,
-   "group": "cn_model（国产模型Key）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 9,
-   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 37.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
   },
   "claude-fable-5-1": {
    "mode": "token",
@@ -47,17 +17,23 @@
    "output": 120,
    "group": "default（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
   },
-  "claude-opus-4-7": {
+  "gpt-6-luna": {
    "mode": "token",
    "input": 37.5,
-   "output": 187.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
+   "output": 75,
+   "group": "codex（codex【gpt6概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
   },
-  "gemini-3-5-flash": {
+  "kimi-k3": {
    "mode": "token",
-   "input": 3,
-   "output": 18,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+   "input": 2.4,
+   "output": 12,
+   "group": "cn_model（国产模型Key）"
+  },
+  "gpt-5-6-luna": {
+   "mode": "token",
+   "input": 0.3,
+   "output": 1.8,
+   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
   },
   "glm-5-3-flash": {
    "mode": "token",
@@ -65,71 +41,11 @@
    "output": 0.2,
    "group": "cn_model（国产模型Key）"
   },
-  "deepseek-v4-1-flash": {
+  "deepseek-v4-flash": {
    "mode": "token",
-   "input": 60,
-   "output": 60,
+   "input": 0.12,
+   "output": 0.48,
    "group": "cn_model（国产模型Key）"
-  },
-  "gpt-6-1-sol": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "codex（codex【gpt6概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 187.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
-  },
-  "gemini-3-1-pro-preview-customtools": {
-   "mode": "token",
-   "input": 4,
-   "output": 24,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 75,
-   "group": "codex（codex【gpt6概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "token",
-   "input": 2,
-   "output": 6,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 37.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
-  },
-  "grok-4-6": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 2.4,
-   "group": "grok（Grok Hav）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 45,
-   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 4.5,
-   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 187.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
   },
   "deepseek-v4-flash-0731": {
    "mode": "token",
@@ -137,41 +53,17 @@
    "output": 3.6,
    "group": "cn_model（国产模型Key）"
   },
-  "gpt-5-6-terra-openai-compact": {
+  "gpt-5-5-openai-compact": {
    "mode": "token",
-   "input": 22.5,
-   "output": 135,
+   "input": 1.5,
+   "output": 9,
    "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
   },
-  "gpt-6-luna": {
+  "gemini-3-1-pro-preview": {
    "mode": "token",
-   "input": 37.5,
-   "output": 75,
-   "group": "codex（codex【gpt6概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 37.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
-  },
-  "deepseek-v4-flash": {
-   "mode": "token",
-   "input": 0.12,
-   "output": 0.48,
-   "group": "cn_model（国产模型Key）"
-  },
-  "deepseek-v4-pro-0813": {
-   "mode": "token",
-   "input": 3.6,
-   "output": 10.8,
-   "group": "cn_model（国产模型Key）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 24,
-   "output": 120,
-   "group": "default（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
+   "input": 4,
+   "output": 24,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
   },
   "gemini-3-6-flash": {
    "mode": "token",
@@ -185,65 +77,11 @@
    "output": 2.4,
    "group": "grok（Grok Hav）"
   },
-  "gpt-5-5-openai-compact": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 9,
-   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 187.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 4,
-   "output": 24,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
-  },
-  "gemini-2-5-flash": {
-   "mode": "token",
-   "input": 2,
-   "output": 5,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
-  },
-  "gpt-5-5": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 9,
-   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "gemini-3-1-flash-lite-preview": {
-   "mode": "token",
-   "input": 1,
-   "output": 3,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
-  },
-  "kimi-k3": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 12,
-   "group": "cn_model（国产模型Key）"
-  },
-  "gpt-5-6-sol-openai-compact": {
+  "gpt-5-6-terra-openai-compact": {
    "mode": "token",
    "input": 22.5,
    "output": 135,
    "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "gpt-5-6-luna": {
-   "mode": "token",
-   "input": 0.3,
-   "output": 1.8,
-   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "glm-5-2": {
-   "mode": "token",
-   "input": 0.9014,
-   "output": 3.155,
-   "group": "cn_model（国产模型Key）"
   },
   "claude-haiku-4-5": {
    "mode": "token",
@@ -251,17 +89,179 @@
    "output": 2.5,
    "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
   },
-  "gemini-2-5-flash-lite": {
+  "gemini-3-5-flash": {
    "mode": "token",
-   "input": 0.6,
-   "output": 0.8,
+   "input": 3,
+   "output": 18,
    "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "gemini-3-1-pro-preview-customtools": {
+   "mode": "token",
+   "input": 4,
+   "output": 24,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "codex（codex【gpt6概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
+  },
+  "gpt-5-5": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 9,
+   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
+  },
+  "gemini-2-5-flash": {
+   "mode": "token",
+   "input": 2,
+   "output": 5,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 4.5,
+   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
+  },
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 187.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "grok-4-6": {
+   "mode": "token",
+   "input": 0.8,
+   "output": 2.4,
+   "group": "grok（Grok Hav）"
+  },
+  "gpt-5-6-sol-openai-compact": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 135,
+   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "token",
+   "input": 2,
+   "output": 6,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 187.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
+  },
+  "glm-5-2": {
+   "mode": "token",
+   "input": 0.9014,
+   "output": 3.155,
+   "group": "cn_model（国产模型Key）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 37.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
   },
   "gemini-3-7-flash": {
    "mode": "token",
    "input": 1.5,
    "output": 7.5,
    "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
+  },
+  "deepseek-v4-pro": {
+   "mode": "token",
+   "input": 1.392,
+   "output": 2.784,
+   "group": "cn_model（国产模型Key）"
+  },
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 24,
+   "output": 120,
+   "group": "default（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
+  },
+  "gemini-2-5-flash-lite": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 0.8,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "gemini-3-1-flash-lite-preview": {
+   "mode": "token",
+   "input": 1,
+   "output": 3,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 75,
+   "group": "codex（codex【gpt6概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 9,
+   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
+  },
+  "glm-5-3": {
+   "mode": "token",
+   "input": 1.12,
+   "output": 3.52,
+   "group": "cn_model（国产模型Key）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 187.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 37.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 45,
+   "group": "codex-stu（codex【gpt6大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "cn_model（国产模型Key）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 187.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 37.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【精調支援1m字元】【開放三方調度】）"
   }
  }
 }

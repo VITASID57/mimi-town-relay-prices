@@ -1,57 +1,21 @@
 {
- "checkedAt": "2026-10-08",
+ "checkedAt": "2026-10-09",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 2,
-   "output": 12,
-   "group": "default（默认分组）"
-  },
-  "gpt-5-6": {
-   "mode": "token",
-   "input": 5,
-   "output": 40,
-   "group": "default（默认分组）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 0.14,
-   "output": 0.7,
-   "group": "vip（官号）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 15,
-   "output": 75,
-   "group": "vip（官号）"
-  },
-  "claude-fable-5-1": {
-   "mode": "token",
-   "input": 20,
-   "output": 100,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-7": {
+  "claude-opus-5": {
    "mode": "token",
    "input": 5,
    "output": 25,
-   "group": "vip（官号）"
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 5,
+   "output": 25,
+   "group": "default（默认分组）"
   },
   "claude-opus-4-6": {
    "mode": "token",
@@ -65,10 +29,64 @@
    "output": 3.75,
    "group": "default（默认分组）"
   },
-  "claude-opus-5": {
+  "gpt-5-4": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "gpt-5-6": {
+   "mode": "token",
+   "input": 5,
+   "output": 40,
+   "group": "default（默认分组）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 75,
+   "output": 150,
+   "group": "default（默认分组）"
+  },
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 15,
+   "output": 75,
+   "group": "default（默认分组）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "default（默认分组）"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 2,
+   "output": 10,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-6-thinking": {
    "mode": "token",
    "input": 5,
    "output": 25,
+   "group": "vip（官号）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 2,
+   "output": 12,
+   "group": "default（默认分组）"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 0.14,
+   "output": 0.7,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
    "group": "default（默认分组）"
   },
   "claude-sonnet-4-6": {
@@ -77,16 +95,22 @@
    "output": 15,
    "group": "default（默认分组）"
   },
-  "claude-opus-4-8": {
+  "claude-fable-5-1": {
+   "mode": "token",
+   "input": 20,
+   "output": 100,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-7": {
    "mode": "token",
    "input": 5,
    "output": 25,
    "group": "default（默认分组）"
   },
-  "claude-opus-4-6-thinking": {
+  "gemini-3-5-flash": {
    "mode": "token",
-   "input": 5,
-   "output": 25,
+   "input": 1.5,
+   "output": 9,
    "group": "default（默认分组）"
   },
   "gemini-2-5-pro": {
@@ -99,30 +123,6 @@
    "mode": "token",
    "input": 5,
    "output": 30,
-   "group": "default（默认分组）"
-  },
-  "gpt-5-4": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 2,
-   "output": 10,
-   "group": "vip（官号）"
-  },
-  "gemini-3-5-flash": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 9,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 75,
-   "output": 150,
    "group": "default（默认分组）"
   }
  }
