@@ -5,30 +5,14 @@
   "known": true
  },
  "offers": {
-  "gemini-3-8-flash": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（默认分组）"
-  },
   "gemini-3-1-pro-preview": {
    "mode": "call",
    "perCall": 0.06,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-pro-high": {
+  "gemini-3-8-flash": {
    "mode": "call",
-   "perCall": 0.05,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-6-flash": {
-   "mode": "call",
-   "perCall": 0.03,
-   "group": "default（默认分组）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
+   "perCall": 0.02,
    "group": "default（默认分组）"
   },
   "gemini-3-1-flash-lite": {
@@ -41,12 +25,18 @@
    "perCall": 0.015,
    "group": "default（默认分组）"
   },
-  "gemini-3-7-flash-high": {
+  "gemini-3-8-flash-high": {
    "mode": "call",
    "perCall": 0.03,
    "group": "default（默认分组）"
   },
-  "gemini-3-8-flash-high": {
+  "deepseek-v4-1-flash": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-7-flash-high": {
    "mode": "call",
    "perCall": 0.03,
    "group": "default（默认分组）"
