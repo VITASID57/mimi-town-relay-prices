@@ -1,29 +1,19 @@
 {
- "checkedAt": "2026-10-16",
+ "checkedAt": "2026-10-17",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "gemini-3-1-flash-lite": {
-   "mode": "call",
-   "perCall": 0.004,
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 75,
+   "output": 375,
    "group": "default（默认分组）"
   },
   "gemini-3-5-flash-lite": {
    "mode": "call",
    "perCall": 0.015,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 75,
-   "output": 375,
    "group": "default（默认分组）"
   },
   "deepseek-v4-1-flash": {
@@ -32,15 +22,9 @@
    "output": 75,
    "group": "按量（按量）"
   },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 75,
-   "output": 375,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-8-flash": {
+  "gemini-3-1-flash-lite": {
    "mode": "call",
-   "perCall": 0.03,
+   "perCall": 0.004,
    "group": "default（默认分组）"
   },
   "gemini-3-7-flash-high": {
@@ -48,9 +32,25 @@
    "perCall": 0.03,
    "group": "default（默认分组）"
   },
+  "gemini-3-1-pro-preview": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（默认分组）"
+  },
   "gemini-3-8-flash-high": {
    "mode": "call",
    "perCall": 0.03,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 75,
+   "output": 375,
    "group": "default（默认分组）"
   }
  }
