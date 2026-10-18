@@ -1,30 +1,47 @@
 {
- "checkedAt": "2026-10-17",
+ "checkedAt": "2026-10-18",
  "recharge": {
   "rate": 7.3,
   "known": true
  },
  "offers": {
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 87.6,
-   "output": 438,
-   "group": "按量计费（按量计费模型）"
-  },
   "gemini-3-8-flash": {
    "mode": "token",
    "input": 21.9,
    "output": 109.5,
    "group": "按量计费（按量计费模型）"
   },
-  "gemini-3-flash": {
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 87.6,
+   "output": 438,
+   "group": "按量计费（按量计费模型）"
+  },
+  "gemini-3-flash-preview": {
    "mode": "call",
-   "perCall": 0.073,
+   "perCall": 0.146,
    "group": "default（请选我~）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 52.56,
+   "output": 262.8,
+   "group": "按量计费（按量计费模型）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 87.6,
+   "output": 438,
+   "group": "按量计费（按量计费模型）"
   },
   "claude-opus-5": {
    "mode": "call",
    "perCall": 1.752,
+   "group": "default（请选我~）"
+  },
+  "gemini-3-1-pro-preview-thinking": {
+   "mode": "call",
+   "perCall": 0.584,
    "group": "default（请选我~）"
   },
   "gemini-3-1-pro-preview": {
@@ -33,20 +50,9 @@
    "output": 350.4,
    "group": "按量计费（按量计费模型）"
   },
-  "gemini-3-1-flash": {
+  "claude-opus-5-thinking": {
    "mode": "call",
-   "perCall": 0.073,
-   "group": "default（请选我~）"
-  },
-  "gemini-4-argon": {
-   "mode": "token",
-   "input": 58.4,
-   "output": 292,
-   "group": "按量计费（按量计费模型）"
-  },
-  "gemini-2-5-flash": {
-   "mode": "call",
-   "perCall": 0.073,
+   "perCall": 1.752,
    "group": "default（请选我~）"
   },
   "claude-opus-4-6-thinking": {
@@ -60,17 +66,18 @@
    "output": 109.5,
    "group": "按量计费（按量计费模型）"
   },
-  "claude-opus-4-7-thinking": {
+  "gemini-3-flash": {
    "mode": "call",
-   "perCall": 1.752,
+   "perCall": 0.073,
    "group": "default（请选我~）"
   },
-  "gemini-3-1-pro-preview-thinking": {
-   "mode": "call",
-   "perCall": 0.584,
-   "group": "default（请选我~）"
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 58.4,
+   "output": 292,
+   "group": "按量计费（按量计费模型）"
   },
-  "claude-opus-5-thinking": {
+  "claude-opus-5-5": {
    "mode": "call",
    "perCall": 1.752,
    "group": "default（请选我~）"
@@ -80,31 +87,14 @@
    "perCall": 1.752,
    "group": "default（请选我~）"
   },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 87.6,
-   "output": 438,
-   "group": "按量计费（按量计费模型）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 87.6,
-   "output": 438,
-   "group": "按量计费（按量计费模型）"
-  },
-  "claude-opus-4-8-thinking": {
+  "gemini-2-5-flash": {
    "mode": "call",
-   "perCall": 1.752,
+   "perCall": 0.073,
    "group": "default（请选我~）"
   },
-  "grok-4-1": {
+  "gemini-3-1-pro-preview-nothinking": {
    "mode": "call",
-   "perCall": 0.1606,
-   "group": "default（请选我~）"
-  },
-  "claude-opus-5-5": {
-   "mode": "call",
-   "perCall": 1.752,
+   "perCall": 0.3431,
    "group": "default（请选我~）"
   },
   "gemini-3-6-flash": {
@@ -113,25 +103,20 @@
    "output": 109.5,
    "group": "按量计费（按量计费模型）"
   },
-  "gemini-3-1-pro-preview-nothinking": {
+  "claude-opus-4-7-thinking": {
    "mode": "call",
-   "perCall": 0.3431,
+   "perCall": 1.752,
    "group": "default（请选我~）"
   },
-  "grok-4-2": {
+  "gemini-3-5-flash": {
    "mode": "call",
-   "perCall": 0.1606,
+   "perCall": 0.1825,
    "group": "default（请选我~）"
   },
-  "gemini-3-flash-preview": {
-   "mode": "call",
-   "perCall": 0.146,
-   "group": "default（请选我~）"
-  },
-  "claude-sonnet-4-6": {
+  "claude-opus-4-7": {
    "mode": "token",
-   "input": 52.56,
-   "output": 262.8,
+   "input": 87.6,
+   "output": 438,
    "group": "按量计费（按量计费模型）"
   },
   "gpt-5-4": {
@@ -144,9 +129,9 @@
    "perCall": 0.1606,
    "group": "default（请选我~）"
   },
-  "gemini-3-5-flash": {
+  "gemini-3-1-flash": {
    "mode": "call",
-   "perCall": 0.1825,
+   "perCall": 0.073,
    "group": "default（请选我~）"
   },
   "gemini-2-5-pro": {
@@ -154,6 +139,21 @@
    "input": 36.5,
    "output": 292,
    "group": "按量计费（按量计费模型）"
+  },
+  "grok-4-1": {
+   "mode": "call",
+   "perCall": 0.1606,
+   "group": "default（请选我~）"
+  },
+  "grok-4-2": {
+   "mode": "call",
+   "perCall": 0.1606,
+   "group": "default（请选我~）"
+  },
+  "claude-opus-4-8-thinking": {
+   "mode": "call",
+   "perCall": 1.752,
+   "group": "default（请选我~）"
   }
  }
 }
