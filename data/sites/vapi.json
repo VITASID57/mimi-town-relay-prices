@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-18",
+ "checkedAt": "2026-10-19",
  "recharge": {
   "rate": 0.2,
   "known": true
@@ -47,13 +47,13 @@
    "output": 15,
    "group": "default（默认分组）"
   },
-  "deepseek-v4-1-flash-1017": {
+  "glm-5-3-flash": {
    "mode": "token",
    "input": 15,
    "output": 15,
    "group": "default（默认分组）"
   },
-  "glm-5-3-flash": {
+  "deepseek-v4-1-flash-1017": {
    "mode": "token",
    "input": 15,
    "output": 15,
