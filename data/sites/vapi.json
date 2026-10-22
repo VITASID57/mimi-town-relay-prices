@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-21",
+ "checkedAt": "2026-10-22",
  "recharge": {
   "rate": 0.2,
   "known": true
@@ -23,12 +23,6 @@
    "output": 15,
    "group": "default（默认分组）"
   },
-  "grok-4-6": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.2,
-   "group": "default（默认分组）"
-  },
   "grok-4-7": {
    "mode": "token",
    "input": 15,
@@ -41,12 +35,6 @@
    "output": 15,
    "group": "default（默认分组）"
   },
-  "glm-5-3": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
   "gemini-3-8-flash": {
    "mode": "token",
    "input": 15,
@@ -54,6 +42,18 @@
    "group": "default（默认分组）"
   },
   "deepseek-v4-1-flash-1017": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "grok-4-6": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.2,
+   "group": "default（默认分组）"
+  },
+  "glm-5-3": {
    "mode": "token",
    "input": 15,
    "output": 15,

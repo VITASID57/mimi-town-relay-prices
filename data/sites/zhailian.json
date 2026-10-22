@@ -1,13 +1,18 @@
 {
- "checkedAt": "2026-10-21",
+ "checkedAt": "2026-10-22",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "gemini-3-1-pro-preview": {
+  "deepseek-v4-flash": {
    "mode": "call",
-   "perCall": 0.03,
+   "perCall": 0.01,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-3-1-pro-preview-thinking": {
+   "mode": "call",
+   "perCall": 0.05,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
   },
   "gemini-4-argon": {
@@ -22,58 +27,16 @@
    "output": 12.21,
    "group": "claude按量（小克[按量]）"
   },
-  "claude-opus-4-8-thinking": {
-   "mode": "call",
-   "perCall": 0.2,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "claude-opus-5-thinking": {
-   "mode": "call",
-   "perCall": 0.2,
-   "group": "claude（小克[按次]）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 1.123,
-   "output": 10.124,
-   "group": "claude按量（小克[按量]）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "grok-4-5-high": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
   "gemini-3-8-flash": {
    "mode": "token",
    "input": 0.225,
    "output": 1.125,
    "group": "潜溪gemini anti按量（反重力哈基米按量分组）"
   },
-  "glm-5-1": {
+  "gemini-3-flash-thinking": {
    "mode": "call",
-   "perCall": 0.04,
+   "perCall": 0.02,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "grok-4-5": {
-   "mode": "call",
-   "perCall": 0.01,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "grok-4-6": {
-   "mode": "call",
-   "perCall": 0.01,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "顾里kiro按量（kiro渠道claude）"
   },
   "claude-opus-4-5-thinking": {
    "mode": "call",
@@ -86,7 +49,180 @@
    "output": 4,
    "group": "claude按量（小克[按量]）"
   },
-  "gemini-3-7-flash-high-search": {
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "顾里kiro按量（kiro渠道claude）"
+  },
+  "grok-4-6": {
+   "mode": "call",
+   "perCall": 0.01,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-3-flash-search": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "claude-sonnet-4-5-thinking": {
+   "mode": "call",
+   "perCall": 0.1,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "deepseek-v3-2": {
+   "mode": "call",
+   "perCall": 0.01,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 262.5,
+   "output": 262.5,
+   "group": "琳vertex正向按量分组（vertex正向满血按量分组）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "顾里kiro按量（kiro渠道claude）"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 0.268,
+   "output": 2.21,
+   "group": "claude按量（小克[按量]）"
+  },
+  "claude-opus-4-5": {
+   "mode": "token",
+   "input": 1.351,
+   "output": 9.134,
+   "group": "claude按量（小克[按量]）"
+  },
+  "deepseek-v4-pro": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "国模按次分组（国产模型所有按次分组）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 1.123,
+   "output": 10.124,
+   "group": "claude按量（小克[按量]）"
+  },
+  "claude-sonnet-4-5": {
+   "mode": "token",
+   "input": 0.7,
+   "output": 4,
+   "group": "claude按量（小克[按量]）"
+  },
+  "claude-sonnet-4-6-thinking": {
+   "mode": "call",
+   "perCall": 0.15,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-3-8-flash-search": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "claude-opus-4-7-thinking": {
+   "mode": "call",
+   "perCall": 0.2,
+   "group": "claude（小克[按次]）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 2.625,
+   "output": 13.125,
+   "group": "琳vertex正向按量分组（vertex正向满血按量分组）"
+  },
+  "gemini-3-7-flash": {
+   "mode": "token",
+   "input": 0.225,
+   "output": 1.125,
+   "group": "潜溪gemini anti按量（反重力哈基米按量分组）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "顾里kiro按量（kiro渠道claude）"
+  },
+  "grok-4-5-high": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 0.9,
+   "output": 4.5,
+   "group": "顾里kiro按量（kiro渠道claude）"
+  },
+  "grok-4-5": {
+   "mode": "call",
+   "perCall": 0.01,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "claude-opus-4-8-thinking": {
+   "mode": "call",
+   "perCall": 0.2,
+   "group": "claude（小克[按次]）"
+  },
+  "glm-5-3-flash": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-3-1-pro": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "claude-opus-5-thinking": {
+   "mode": "call",
+   "perCall": 0.2,
+   "group": "claude（小克[按次]）"
+  },
+  "glm-5-2": {
+   "mode": "call",
+   "perCall": 0.01,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-3-flash": {
+   "mode": "token",
+   "input": 0.3,
+   "output": 0.9,
+   "group": "潜溪gemini anti按量（反重力哈基米按量分组）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "call",
+   "perCall": 0.2,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "token",
+   "input": 262.5,
+   "output": 262.5,
+   "group": "琳vertex正向按量分组（vertex正向满血按量分组）"
+  },
+  "grok-4-2": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "grok-4-5-low": {
    "mode": "call",
    "perCall": 0.02,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
@@ -97,228 +233,14 @@
    "output": 15,
    "group": "顾里kiro按量（kiro渠道claude）"
   },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 0.9,
-   "output": 4.5,
-   "group": "顾里kiro按量（kiro渠道claude）"
-  },
-  "gpt-5-5": {
-   "mode": "call",
-   "perCall": 0.03,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "顾里kiro按量（kiro渠道claude）"
-  },
-  "gemini-3-8-flash-search": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-7-flash-high-fake": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-8-flash-high": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-5-flash": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "call",
-   "perCall": 0.2,
-   "group": "claude（小克[按次]）"
-  },
-  "gemini-3-1-pro-preview-deepsearch": {
-   "mode": "call",
-   "perCall": 0.03,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-1-pro-preview-thinking": {
-   "mode": "call",
-   "perCall": 0.05,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-1-pro-preview-code": {
+  "glm-5-1": {
    "mode": "call",
    "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 0.268,
-   "output": 2.21,
-   "group": "claude按量（小克[按量]）"
-  },
-  "gemini-3-6-flash": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 0.225,
-   "output": 1.125,
-   "group": "潜溪gemini anti按量（反重力哈基米按量分组）"
-  },
-  "claude-sonnet-4-5-thinking": {
-   "mode": "call",
-   "perCall": 0.1,
-   "group": "claude（小克[按次]）"
-  },
-  "gemini-3-1-pro-preview-high-fake-search-code": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-flash": {
-   "mode": "token",
-   "input": 0.3,
-   "output": 0.9,
-   "group": "潜溪gemini anti按量（反重力哈基米按量分组）"
-  },
-  "gemini-3-1-pro-preview-fake": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-1-pro-preview-high-fake": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "顾里kiro按量（kiro渠道claude）"
-  },
-  "gemini-3-7-flash-high": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "gemini（哈基米[按次]）"
-  },
-  "gemini-3-7-flash-high-fake-search-code": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-8-flash-code": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "glm-5-2": {
-   "mode": "call",
-   "perCall": 0.01,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "kimi-k3": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-8-flash-high-fake-search": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-8-flash-high-fake-search-code": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "gemini（哈基米[按次]）"
-  },
-  "grok-4-5-low": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-1-pro-preview-search": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-7-flash-high-code": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 1.351,
-   "output": 9.134,
-   "group": "claude按量（小克[按量]）"
-  },
-  "gemini-3-8-flash-high-fake": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "call",
-   "perCall": 0.08,
-   "group": "gemini（哈基米[按次]）"
-  },
-  "claude-fable-5-1": {
-   "mode": "token",
-   "input": 23,
-   "output": 115,
-   "group": "哆Claude Max按量（Claude Max cc按量）"
-  },
-  "gemini-3-1-pro": {
-   "mode": "call",
-   "perCall": 0.03,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "claude-sonnet-4-6-thinking": {
-   "mode": "call",
-   "perCall": 0.15,
-   "group": "claude（小克[按次]）"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "token",
-   "input": 0.7,
-   "output": 4,
-   "group": "claude按量（小克[按量]）"
-  },
-  "claude-opus-4-7-thinking": {
-   "mode": "call",
-   "perCall": 0.2,
-   "group": "claude（小克[按次]）"
-  },
-  "gemini-3-8-flash-thinking": {
-   "mode": "call",
-   "perCall": 0.03,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
   },
   "claude-sonnet-5-thinking": {
    "mode": "call",
    "perCall": 0.1,
-   "group": "claude（小克[按次]）"
-  },
-  "gemini-3-flash-search": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-7-flash-fake": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "deepseek-v4-pro": {
-   "mode": "call",
-   "perCall": 0.03,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
   },
   "claude-opus-5-5-thinking": {
@@ -326,64 +248,50 @@
    "perCall": 0.2,
    "group": "claude（小克[按次]）"
   },
-  "deepseek-v4-flash": {
+  "glm-5-3": {
    "mode": "call",
-   "perCall": 0.01,
+   "perCall": 0.18,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
   },
-  "gemini-3-7-flash-high-fake-search": {
+  "gpt-5-5": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "claude-fable-5-1": {
+   "mode": "token",
+   "input": 23,
+   "output": 115,
+   "group": "哆Claude Max按量（Claude Max cc按量）"
+  },
+  "gemini-3-1-pro-preview-search": {
+   "mode": "call",
+   "perCall": 0.05,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "kimi-k3": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "default（二藤宏嵩分组[所有按次模型]）"
+  },
+  "gemini-3-flash-preview": {
    "mode": "call",
    "perCall": 0.02,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
   },
-  "gemini-3-1-pro-preview-high-fake-search": {
+  "gemini-3-8-flash-thinking": {
    "mode": "call",
-   "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-1-pro-preview-high-fake-code": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "grok-4-2": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-1-pro-preview-high": {
-   "mode": "call",
-   "perCall": 0.04,
+   "perCall": 0.03,
    "group": "gemini（哈基米[按次]）"
   },
-  "gemini-3-flash-thinking": {
+  "gemini-3-1-pro-preview-deepsearch": {
    "mode": "call",
-   "perCall": 0.02,
+   "perCall": 0.03,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
   },
-  "gemini-3-7-flash-code": {
+  "glm-5-3-flashx": {
    "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-7-flash-search": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-8-flash-fake": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-8-flash-high-code": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default（二藤宏嵩分组[所有按次模型]）"
-  },
-  "gemini-3-8-flash-high-search": {
-   "mode": "call",
-   "perCall": 0.02,
+   "perCall": 0.18,
    "group": "default（二藤宏嵩分组[所有按次模型]）"
   }
  }

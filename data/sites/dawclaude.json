@@ -1,98 +1,26 @@
 {
- "checkedAt": "2026-10-21",
+ "checkedAt": "2026-10-22",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "qwen3-8-flash": {
-   "mode": "token",
-   "input": 0.15,
-   "output": 0.47,
-   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 187.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
-  },
-  "kimi-k2-7-code-highspeed": {
-   "mode": "token",
-   "input": 1.9,
-   "output": 8,
-   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
-  },
-  "qwen3-6-plus": {
-   "mode": "token",
-   "input": 0.5,
-   "output": 3,
-   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
-  },
-  "gpt-5-6-sol-openai-compact": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 135,
-   "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "deepseek-v4-flash": {
-   "mode": "token",
-   "input": 0.15,
-   "output": 0.6,
-   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
-  },
-  "deepseek-v4-pro-0813": {
-   "mode": "token",
-   "input": 4.5,
-   "output": 13.5,
-   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
-  },
   "claude-opus-4-7": {
    "mode": "token",
    "input": 37.5,
    "output": 187.5,
    "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
   },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 0.5,
-   "output": 2.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
-  },
-  "gpt-6-sol": {
+  "claude-sonnet-5": {
    "mode": "token",
    "input": 37.5,
-   "output": 75,
-   "group": "codex（codex【概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
+   "output": 37.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
   },
-  "gemini-4-argon": {
+  "glm-5-3": {
    "mode": "token",
-   "input": 12,
-   "output": 60,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
-  },
-  "gpt-5-6-terra-openai-compact": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 135,
-   "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "gpt-5-6-luna": {
-   "mode": "token",
-   "input": 0.3,
-   "output": 1.8,
-   "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
+   "input": 1.4,
+   "output": 4.4,
    "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
   },
   "qwen3-7-max": {
@@ -101,41 +29,29 @@
    "output": 15,
    "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
   },
-  "claude-fable-5-1": {
+  "claude-fable-5": {
    "mode": "token",
    "input": 25,
    "output": 125,
-   "group": "default（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
+   "group": "cc（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
   },
-  "grok-4-6": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 2.4,
-   "group": "grok（Grok Hav）"
-  },
-  "kimi-k3": {
-   "mode": "token",
-   "input": 3,
-   "output": 15,
-   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 4.5,
-   "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "qwen3-8-max": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
-  },
-  "claude-opus-4-6": {
+  "claude-opus-5-5": {
    "mode": "token",
    "input": 37.5,
-   "output": 187.5,
+   "output": 37.5,
    "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 75,
+   "group": "codex（codex【概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
   },
   "gpt-6-astra": {
    "mode": "token",
@@ -143,17 +59,17 @@
    "output": 45,
    "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
   },
-  "claude-fable-5": {
+  "qwen3-7-plus": {
    "mode": "token",
-   "input": 25,
-   "output": 125,
-   "group": "cc（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
-  },
-  "glm-5-3": {
-   "mode": "token",
-   "input": 1.4,
-   "output": 4.4,
+   "input": 0.4,
+   "output": 1.6,
    "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 187.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
   },
   "glm-5-3-flash": {
    "mode": "token",
@@ -167,70 +83,46 @@
    "output": 2.25,
    "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
   },
-  "gpt-5-5-openai-compact": {
+  "claude-haiku-4-5": {
    "mode": "token",
-   "input": 1.5,
-   "output": 9,
-   "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 37.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 187.5,
+   "input": 0.5,
+   "output": 2.5,
    "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
   },
   "gpt-6-1-sol": {
    "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "codex（codex【概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
+   "input": 0.6,
+   "output": 3,
+   "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
   },
-  "gemini-3-8-flash": {
+  "claude-haiku-5-5": {
    "mode": "token",
-   "input": 2.25,
-   "output": 11.25,
-   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+   "input": 187.5,
+   "output": 187.5,
+   "group": "default（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
   },
-  "claude-sonnet-5": {
+  "gpt-5-6-luna": {
    "mode": "token",
-   "input": 37.5,
-   "output": 37.5,
-   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
+   "input": 0.42,
+   "output": 2.52,
+   "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
   },
-  "gpt-6-luna": {
+  "claude-fable-5-1": {
    "mode": "token",
-   "input": 37.5,
-   "output": 75,
-   "group": "codex（codex【概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
+   "input": 25,
+   "output": 125,
+   "group": "cc（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
   },
-  "grok-4-5": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 2.4,
-   "group": "grok（Grok Hav）"
-  },
-  "deepseek-v4-1-flash-1017": {
+  "deepseek-v4-1-flash": {
    "mode": "token",
    "input": 75,
    "output": 75,
    "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
   },
-  "qwen3-7-plus": {
+  "qwen3-8-max": {
    "mode": "token",
-   "input": 0.4,
-   "output": 1.6,
-   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
-  },
-  "qwen3-6-flash": {
-   "mode": "token",
-   "input": 0.1875,
-   "output": 1.125,
+   "input": 75,
+   "output": 75,
    "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
   },
   "claude-opus-5": {
@@ -239,11 +131,17 @@
    "output": 37.5,
    "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
   },
-  "claude-haiku-5-5": {
+  "gpt-5-6-terra": {
    "mode": "token",
-   "input": 187.5,
-   "output": 187.5,
-   "group": "cc（cc【ClaudeMax 20x、Claude Team】【禁止三方調度】）"
+   "input": 4.2,
+   "output": 25.2,
+   "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
+  },
+  "deepseek-v4-1-flash-1017": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
   },
   "gpt-5-6-sol": {
    "mode": "token",
@@ -251,10 +149,94 @@
    "output": 9,
    "group": "codex-stu（codex【大概率降智】【codex team（70%）、codex pro（30%）】【開放三方調度】）"
   },
+  "kimi-k2-7-code-highspeed": {
+   "mode": "token",
+   "input": 1.9,
+   "output": 8,
+   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
+  },
+  "qwen3-6-flash": {
+   "mode": "token",
+   "input": 0.1875,
+   "output": 1.125,
+   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
+  },
+  "grok-4-6": {
+   "mode": "token",
+   "input": 0.8,
+   "output": 2.4,
+   "group": "grok（Grok Hav）"
+  },
+  "qwen3-8-flash": {
+   "mode": "token",
+   "input": 0.15,
+   "output": 0.47,
+   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
+  },
+  "gpt-6-luna": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 75,
+   "group": "codex（codex【概率降智】【优先codex 20x，兜底codex team】【開放三方調度】）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 2.25,
+   "output": 11.25,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
+  "kimi-k3": {
+   "mode": "token",
+   "input": 3,
+   "output": 15,
+   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
+  },
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 12,
+   "output": 60,
+   "group": "gemini（gemini【Gemini Ultra】【開放三方調度】）"
+  },
   "gemini-nano-banana-2-1": {
    "mode": "call",
    "perCall": 0.24,
    "group": "Nano Banana（大香蕉生图系列）"
+  },
+  "grok-4-5": {
+   "mode": "token",
+   "input": 0.8,
+   "output": 2.4,
+   "group": "grok（Grok Hav）"
+  },
+  "deepseek-v4-pro-0813": {
+   "mode": "token",
+   "input": 4.5,
+   "output": 13.5,
+   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 187.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
+  },
+  "deepseek-v4-flash": {
+   "mode": "token",
+   "input": 0.15,
+   "output": 0.6,
+   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
+  },
+  "qwen3-6-plus": {
+   "mode": "token",
+   "input": 0.5,
+   "output": 3,
+   "group": "cn_model（大厂合作-官Key-价格相比官方低-可自行比较（部分特殊模型价格不低））"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 187.5,
+   "group": "cc-tehui（cc【KiroPower混合線、Kiro Pro】【開放三方調度】）"
   }
  }
 }
