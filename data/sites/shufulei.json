@@ -1,20 +1,14 @@
 {
- "checkedAt": "2026-10-22",
+ "checkedAt": "2026-10-23",
  "recharge": {
   "rate": 7.3,
   "known": true
  },
  "offers": {
-  "claude-opus-4-6": {
+  "gemini-3-7-flash": {
    "mode": "token",
-   "input": 87.6,
-   "output": 438,
-   "group": "按量计费（按量计费模型）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "token",
-   "input": 36.5,
-   "output": 292,
+   "input": 21.9,
+   "output": 109.5,
    "group": "按量计费（按量计费模型）"
   },
   "gemini-3-5-flash": {
@@ -22,15 +16,20 @@
    "perCall": 0.146,
    "group": "default（请选我~）"
   },
-  "gemini-3-6-flash": {
+  "gpt-5-5": {
+   "mode": "call",
+   "perCall": 0.1606,
+   "group": "default（请选我~）"
+  },
+  "claude-opus-4-7": {
    "mode": "token",
-   "input": 21.9,
-   "output": 109.5,
+   "input": 87.6,
+   "output": 438,
    "group": "按量计费（按量计费模型）"
   },
-  "gemini-3-flash-preview": {
+  "claude-opus-5-5": {
    "mode": "call",
-   "perCall": 0.146,
+   "perCall": 1.752,
    "group": "default（请选我~）"
   },
   "gemini-4-argon": {
@@ -39,16 +38,33 @@
    "output": 292,
    "group": "按量计费（按量计费模型）"
   },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 21.9,
+   "output": 109.5,
+   "group": "按量计费（按量计费模型）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "call",
+   "perCall": 0.584,
+   "group": "default（请选我~）"
+  },
   "gemini-3-8-flash": {
    "mode": "token",
    "input": 21.9,
    "output": 109.5,
    "group": "按量计费（按量计费模型）"
   },
-  "gpt-5-5": {
+  "gemini-3-1-pro-preview-thinking": {
    "mode": "call",
-   "perCall": 0.1606,
+   "perCall": 0.584,
    "group": "default（请选我~）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 87.6,
+   "output": 438,
+   "group": "按量计费（按量计费模型）"
   },
   "gemini-3-1-pro-preview": {
    "mode": "token",
@@ -56,14 +72,45 @@
    "output": 350.4,
    "group": "按量计费（按量计费模型）"
   },
-  "gemini-3-flash": {
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 87.6,
+   "output": 438,
+   "group": "按量计费（按量计费模型）"
+  },
+  "gpt-5-4": {
    "mode": "call",
-   "perCall": 0.073,
+   "perCall": 0.1606,
+   "group": "default（请选我~）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "call",
+   "perCall": 0.146,
+   "group": "default（请选我~）"
+  },
+  "grok-4-2": {
+   "mode": "call",
+   "perCall": 0.1606,
    "group": "default（请选我~）"
   },
   "gemini-2-5-flash": {
    "mode": "call",
    "perCall": 0.073,
+   "group": "default（请选我~）"
+  },
+  "gemini-3-flash": {
+   "mode": "call",
+   "perCall": 0.073,
+   "group": "default（请选我~）"
+  },
+  "claude-opus-4-7-thinking": {
+   "mode": "call",
+   "perCall": 1.752,
+   "group": "default（请选我~）"
+  },
+  "claude-opus-5-thinking": {
+   "mode": "call",
+   "perCall": 1.752,
    "group": "default（请选我~）"
   },
   "claude-opus-5": {
@@ -82,46 +129,14 @@
    "output": 262.8,
    "group": "按量计费（按量计费模型）"
   },
-  "gemini-3-1-pro-preview-thinking": {
-   "mode": "call",
-   "perCall": 0.584,
-   "group": "default（请选我~）"
-  },
   "grok-4-1": {
    "mode": "call",
    "perCall": 0.1606,
    "group": "default（请选我~）"
   },
-  "claude-opus-4-7-thinking": {
+  "gemini-3-1-pro-preview-nothinking": {
    "mode": "call",
-   "perCall": 1.752,
-   "group": "default（请选我~）"
-  },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 87.6,
-   "output": 438,
-   "group": "按量计费（按量计费模型）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 21.9,
-   "output": 109.5,
-   "group": "按量计费（按量计费模型）"
-  },
-  "gemini-3-1-flash": {
-   "mode": "call",
-   "perCall": 0.073,
-   "group": "default（请选我~）"
-  },
-  "grok-4-2": {
-   "mode": "call",
-   "perCall": 0.1606,
-   "group": "default（请选我~）"
-  },
-  "gpt-5-4": {
-   "mode": "call",
-   "perCall": 0.1606,
+   "perCall": 0.3431,
    "group": "default（请选我~）"
   },
   "claude-opus-4-6-thinking": {
@@ -129,23 +144,7 @@
    "perCall": 1.752,
    "group": "default（请选我~）"
   },
-  "claude-opus-5-5": {
-   "mode": "call",
-   "perCall": 1.752,
-   "group": "default（请选我~）"
-  },
   "claude-opus-4-8-thinking": {
-   "mode": "call",
-   "perCall": 1.752,
-   "group": "default（请选我~）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 87.6,
-   "output": 438,
-   "group": "按量计费（按量计费模型）"
-  },
-  "claude-opus-5-thinking": {
    "mode": "call",
    "perCall": 1.752,
    "group": "default（请选我~）"
