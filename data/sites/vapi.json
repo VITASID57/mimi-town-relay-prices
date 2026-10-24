@@ -1,23 +1,41 @@
 {
- "checkedAt": "2026-10-23",
+ "checkedAt": "2026-10-24",
  "recharge": {
   "rate": 0.2,
   "known": true
  },
  "offers": {
-  "grok-4-7": {
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "default（默认分组）"
+  },
+  "glm-5-3-flash": {
    "mode": "token",
    "input": 15,
    "output": 15,
    "group": "default（默认分组）"
   },
-  "deepseek-v4-flash-0731": {
+  "gpt-6-astra": {
    "mode": "token",
    "input": 15,
-   "output": 15,
+   "output": 30,
    "group": "default（默认分组）"
   },
-  "glm-5-3": {
+  "gpt-6-luna": {
+   "mode": "token",
+   "input": 15,
+   "output": 30,
+   "group": "default（默认分组）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 15,
+   "output": 30,
+   "group": "default（默认分组）"
+  },
+  "kimi-k3": {
    "mode": "token",
    "input": 15,
    "output": 15,
@@ -29,19 +47,19 @@
    "output": 15,
    "group": "default（默认分组）"
   },
+  "claude-opus-4-5": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "default（默认分组）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
   "qwen3-8-max": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "glm-5-3-flash": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "kimi-k3": {
    "mode": "token",
    "input": 15,
    "output": 15,
@@ -51,6 +69,36 @@
    "mode": "token",
    "input": 0.4,
    "output": 1.2,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-flash-0731": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "grok-4-7": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 2,
+   "output": 10,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
    "group": "default（默认分组）"
   }
  }

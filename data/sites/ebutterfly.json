@@ -1,126 +1,26 @@
 {
- "checkedAt": "2026-10-23",
+ "checkedAt": "2026-10-24",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "gemini-3-6-flash": {
-   "mode": "token",
-   "input": 1.875,
-   "output": 9.375,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 1.85,
-   "output": 9.25,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 1.85,
-   "output": 9.25,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 2.8,
-   "output": 14,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 1.85,
-   "output": 9.25,
-   "group": "default（🦋包含站内全部模型）"
-  },
   "claude-sonnet-4-6": {
    "mode": "token",
    "input": 1.11,
    "output": 5.55,
    "group": "default（🦋包含站内全部模型）"
   },
-  "claude-opus-5-5": {
+  "claude-haiku-5-5": {
    "mode": "token",
-   "input": 1.48,
-   "output": 7.4,
-   "group": "default（🦋包含站内全部模型）"
+   "input": 0.18,
+   "output": 0.9,
+   "group": "蝴蝶人偶（🦋按量Claude：CCMAX号池）"
   },
-  "claude-opus-5-5-thinking": {
+  "claude-sonnet-5-5": {
    "mode": "token",
-   "input": 5.6,
-   "output": 28,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 1.44,
-   "output": 8.64,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "token",
-   "input": 3.125,
-   "output": 25,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-8-flash-search": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "所有按次（🦋所有按次计费模型）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "token",
-   "input": 0.36,
-   "output": 2.16,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-4-argon": {
-   "mode": "token",
-   "input": 1.44,
-   "output": 7.2,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-fable-5-1": {
-   "mode": "token",
-   "input": 14,
-   "output": 70,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 0.54,
-   "output": 2.7,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-flash": {
-   "mode": "call",
-   "perCall": 0.015,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 1.85,
-   "output": 9.25,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 0.74,
-   "output": 3.7,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 14,
-   "output": 70,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-sonnet-4-6-thinking": {
-   "mode": "token",
-   "input": 1.11,
-   "output": 5.55,
+   "input": 2.8,
+   "output": 14,
    "group": "default（🦋包含站内全部模型）"
   },
   "gemini-3-7-flash": {
@@ -129,45 +29,64 @@
    "output": 10.125,
    "group": "default（🦋包含站内全部模型）"
   },
-  "gemini-2-5-flash": {
-   "mode": "call",
-   "perCall": 0.015,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-1-pro-preview-thinking": {
+  "claude-sonnet-5": {
    "mode": "token",
-   "input": 4.8,
-   "output": 28.8,
+   "input": 0.74,
+   "output": 3.7,
    "group": "default（🦋包含站内全部模型）"
   },
-  "claude-opus-5": {
+  "claude-opus-4-7": {
    "mode": "token",
    "input": 1.85,
    "output": 9.25,
-   "group": "机械信使（🦋按量Claude：按量kiro，带缓存）"
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 1.48,
+   "output": 7.4,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 1.85,
+   "output": 9.25,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 1.44,
+   "output": 8.64,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 1.44,
+   "output": 7.2,
+   "group": "default（🦋包含站内全部模型）"
   },
   "claude-opus-5-thinking": {
    "mode": "token",
    "input": 1.85,
    "output": 9.25,
-   "group": "default（🦋包含站内全部模型）"
+   "group": "机械信使（🦋按量Claude：按量kiro，带缓存）"
   },
-  "claude-opus-4-7-thinking": {
-   "mode": "token",
-   "input": 7,
-   "output": 35,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 1.4,
-   "output": 7,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-7-flash-search": {
+  "gemini-3-flash": {
    "mode": "call",
-   "perCall": 0.04,
-   "group": "所有按次（🦋所有按次计费模型）"
+   "perCall": 0.015,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 14,
+   "output": 70,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 1.85,
+   "output": 9.25,
+   "group": "default（🦋包含站内全部模型）"
   },
   "claude-opus-4-8-thinking": {
    "mode": "token",
@@ -175,10 +94,34 @@
    "output": 35,
    "group": "蝴蝶人偶（🦋按量Claude：CCMAX号池）"
   },
-  "gemini-2-5-pro-thinking": {
+  "claude-opus-4-8": {
    "mode": "token",
-   "input": 3.375,
-   "output": 27,
+   "input": 1.85,
+   "output": 9.25,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 0.54,
+   "output": 2.7,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-sonnet-4-6-thinking": {
+   "mode": "token",
+   "input": 1.11,
+   "output": 5.55,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-5-5-thinking": {
+   "mode": "token",
+   "input": 5.6,
+   "output": 28,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-fable-5-1": {
+   "mode": "token",
+   "input": 14,
+   "output": 70,
    "group": "default（🦋包含站内全部模型）"
   },
   "gemini-3-1-flash-lite": {
@@ -187,11 +130,63 @@
    "output": 4.05,
    "group": "default（🦋包含站内全部模型）"
   },
-  "claude-haiku-5-5": {
+  "gemini-3-5-flash": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "所有按次（🦋所有按次计费模型）"
+  },
+  "claude-haiku-4-5": {
    "mode": "token",
-   "input": 0.18,
-   "output": 0.9,
-   "group": "蝴蝶人偶（🦋按量Claude：CCMAX号池）"
+   "input": 1.4,
+   "output": 7,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 1.875,
+   "output": 9.375,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 1.85,
+   "output": 9.25,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "token",
+   "input": 0.36,
+   "output": 2.16,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-3-1-pro-preview-thinking": {
+   "mode": "token",
+   "input": 4.8,
+   "output": 28.8,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-2-5-flash": {
+   "mode": "call",
+   "perCall": 0.015,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "token",
+   "input": 3.125,
+   "output": 25,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-2-5-pro-thinking": {
+   "mode": "token",
+   "input": 3.375,
+   "output": 27,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-4-7-thinking": {
+   "mode": "token",
+   "input": 7,
+   "output": 35,
+   "group": "default（🦋包含站内全部模型）"
   }
  }
 }
