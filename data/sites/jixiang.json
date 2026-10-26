@@ -1,38 +1,61 @@
 {
- "checkedAt": "2026-10-25",
+ "checkedAt": "2026-10-26",
  "recharge": {
   "rate": 7.3,
   "known": true
  },
  "offers": {
-  "claude-haiku-4-5-thinking": {
+  "claude-sonnet-4-5-thinking": {
    "mode": "token",
    "input": 54.75,
    "output": 273.75,
    "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
-  "claude-opus-4-8-thinking": {
+  "claude-sonnet-4-6-thinking": {
+   "mode": "token",
+   "input": 2.19,
+   "output": 10.95,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "claude-opus-4-6-thinking": {
    "mode": "token",
    "input": 3.65,
    "output": 18.25,
    "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
-  "gemini-3-5-flash": {
+  "claude-opus-5-thinking": {
    "mode": "token",
-   "input": 16.425,
-   "output": 98.55,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+   "input": 3.65,
+   "output": 18.25,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
-  "glm-5-thinking": {
+  "claude-opus-4-5": {
    "mode": "token",
-   "input": 0.73,
-   "output": 2.336,
-   "group": "kiro-free（按量kiro免费号分组）"
+   "input": 3.65,
+   "output": 18.25,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
-  "claude-opus-4-5-thinking": {
+  "claude-opus-4-7-thinking": {
    "mode": "token",
-   "input": 54.75,
-   "output": 273.75,
+   "input": 3.65,
+   "output": 18.25,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "claude-fable-5-1": {
+   "mode": "token",
+   "input": 109.5,
+   "output": 547.5,
+   "group": "claude-ccmax2（按量claude强注入满血98%缓）"
+  },
+  "claude-hybrid3": {
+   "mode": "call",
+   "perCall": 0.219,
+   "group": "default（默认分组按次齐全）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 3.65,
+   "output": 18.25,
    "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
   "claude-sonnet-5-thinking": {
@@ -46,7 +69,78 @@
    "output": 8.76,
    "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 3.65,
+   "output": 18.25,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "gemini-3-1-pro": {
+   "mode": "call",
+   "perCall": 0.146,
+   "group": "default（默认分组按次齐全）"
+  },
   "claude-opus-4-6": {
+   "mode": "token",
+   "input": 3.65,
+   "output": 18.25,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "glm-5": {
+   "mode": "token",
+   "input": 0.73,
+   "output": 2.336,
+   "group": "kiro-free（按量kiro免费号分组）"
+  },
+  "claude-opus-4-5-thinking": {
+   "mode": "token",
+   "input": 54.75,
+   "output": 273.75,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 2.19,
+   "output": 10.95,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 21.9,
+   "output": 131.4,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 2.19,
+   "output": 10.95,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 2.92,
+   "output": 14.6,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "claude-opus-4-8-thinking": {
+   "mode": "token",
+   "input": 3.65,
+   "output": 18.25,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "claude-haiku-4-5-thinking": {
+   "mode": "token",
+   "input": 54.75,
+   "output": 273.75,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "deepseek-3-2": {
+   "mode": "token",
+   "input": 1.46,
+   "output": 2.19,
+   "group": "kiro-free（按量kiro免费号分组）"
+  },
+  "claude-opus-4-7": {
    "mode": "token",
    "input": 3.65,
    "output": 18.25,
@@ -58,81 +152,22 @@
    "output": 54.75,
    "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
-  "claude-opus-4-7": {
+  "claude-fable-5": {
    "mode": "token",
-   "input": 3.65,
-   "output": 18.25,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+   "input": 109.5,
+   "output": 547.5,
+   "group": "claude-ccmax2（按量claude强注入满血98%缓）"
   },
-  "claude-sonnet-4-5-thinking": {
+  "gemini-4-argon-medium": {
    "mode": "token",
-   "input": 54.75,
-   "output": 273.75,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+   "input": 5.84,
+   "output": 29.2,
+   "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
   },
-  "claude-opus-4-6-thinking": {
+  "gemini-3-flash-preview": {
    "mode": "token",
-   "input": 3.65,
-   "output": 18.25,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "claude-opus-4-7-thinking": {
-   "mode": "token",
-   "input": 3.65,
-   "output": 18.25,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "deepseek-3-2": {
-   "mode": "token",
-   "input": 1.46,
-   "output": 2.19,
-   "group": "kiro-free（按量kiro免费号分组）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 3.65,
-   "output": 18.25,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 2.92,
-   "output": 14.6,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 0.73,
-   "output": 3.65,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 2.19,
-   "output": 10.95,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "claude-hybrid2": {
-   "mode": "call",
-   "perCall": 0.219,
-   "group": "default（默认分组按次齐全）"
-  },
-  "gemini-4-argon": {
-   "mode": "token",
-   "input": 21.9,
-   "output": 109.5,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 3.65,
-   "output": 18.25,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 21.9,
-   "output": 131.4,
+   "input": 5.475,
+   "output": 32.85,
    "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
   },
   "gemini-2-5-pro": {
@@ -141,34 +176,71 @@
    "output": 109.5,
    "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
   },
-  "deepseek-3-2-thinking": {
-   "mode": "call",
-   "perCall": 0.073,
-   "group": "kiro-free（按量kiro免费号分组）"
-  },
-  "claude-opus-4-8": {
+  "gemini-3-5-flash-lite": {
    "mode": "token",
-   "input": 3.65,
-   "output": 18.25,
+   "input": 0.876,
+   "output": 7.3,
+   "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 16.425,
+   "output": 98.55,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 21.9,
+   "output": 109.5,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
+  "gemini-4-argon-low": {
+   "mode": "token",
+   "input": 5.84,
+   "output": 29.2,
+   "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
+  },
+  "claude-sonnet-5-5-thinking": {
+   "mode": "token",
+   "input": 2.19,
+   "output": 10.95,
    "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
-  "claude-fable-5-1": {
+  "gemini-2-5-flash": {
    "mode": "token",
-   "input": 116.8,
-   "output": 584,
-   "group": "claude-ccmax（按量max微注入满血95%缓）"
+   "input": 0.876,
+   "output": 7.3,
+   "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
   },
-  "gemini-3-8-flash": {
+  "claude-haiku-4-5": {
    "mode": "token",
-   "input": 8.2125,
-   "output": 41.0625,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+   "input": 0.73,
+   "output": 3.65,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
   },
   "gemini-3-6-flash": {
    "mode": "token",
    "input": 8.2125,
    "output": 41.0625,
    "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 2.19,
+   "output": 10.95,
+   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+  },
+  "glm-5-thinking": {
+   "mode": "token",
+   "input": 0.73,
+   "output": 2.336,
+   "group": "kiro-free（按量kiro免费号分组）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 2.19,
+   "output": 10.95,
+   "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
   },
   "gemini-3-7-flash": {
    "mode": "token",
@@ -181,92 +253,50 @@
    "perCall": 0.1095,
    "group": "default（默认分组按次齐全）"
   },
-  "claude-opus-5-thinking": {
+  "gemini-3-flash": {
    "mode": "token",
-   "input": 3.65,
-   "output": 18.25,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+   "input": 1.46,
+   "output": 8.76,
+   "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
   },
-  "claude-sonnet-5": {
+  "gemini-4-argon-high": {
    "mode": "token",
-   "input": 2.19,
-   "output": 10.95,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+   "input": 5.84,
+   "output": 29.2,
+   "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
   },
-  "claude-sonnet-4-6-thinking": {
+  "claude-fable-5-thinking": {
    "mode": "token",
-   "input": 2.19,
-   "output": 10.95,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
+   "input": 985.5,
+   "output": 985.5,
+   "group": "claude-ccmax（按量claude无注入满血98%缓）"
   },
-  "gemini-3-5-flash-lite": {
+  "claude-haiku-5-5": {
    "mode": "token",
-   "input": 3.285,
-   "output": 27.375,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+   "input": 821.25,
+   "output": 821.25,
+   "group": "claude-ccmax2（按量claude强注入满血98%缓）"
   },
   "gemini-4-argon-thinking": {
    "mode": "call",
    "perCall": 0.584,
-   "group": "default（默认分组按次齐全）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 2.19,
-   "output": 10.95,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "claude-sonnet-5-5-thinking": {
-   "mode": "token",
-   "input": 2.19,
-   "output": 10.95,
-   "group": "claude-kiro（按量kiro渠道无缓存（注意kiro5/5.5审核严格且扣除积分，空回不纳入补偿））"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "token",
-   "input": 5.475,
-   "output": 32.85,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
-  "gemini-3-1-flash-lite": {
-   "mode": "token",
-   "input": 2.7375,
-   "output": 16.425,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
-  "glm-5": {
-   "mode": "token",
-   "input": 0.73,
-   "output": 2.336,
-   "group": "kiro-free（按量kiro免费号分组）"
-  },
-  "claude-haiku-5-5": {
-   "mode": "token",
-   "input": 876,
-   "output": 876,
-   "group": "claude-ccmax（按量max微注入满血95%缓）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 116.8,
-   "output": 584,
-   "group": "claude-ccmax（按量max微注入满血95%缓）"
-  },
-  "gemini-3-1-pro": {
-   "mode": "call",
-   "perCall": 0.146,
    "group": "frequency（按次分组具体查看模型广场）"
   },
-  "claude-hybrid3": {
+  "claude-hybrid2": {
    "mode": "call",
    "perCall": 0.219,
    "group": "default（默认分组按次齐全）"
   },
-  "gemini-2-5-flash": {
+  "gemini-3-1-flash-lite": {
    "mode": "token",
-   "input": 3.285,
-   "output": 27.375,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+   "input": 0.73,
+   "output": 4.38,
+   "group": "gemini-anti（按量反重力渠道低缓存甲厚）"
+  },
+  "deepseek-3-2-thinking": {
+   "mode": "call",
+   "perCall": 0.073,
+   "group": "kiro-free（按量kiro免费号分组）"
   }
  }
 }
