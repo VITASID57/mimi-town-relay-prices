@@ -1,10 +1,16 @@
 {
- "checkedAt": "2026-10-26",
+ "checkedAt": "2026-10-27",
  "recharge": {
   "rate": 0.2,
   "known": true
  },
  "offers": {
+  "grok-4-7": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
   "claude-opus-5-5": {
    "mode": "token",
    "input": 15,
@@ -17,43 +23,13 @@
    "output": 30,
    "group": "default（默认分组）"
   },
-  "grok-4-7": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 2,
-   "output": 10,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 15,
-   "output": 30,
-   "group": "default（默认分组）"
-  },
   "qwen3-8-max": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "glm-5-3-flash": {
    "mode": "token",
    "input": 15,
    "output": 15,
@@ -65,16 +41,22 @@
    "output": 1.2,
    "group": "default（默认分组）"
   },
-  "deepseek-v4-1-flash-1017": {
+  "claude-fable-5": {
    "mode": "token",
-   "input": 15,
-   "output": 15,
+   "input": 2,
+   "output": 10,
    "group": "default（默认分组）"
   },
-  "glm-5-3-flash": {
+  "claude-opus-4-5": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "default（默认分组）"
+  },
+  "gpt-6-astra": {
    "mode": "token",
    "input": 15,
-   "output": 15,
+   "output": 30,
    "group": "default（默认分组）"
   },
   "kimi-k3": {
@@ -89,6 +71,12 @@
    "output": 15,
    "group": "default（默认分组）"
   },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "default（默认分组）"
+  },
   "gpt-6-1-sol": {
    "mode": "token",
    "input": 15,
@@ -99,6 +87,18 @@
    "mode": "token",
    "input": 0.6,
    "output": 3,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-1-flash-1017": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
    "group": "default（默认分组）"
   }
  }
