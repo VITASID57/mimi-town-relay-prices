@@ -1,62 +1,14 @@
 {
- "checkedAt": "2026-10-29",
+ "checkedAt": "2026-10-30",
  "recharge": {
   "rate": 0.2,
   "known": true
  },
  "offers": {
-  "deepseek-v4-1-flash-1017": {
+  "grok-4-6": {
    "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 15,
-   "output": 30,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "default（默认分组）"
-  },
-  "kimi-k3": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-1-sol": {
-   "mode": "token",
-   "input": 15,
-   "output": 30,
-   "group": "default（默认分组）"
-  },
-  "glm-5-3-flash": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
+   "input": 0.4,
+   "output": 1.2,
    "group": "default（默认分组）"
   },
   "grok-4-7": {
@@ -65,13 +17,7 @@
    "output": 15,
    "group": "default（默认分组）"
   },
-  "gpt-6-luna": {
-   "mode": "token",
-   "input": 15,
-   "output": 30,
-   "group": "default（默认分组）"
-  },
-  "qwen3-8-max": {
+  "deepseek-v4-1-flash-1017": {
    "mode": "token",
    "input": 15,
    "output": 15,
@@ -83,22 +29,28 @@
    "output": 15,
    "group": "default（默认分组）"
   },
-  "claude-fable-5": {
+  "claude-sonnet-4-6": {
    "mode": "token",
-   "input": 2,
-   "output": 10,
+   "input": 0.6,
+   "output": 3,
    "group": "default（默认分组）"
   },
-  "claude-sonnet-5-5": {
+  "qwen3-8-max": {
    "mode": "token",
    "input": 15,
    "output": 15,
    "group": "default（默认分组）"
   },
-  "grok-4-6": {
+  "glm-5-3-flash": {
    "mode": "token",
-   "input": 0.4,
-   "output": 1.2,
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "kimi-k3": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
    "group": "default（默认分组）"
   }
  }
