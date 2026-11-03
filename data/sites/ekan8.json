@@ -10,19 +10,14 @@
    "perCall": 0.025,
    "group": "default（默认分组）"
   },
-  "gemini-4-argon": {
-   "mode": "call",
-   "perCall": 0.08,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-8-flash": {
+  "gemini-3-7-flash": {
    "mode": "call",
    "perCall": 0.03,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-preview-search": {
+   "mode": "call",
+   "perCall": 0.06,
    "group": "default（默认分组）"
   },
   "grok-4-7": {
@@ -30,7 +25,17 @@
    "perCall": 0.04,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-pro-preview-search": {
+  "gemini-3-8-flash": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（默认分组）"
+  },
+  "gemini-4-argon": {
+   "mode": "call",
+   "perCall": 0.08,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-preview": {
    "mode": "call",
    "perCall": 0.06,
    "group": "default（默认分组）"
@@ -48,11 +53,6 @@
   "gemini-4-argon-high": {
    "mode": "call",
    "perCall": 0.22,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "call",
-   "perCall": 0.03,
    "group": "default（默认分组）"
   }
  }
