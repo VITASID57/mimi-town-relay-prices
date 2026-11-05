@@ -1,10 +1,28 @@
 {
- "checkedAt": "2026-11-03",
+ "checkedAt": "2026-11-05",
  "recharge": {
   "rate": 0.2,
   "known": true
  },
  "offers": {
+  "grok-4-6": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.2,
+   "group": "default（默认分组）"
+  },
+  "grok-4-7": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-1-flash-1017": {
+   "mode": "token",
+   "input": 15,
+   "output": 15,
+   "group": "default（默认分组）"
+  },
   "deepseek-v4-flash-0731": {
    "mode": "token",
    "input": 15,
@@ -24,24 +42,6 @@
    "group": "default（默认分组）"
   },
   "kimi-k3": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "grok-4-6": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.2,
-   "group": "default（默认分组）"
-  },
-  "grok-4-7": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "default（默认分组）"
-  },
-  "deepseek-v4-1-flash-1017": {
    "mode": "token",
    "input": 15,
    "output": 15,
