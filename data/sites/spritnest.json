@@ -1,16 +1,10 @@
 {
- "checkedAt": "2026-11-05",
+ "checkedAt": "2026-11-06",
  "recharge": {
   "rate": 0.2,
   "known": true
  },
  "offers": {
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 1,
-   "output": 2,
-   "group": "cc_stable（claudecode稳定分组，2倍计价）"
-  },
   "claude-opus-4-6": {
    "mode": "token",
    "input": 1.2,
@@ -39,6 +33,12 @@
    "mode": "token",
    "input": 2,
    "output": 4,
+   "group": "cc_stable（claudecode稳定分组，2倍计价）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 1,
+   "output": 2,
    "group": "cc_stable（claudecode稳定分组，2倍计价）"
   }
  }
