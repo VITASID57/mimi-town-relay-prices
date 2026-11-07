@@ -1,47 +1,66 @@
 {
- "checkedAt": "2026-11-06",
+ "checkedAt": "2026-11-07",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "gemini-2-5-pro-think-c1": {
-   "mode": "call",
-   "perCall": 0.0464,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "gemini-3-6-flash": {
+  "gemini-3-1-pro-preview": {
    "mode": "token",
-   "input": 2.4,
-   "output": 12,
-   "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
+   "input": 0.8,
+   "output": 4.8,
+   "group": "gemini-ant（谷歌反重力的gemini）"
   },
-  "gemini-3-7-flash": {
+  "gpt-5": {
    "mode": "token",
-   "input": 1.2,
+   "input": 0.75,
    "output": 6,
-   "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
+   "group": "gpt（gpt，可用image2.5）"
   },
-  "gemini-3-5-flash-c3": {
-   "mode": "call",
-   "perCall": 0.0273,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "glm-5-3-flash": {
+  "gpt-4o-mini": {
    "mode": "token",
-   "input": 0.36,
-   "output": 1.26,
+   "input": 0.09,
+   "output": 0.36,
+   "group": "gpt（gpt，可用image2.5）"
+  },
+  "kimi-k3": {
+   "mode": "token",
+   "input": 9,
+   "output": 45,
    "group": "国模通用（官方4.5折价，可开票，量大折扣）"
   },
-  "claude-opus-5-5": {
+  "gemini-4-argon-c1": {
+   "mode": "call",
+   "perCall": 0.1,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "deepseek-v4-1-flash": {
    "mode": "token",
-   "input": 2,
-   "output": 10,
+   "input": 33.75,
+   "output": 33.75,
+   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
+  },
+  "glm-5-2": {
+   "mode": "token",
+   "input": 3.6,
+   "output": 12.6,
+   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
    "group": "claude（按量的kiro claude稳定聪明）"
   },
-  "gemini-4-argon-c3": {
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "claude（按量的kiro claude稳定聪明）"
+  },
+  "gemini-3-pro-preview-think-c3": {
    "mode": "call",
-   "perCall": 0.055,
+   "perCall": 0.0363,
    "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
   },
   "gemini-3-flash-preview": {
@@ -50,13 +69,35 @@
    "output": 4.8,
    "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
   },
+  "gemini-3-6-flash-c3": {
+   "mode": "call",
+   "perCall": 0.0273,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gemini-3-7-flash": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 6,
+   "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
+  },
+  "kimi-k2-6": {
+   "mode": "token",
+   "input": 2.925,
+   "output": 12.15,
+   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
+  },
   "gemini-3-1-flash-lite": {
    "mode": "token",
    "input": 0.4,
    "output": 2.4,
    "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
   },
-  "gemini-3-flash-preview-c3": {
+  "gemini-3-8-flash-c1": {
+   "mode": "call",
+   "perCall": 0.0273,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gemini-3-8-flash-c3": {
    "mode": "call",
    "perCall": 0.0273,
    "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
@@ -67,32 +108,11 @@
    "output": 42,
    "group": "nano-banana（谷歌直连生图模型，相对稳定）"
   },
-  "deepseek-v4-1-flash": {
+  "glm-5-3-flash": {
    "mode": "token",
-   "input": 33.75,
-   "output": 33.75,
+   "input": 0.36,
+   "output": 1.26,
    "group": "国模通用（官方4.5折价，可开票，量大折扣）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 4.8,
-   "group": "gemini-ant（谷歌反重力的gemini）"
-  },
-  "gemini-3-8-flash-c3": {
-   "mode": "call",
-   "perCall": 0.0273,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "gemini-4-argon-c1": {
-   "mode": "call",
-   "perCall": 0.1,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "gpt-6-luna": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "gpt（gpt，可用image2.5）"
   },
   "deepseek-v4-pro": {
    "mode": "token",
@@ -100,219 +120,21 @@
    "output": 33.75,
    "group": "国模通用（官方4.5折价，可开票，量大折扣）"
   },
-  "kimi-k3-1-pro": {
-   "mode": "token",
-   "input": 33.75,
-   "output": 33.75,
-   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "claude（按量的kiro claude稳定聪明）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 3,
-   "output": 15,
-   "group": "codex（Gpt Pro Codex，抗官方降智）"
-  },
-  "gemini-4-argon": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 4,
-   "group": "gemini-ant（谷歌反重力的gemini）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 135,
-   "group": "codex（Gpt Pro Codex，抗官方降智）"
-  },
-  "gemini-3-8-flash-c1": {
-   "mode": "call",
-   "perCall": 0.0273,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "gemini-3-1-pro-preview-c1": {
-   "mode": "call",
-   "perCall": 0.0464,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "claude（按量的kiro claude稳定聪明）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "claude（按量的kiro claude稳定聪明）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 1.8,
-   "output": 9,
-   "group": "claude正向（cc max优质分组，不限客户端）"
-  },
-  "gemini-3-flash-preview-c1": {
-   "mode": "call",
-   "perCall": 0.0273,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "glm-5-3": {
-   "mode": "token",
-   "input": 3.6,
-   "output": 12.6,
-   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
-  },
-  "gemini-3-5-flash-c1": {
-   "mode": "call",
-   "perCall": 0.0273,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "gemini-3-pro-preview-think-c3": {
-   "mode": "call",
-   "perCall": 0.0363,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "kimi-k2-7-code": {
-   "mode": "token",
-   "input": 2.925,
-   "output": 12.15,
-   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
-  },
-  "deepseek-v4-flash": {
-   "mode": "token",
-   "input": 33.75,
-   "output": 33.75,
-   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
-  },
-  "gemini-3-1-pro-preview-think-c1": {
-   "mode": "call",
-   "perCall": 0.0464,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "claude（按量的kiro claude稳定聪明）"
-  },
-  "gemini-2-5-pro-c1": {
-   "mode": "call",
-   "perCall": 0.0464,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 0.3,
-   "output": 1.5,
-   "group": "gemini-ant（谷歌反重力的gemini）"
-  },
-  "gpt-4o-mini": {
-   "mode": "token",
-   "input": 0.09,
-   "output": 0.36,
-   "group": "gpt（gpt，可用image2.5）"
-  },
-  "gemini-3-1-pro-preview-think-c3": {
-   "mode": "call",
-   "perCall": 0.0363,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "gpt-4o": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 6,
-   "group": "gpt（gpt，可用image2.5）"
-  },
-  "gemini-3-pro-preview-c3": {
-   "mode": "call",
-   "perCall": 0.0363,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "gpt-5-1": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 6,
-   "group": "gpt（gpt，可用image2.5）"
-  },
-  "claude-fable-5-1": {
-   "mode": "token",
-   "input": 5,
-   "output": 25,
-   "group": "claude（按量的kiro claude稳定聪明）"
-  },
-  "gpt-5-5": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 9,
-   "group": "codex（Gpt Pro Codex，抗官方降智）"
-  },
-  "gemini-3-6-flash-c3": {
-   "mode": "call",
-   "perCall": 0.0273,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "o1": {
-   "mode": "token",
-   "input": 45,
-   "output": 180,
-   "group": "gpt（gpt，可用image2.5）"
-  },
-  "kimi-k3": {
-   "mode": "token",
-   "input": 9,
-   "output": 45,
-   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 5,
-   "output": 25,
-   "group": "claude（按量的kiro claude稳定聪明）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "claude（按量的kiro claude稳定聪明）"
-  },
-  "gemini-3-7-flash-c1": {
-   "mode": "call",
-   "perCall": 0.0273,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "claude（按量的kiro claude稳定聪明）"
-  },
-  "gpt-5": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 6,
-   "group": "gpt（gpt，可用image2.5）"
-  },
-  "gpt-6-1-sol": {
+  "gpt-6-1-terra": {
    "mode": "token",
    "input": 22.5,
    "output": 45,
    "group": "codex（Gpt Pro Codex，抗官方降智）"
   },
-  "gemini-2-5-pro-think-c3": {
-   "mode": "call",
-   "perCall": 0.0363,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 14.4,
+   "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
   },
-  "gemini-3-1-pro-preview-c3": {
+  "gemini-4-argon-c3": {
    "mode": "call",
-   "perCall": 0.0363,
+   "perCall": 0.055,
    "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
   },
   "claude-haiku-5-5": {
@@ -321,28 +143,11 @@
    "output": 112.5,
    "group": "cc2（cc max普通分组，不限客户端）"
   },
-  "gpt-5-6-sol": {
+  "claude-sonnet-5-5": {
    "mode": "token",
-   "input": 22.5,
-   "output": 135,
-   "group": "codex（Gpt Pro Codex，抗官方降智）"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 45,
-   "group": "codex（Gpt Pro Codex，抗官方降智）"
-  },
-  "gemini-3-5-flash-lite": {
-   "mode": "token",
-   "input": 0.48,
-   "output": 4,
-   "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
-  },
-  "gemini-3-6-flash-c1": {
-   "mode": "call",
-   "perCall": 0.0273,
-   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+   "input": 1,
+   "output": 5,
+   "group": "claude（按量的kiro claude稳定聪明）"
   },
   "claude-sonnet-5": {
    "mode": "token",
@@ -350,44 +155,101 @@
    "output": 5,
    "group": "claude（按量的kiro claude稳定聪明）"
   },
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 0.8,
+   "output": 4,
+   "group": "gemini-ant（谷歌反重力的gemini）"
+  },
+  "gemini-3-5-flash-c1": {
+   "mode": "call",
+   "perCall": 0.0273,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "kimi-k2-7-code": {
+   "mode": "token",
+   "input": 2.925,
+   "output": 12.15,
+   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
+  },
+  "glm-5-3": {
+   "mode": "token",
+   "input": 3.6,
+   "output": 12.6,
+   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
+  },
+  "kimi-k3-1-pro": {
+   "mode": "token",
+   "input": 33.75,
+   "output": 33.75,
+   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
+  },
+  "claude-sonnet-4-5": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "claude（按量的kiro claude稳定聪明）"
+  },
+  "gemini-2-5-pro-think-c1": {
+   "mode": "call",
+   "perCall": 0.0464,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gpt-5-5": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 9,
+   "group": "codex（Gpt Pro Codex，抗官方降智）"
+  },
+  "gemini-3-1-pro-preview-think-c1": {
+   "mode": "call",
+   "perCall": 0.0464,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
   "claude-opus-4-5": {
    "mode": "token",
    "input": 2.5,
    "output": 12.5,
    "group": "claude（按量的kiro claude稳定聪明）"
   },
-  "claude-opus-4-7": {
+  "claude-opus-5-5": {
    "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
+   "input": 2,
+   "output": 10,
    "group": "claude（按量的kiro claude稳定聪明）"
   },
-  "gemini-3-pro-preview-think-c1": {
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 1.8,
+   "output": 9,
+   "group": "claude正向（cc max优质分组，不限客户端）"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 135,
+   "group": "codex（Gpt Pro Codex，抗官方降智）"
+  },
+  "gpt-5-1": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 6,
+   "group": "gpt（gpt，可用image2.5）"
+  },
+  "gemini-2-5-pro-c1": {
    "mode": "call",
    "perCall": 0.0464,
    "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
   },
-  "gpt-6-1-terra": {
+  "o3-mini": {
    "mode": "token",
-   "input": 22.5,
-   "output": 45,
-   "group": "codex（Gpt Pro Codex，抗官方降智）"
+   "input": 45,
+   "output": 180,
+   "group": "gpt（gpt，可用image2.5）"
   },
-  "kimi-k2-6": {
-   "mode": "token",
-   "input": 2.925,
-   "output": 12.15,
-   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
-  },
-  "glm-5-2": {
-   "mode": "token",
-   "input": 3.6,
-   "output": 12.6,
-   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
-  },
-  "gemini-2-5-pro-c3": {
+  "gemini-3-7-flash-c1": {
    "mode": "call",
-   "perCall": 0.0363,
+   "perCall": 0.0273,
    "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
   },
   "gemini-3-7-flash-c3": {
@@ -395,22 +257,155 @@
    "perCall": 0.0273,
    "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
   },
+  "deepseek-v4-flash": {
+   "mode": "token",
+   "input": 33.75,
+   "output": 33.75,
+   "group": "国模通用（官方4.5折价，可开票，量大折扣）"
+  },
+  "gemini-3-pro-preview-think-c1": {
+   "mode": "call",
+   "perCall": 0.0464,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gemini-2-5-pro-think-c3": {
+   "mode": "call",
+   "perCall": 0.0363,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "o1": {
+   "mode": "token",
+   "input": 45,
+   "output": 180,
+   "group": "gpt（gpt，可用image2.5）"
+  },
+  "gemini-3-pro-preview-c3": {
+   "mode": "call",
+   "perCall": 0.0363,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 45,
+   "group": "codex（Gpt Pro Codex，抗官方降智）"
+  },
   "gemini-3-pro-preview-c1": {
    "mode": "call",
    "perCall": 0.0464,
    "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
   },
-  "gemini-3-5-flash": {
+  "gemini-3-1-pro-preview-c1": {
+   "mode": "call",
+   "perCall": 0.0464,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gemini-3-1-pro-preview-c3": {
+   "mode": "call",
+   "perCall": 0.0363,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "claude-fable-5": {
    "mode": "token",
-   "input": 2.4,
-   "output": 14.4,
+   "input": 5,
+   "output": 25,
+   "group": "claude（按量的kiro claude稳定聪明）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 0.3,
+   "output": 1.5,
+   "group": "gemini-ant（谷歌反重力的gemini）"
+  },
+  "gemini-3-flash-preview-c3": {
+   "mode": "call",
+   "perCall": 0.0273,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gemini-3-5-flash-c3": {
+   "mode": "call",
+   "perCall": 0.0273,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gemini-3-5-flash-lite": {
+   "mode": "token",
+   "input": 0.48,
+   "output": 4,
    "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
   },
-  "o3-mini": {
+  "gpt-4o": {
    "mode": "token",
-   "input": 45,
-   "output": 180,
+   "input": 1.5,
+   "output": 6,
    "group": "gpt（gpt，可用image2.5）"
+  },
+  "gemini-3-6-flash-c1": {
+   "mode": "call",
+   "perCall": 0.0273,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 12,
+   "group": "t3-vertex-企业（Google ai studio和vertex混合直连gemini）"
+  },
+  "gemini-3-1-pro-preview-think-c3": {
+   "mode": "call",
+   "perCall": 0.0363,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "claude（按量的kiro claude稳定聪明）"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 135,
+   "group": "codex（Gpt Pro Codex，抗官方降智）"
+  },
+  "gemini-2-5-pro-c3": {
+   "mode": "call",
+   "perCall": 0.0363,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 3,
+   "output": 15,
+   "group": "codex（Gpt Pro Codex，抗官方降智）"
+  },
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "claude（按量的kiro claude稳定聪明）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "claude（按量的kiro claude稳定聪明）"
+  },
+  "gemini-3-flash-preview-c1": {
+   "mode": "call",
+   "perCall": 0.0273,
+   "group": "gemini次卡（gemini次卡，推荐后缀c1的，非流式输出可以改善截断空回）"
+  },
+  "claude-fable-5-1": {
+   "mode": "token",
+   "input": 5,
+   "output": 25,
+   "group": "claude（按量的kiro claude稳定聪明）"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 45,
+   "group": "codex（Gpt Pro Codex，抗官方降智）"
   }
  }
 }
