@@ -5,9 +5,39 @@
   "known": true
  },
  "offers": {
+  "gemini-3-5-flash-lite": {
+   "mode": "call",
+   "perCall": 0.004,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（默认分组）"
+  },
+  "gemini-nano-banana-2-1": {
+   "mode": "call",
+   "perCall": 0.05,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-flash-lite": {
+   "mode": "call",
+   "perCall": 0.004,
+   "group": "default（默认分组）"
+  },
   "gemini-3-8-flash-high": {
    "mode": "call",
    "perCall": 0.03,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-flash": {
+   "mode": "call",
+   "perCall": 0.015,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "call",
+   "perCall": 0.06,
    "group": "default（默认分组）"
   },
   "deepseek-v4-1-flash": {
@@ -19,36 +49,6 @@
   "gemini-4-argon": {
    "mode": "call",
    "perCall": 0.15,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-flash-lite": {
-   "mode": "call",
-   "perCall": 0.004,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-5-flash-lite": {
-   "mode": "call",
-   "perCall": 0.004,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-flash": {
-   "mode": "call",
-   "perCall": 0.015,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "call",
-   "perCall": 0.03,
-   "group": "default（默认分组）"
-  },
-  "gemini-nano-banana-2-1": {
-   "mode": "call",
-   "perCall": 0.05,
    "group": "default（默认分组）"
   }
  }

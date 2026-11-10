@@ -5,26 +5,17 @@
   "known": true
  },
  "offers": {
-  "claude-hybrid2": {
-   "mode": "call",
-   "perCall": 0.219,
-   "group": "default（默认分组按次齐全）"
-  },
-  "claude-hybrid4": {
-   "mode": "call",
-   "perCall": 0.1095,
-   "group": "default（默认分组按次齐全）"
-  },
-  "gemini-3-1-pro": {
+  "gpt-5-6-sol": {
    "mode": "token",
    "input": 5.84,
-   "output": 35.04,
-   "group": "gemini-anti（按量反重力gemini甲厚）"
+   "output": 29.2,
+   "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
   },
-  "gemini-3-8-flash-search": {
-   "mode": "call",
-   "perCall": 0.146,
-   "group": "default（默认分组按次齐全）"
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 109.5,
+   "output": 547.5,
+   "group": "claude-ccmax2（按量claude强注入满血98%缓）"
   },
   "gemini-4-argon-low": {
    "mode": "token",
@@ -32,48 +23,13 @@
    "output": 58.4,
    "group": "gemini-anti（按量反重力gemini甲厚）"
   },
-  "claude-opus-4-7": {
+  "gemini-4-argon": {
    "mode": "token",
-   "input": 43.8,
-   "output": 219,
-   "group": "claude-ccpro（按量claude微注入满血99%缓）"
-  },
-  "gemini-4-argon-high": {
-   "mode": "token",
-   "input": 11.68,
-   "output": 58.4,
-   "group": "gemini-anti（按量反重力gemini甲厚）"
-  },
-  "gemini-3-8-flash-cache": {
-   "mode": "token",
-   "input": 9.855,
-   "output": 49.275,
-   "group": "gemini-vercel（按量gemini满血高缓存）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 26.28,
-   "output": 131.4,
-   "group": "claude-ccpro（按量claude微注入满血99%缓）"
-  },
-  "claude-hybrid3": {
-   "mode": "call",
-   "perCall": 0.219,
-   "group": "default（默认分组按次齐全）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 2.19,
-   "output": 10.95,
-   "group": "gemini-anti（按量反重力gemini甲厚）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "token",
-   "input": 13.6875,
+   "input": 21.9,
    "output": 109.5,
    "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
   },
-  "claude-opus-4-5-thinking": {
+  "claude-opus-4-7-thinking": {
    "mode": "call",
    "perCall": 1.752,
    "group": "default（默认分组按次齐全）"
@@ -84,186 +40,31 @@
    "output": 16.425,
    "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
   },
-  "gemini-3-5-flash": {
-   "mode": "token",
-   "input": 16.425,
-   "output": 98.55,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
-  "claude-opus-4-8-thinking": {
-   "mode": "call",
-   "perCall": 1.752,
-   "group": "default（默认分组按次齐全）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 8.2125,
-   "output": 41.0625,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
-  "gemini-3-7-flash-cache": {
-   "mode": "token",
-   "input": 9.855,
-   "output": 49.275,
-   "group": "gemini-vercel（按量gemini满血高缓存）"
-  },
-  "gemini-4-argon": {
-   "mode": "token",
-   "input": 21.9,
-   "output": 109.5,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
   "gpt-5-6-terra": {
    "mode": "token",
    "input": 2.92,
    "output": 17.52,
    "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
   },
-  "gpt-6-astra": {
+  "gemini-3-8-flash": {
    "mode": "token",
-   "input": 14.6,
-   "output": 73,
-   "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
-  },
-  "claude-haiku-5-5": {
-   "mode": "token",
-   "input": 657,
-   "output": 657,
-   "group": "claude-ccpro（按量claude微注入满血99%缓）"
-  },
-  "gemini-3-8-flash-high": {
-   "mode": "token",
-   "input": 219,
-   "output": 876,
+   "input": 2.19,
+   "output": 10.95,
    "group": "gemini-anti（按量反重力gemini甲厚）"
   },
-  "gemini-4-argon-cache": {
+  "gemini-4-carbon-cache": {
+   "mode": "token",
+   "input": 29.2,
+   "output": 146,
+   "group": "gemini-official（按量gemini官方模型满血高缓）"
+  },
+  "claude-sonnet-4-5": {
    "mode": "token",
    "input": 26.28,
    "output": 131.4,
-   "group": "gemini-vercel（按量gemini满血高缓存）"
-  },
-  "gemini-3-5-flash-lite": {
-   "mode": "token",
-   "input": 3.285,
-   "output": 27.375,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
-  "gpt-6-1-sol": {
-   "mode": "token",
-   "input": 2.92,
-   "output": 14.6,
-   "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 18.25,
-   "output": 91.25,
-   "group": "claude-anti（按量反重力claude低缓）"
-  },
-  "gemini-3-6-flash": {
-   "mode": "token",
-   "input": 8.2125,
-   "output": 41.0625,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
-  "claude-opus-4-7-thinking": {
-   "mode": "call",
-   "perCall": 1.752,
-   "group": "frequency（按次分组具体查看模型广场）"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 2.92,
-   "output": 14.6,
-   "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 43.8,
-   "output": 219,
-   "group": "claude-ccpro（按量claude微注入满血99%缓）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 5.84,
-   "output": 35.04,
-   "group": "gemini-anti（按量反重力gemini甲厚）"
-  },
-  "gemini-4-argon-search": {
-   "mode": "call",
-   "perCall": 0.73,
-   "group": "default（默认分组按次齐全）"
-  },
-  "gemini-3-flash": {
-   "mode": "token",
-   "input": 1.46,
-   "output": 8.76,
-   "group": "gemini-anti（按量反重力gemini甲厚）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "token",
-   "input": 1.46,
-   "output": 8.76,
-   "group": "gemini-anti（按量反重力gemini甲厚）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 43.8,
-   "output": 219,
    "group": "claude-ccpro（按量claude微注入满血99%缓）"
   },
   "claude-fable-5-1": {
-   "mode": "token",
-   "input": 109.5,
-   "output": 547.5,
-   "group": "claude-ccmax2（按量claude强注入满血98%缓）"
-  },
-  "gemini-3-5-flash-search": {
-   "mode": "call",
-   "perCall": 0.146,
-   "group": "default（默认分组按次齐全）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 14.6,
-   "output": 73,
-   "group": "claude-anti（按量反重力claude低缓）"
-  },
-  "gemini-4-argon-medium": {
-   "mode": "token",
-   "input": 11.68,
-   "output": 58.4,
-   "group": "gemini-anti（按量反重力gemini甲厚）"
-  },
-  "gemini-3-1-pro-preview-search": {
-   "mode": "call",
-   "perCall": 0.292,
-   "group": "default（默认分组按次齐全）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 43.8,
-   "output": 219,
-   "group": "claude-ccpro（按量claude微注入满血99%缓）"
-  },
-  "gemini-3-6-flash-search": {
-   "mode": "call",
-   "perCall": 0.146,
-   "group": "default（默认分组按次齐全）"
-  },
-  "claude-opus-5-thinking": {
-   "mode": "call",
-   "perCall": 1.752,
-   "group": "default（默认分组按次齐全）"
-  },
-  "gemini-2-5-flash": {
-   "mode": "token",
-   "input": 3.285,
-   "output": 27.375,
-   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
-  },
-  "claude-fable-5": {
    "mode": "token",
    "input": 109.5,
    "output": 547.5,
@@ -275,29 +76,13 @@
    "output": 43.8,
    "group": "claude-ccpro（按量claude微注入满血99%缓）"
   },
-  "gemini-2-5-pro-search": {
-   "mode": "call",
-   "perCall": 0.292,
-   "group": "default（默认分组按次齐全）"
-  },
-  "gemini-3-7-flash-search": {
-   "mode": "call",
-   "perCall": 0.146,
-   "group": "default（默认分组按次齐全）"
-  },
-  "gpt-5-6-sol": {
+  "claude-haiku-5-5": {
    "mode": "token",
-   "input": 5.84,
-   "output": 29.2,
-   "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
+   "input": 657,
+   "output": 657,
+   "group": "claude-ccpro（按量claude微注入满血99%缓）"
   },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 18.25,
-   "output": 91.25,
-   "group": "claude-anti（按量反重力claude低缓）"
-  },
-  "claude-sonnet-4-5": {
+  "claude-sonnet-5": {
    "mode": "token",
    "input": 26.28,
    "output": 131.4,
@@ -309,26 +94,117 @@
    "output": 985.5,
    "group": "claude-ccmax（按量claude无注入满血98%缓）"
   },
-  "claude-opus-5-5-thinking": {
-   "mode": "call",
-   "perCall": 1.752,
-   "group": "frequency（按次分组具体查看模型广场）"
-  },
-  "claude-sonnet-5-5": {
+  "gemini-3-flash-preview": {
    "mode": "token",
-   "input": 10.95,
-   "output": 54.75,
+   "input": 1.46,
+   "output": 8.76,
+   "group": "gemini-anti（按量反重力gemini甲厚）"
+  },
+  "gemini-4-argon-high": {
+   "mode": "token",
+   "input": 11.68,
+   "output": 58.4,
+   "group": "gemini-anti（按量反重力gemini甲厚）"
+  },
+  "gemini-3-flash": {
+   "mode": "token",
+   "input": 1.46,
+   "output": 8.76,
+   "group": "gemini-anti（按量反重力gemini甲厚）"
+  },
+  "claude-opus-5-5-high": {
+   "mode": "token",
+   "input": 14.6,
+   "output": 73,
    "group": "claude-anti（按量反重力claude低缓）"
   },
-  "gemini-4-argon-thinking": {
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 43.8,
+   "output": 219,
+   "group": "claude-ccpro（按量claude微注入满血99%缓）"
+  },
+  "claude-opus-4-5": {
+   "mode": "token",
+   "input": 43.8,
+   "output": 219,
+   "group": "claude-ccpro（按量claude微注入满血99%缓）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 14.6,
+   "output": 73,
+   "group": "claude-anti（按量反重力claude低缓）"
+  },
+  "gemini-4-argon-cache": {
+   "mode": "token",
+   "input": 26.28,
+   "output": 131.4,
+   "group": "gemini-vercel（按量gemini满血高缓存）"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 2.92,
+   "output": 14.6,
+   "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
+  },
+  "claude-opus-5-thinking": {
    "mode": "call",
-   "perCall": 0.584,
+   "perCall": 1.752,
    "group": "default（默认分组按次齐全）"
   },
-  "gemini-4-carbon": {
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 43.8,
+   "output": 219,
+   "group": "claude-ccpro（按量claude微注入满血99%缓）"
+  },
+  "claude-opus-4-5-thinking": {
    "mode": "call",
-   "perCall": 0.876,
+   "perCall": 1.752,
    "group": "default（默认分组按次齐全）"
+  },
+  "gemini-3-7-flash-cache": {
+   "mode": "token",
+   "input": 9.855,
+   "output": 49.275,
+   "group": "gemini-vercel（按量gemini满血高缓存）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 18.25,
+   "output": 91.25,
+   "group": "claude-anti（按量反重力claude低缓）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 18.25,
+   "output": 91.25,
+   "group": "claude-anti（按量反重力claude低缓）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 5.84,
+   "output": 35.04,
+   "group": "gemini-anti（按量反重力gemini甲厚）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 14.6,
+   "output": 73,
+   "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 2.92,
+   "output": 14.6,
+   "group": "GPT-pro（按量codex渠道Pro兜底98%缓）"
+  },
+  "gemini-3-8-flash-cache": {
+   "mode": "token",
+   "input": 9.855,
+   "output": 49.275,
+   "group": "gemini-vercel（按量gemini满血高缓存）"
   },
   "gemini-3-1-pro-preview-cache": {
    "mode": "token",
@@ -336,11 +212,98 @@
    "output": 157.68,
    "group": "gemini-vercel（按量gemini满血高缓存）"
   },
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 16.425,
+   "output": 98.55,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
+  "claude-opus-5-5-thinking": {
+   "mode": "call",
+   "perCall": 1.752,
+   "group": "default（默认分组按次齐全）"
+  },
+  "gemini-3-7-flash": {
+   "mode": "token",
+   "input": 8.2125,
+   "output": 41.0625,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
+  "gemini-4-carbon": {
+   "mode": "token",
+   "input": 29.2,
+   "output": 146,
+   "group": "gemini-official（按量gemini官方模型满血高缓）"
+  },
+  "gemini-4-argon-thinking": {
+   "mode": "call",
+   "perCall": 0.3504,
+   "group": "default（默认分组按次齐全）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 8.2125,
+   "output": 41.0625,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
+  "gemini-3-8-flash-high": {
+   "mode": "token",
+   "input": 219,
+   "output": 876,
+   "group": "gemini-anti（按量反重力gemini甲厚）"
+  },
+  "gemini-2-5-flash": {
+   "mode": "token",
+   "input": 3.285,
+   "output": 27.375,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 10.95,
+   "output": 54.75,
+   "group": "claude-anti（按量反重力claude低缓）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 43.8,
+   "output": 219,
+   "group": "claude-ccpro（按量claude微注入满血99%缓）"
+  },
+  "claude-opus-4-8-thinking": {
+   "mode": "call",
+   "perCall": 1.752,
+   "group": "default（默认分组按次齐全）"
+  },
+  "gemini-3-1-pro": {
+   "mode": "token",
+   "input": 5.84,
+   "output": 35.04,
+   "group": "gemini-anti（按量反重力gemini甲厚）"
+  },
+  "gemini-3-5-flash-lite": {
+   "mode": "token",
+   "input": 3.285,
+   "output": 27.375,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
+  },
   "claude-sonnet-4-6": {
    "mode": "token",
    "input": 10.95,
    "output": 54.75,
    "group": "claude-anti（按量反重力claude低缓）"
+  },
+  "gemini-4-argon-medium": {
+   "mode": "token",
+   "input": 11.68,
+   "output": 58.4,
+   "group": "gemini-anti（按量反重力gemini甲厚）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "token",
+   "input": 13.6875,
+   "output": 109.5,
+   "group": "gemini-vex（按量Google Vertex直连满血Gemini）"
   }
  }
 }

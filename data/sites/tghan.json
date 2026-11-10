@@ -10,66 +10,25 @@
    "perCall": 0.1095,
    "group": "default（默认分组）"
   },
-  "gpt-5-5": {
-   "mode": "call",
-   "perCall": 0.219,
-   "group": "default（默认分组）"
-  },
-  "qwen3-8-max": {
-   "mode": "call",
-   "perCall": 0.1825,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 21.9,
-   "output": 109.5,
-   "group": "default（默认分组）"
-  },
-  "gemini-4-carbon": {
-   "mode": "call",
-   "perCall": 1.752,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "call",
-   "perCall": 0.0365,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-5-flash": {
-   "mode": "call",
-   "perCall": 0.0511,
-   "group": "default（默认分组）"
-  },
   "gemini-3-8-flash-high": {
    "mode": "call",
    "perCall": 0.1095,
    "group": "default（默认分组）"
   },
-  "claude-opus-4-6": {
+  "deepseek-v3-2": {
+   "mode": "call",
+   "perCall": 0.0876,
+   "group": "default（默认分组）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "call",
+   "perCall": 0.876,
+   "group": "default（默认分组）"
+  },
+  "gemini-2-5-pro": {
    "mode": "token",
-   "input": 10.0375,
-   "output": 50.1875,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-pro-preview": {
-   "mode": "call",
-   "perCall": 0.2628,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-preview-thinking": {
-   "mode": "call",
-   "perCall": 0.146,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-8-flash-low": {
-   "mode": "call",
-   "perCall": 0.1095,
-   "group": "default（默认分组）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "call",
-   "perCall": 0.219,
+   "input": 3.796,
+   "output": 21.9,
    "group": "default（默认分组）"
   },
   "gemini-3-1-pro-preview": {
@@ -84,7 +43,65 @@
    "output": 36.5,
    "group": "default（默认分组）"
   },
+  "deepseek-v4-flash": {
+   "mode": "call",
+   "perCall": 0.073,
+   "group": "default（默认分组）"
+  },
   "gemini-2-5-flash": {
+   "mode": "call",
+   "perCall": 0.0365,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 10.0375,
+   "output": 50.1875,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 18.25,
+   "output": 91.25,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-high": {
+   "mode": "call",
+   "perCall": 0.2628,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-pro": {
+   "mode": "call",
+   "perCall": 0.0876,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-pro-preview-thinking": {
+   "mode": "call",
+   "perCall": 0.146,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-6-flash-high": {
+   "mode": "call",
+   "perCall": 0.1095,
+   "group": "default（默认分组）"
+  },
+  "gpt-5-5": {
+   "mode": "call",
+   "perCall": 0.219,
+   "group": "default（默认分组）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 8.03,
+   "output": 40.15,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-pro-preview": {
+   "mode": "call",
+   "perCall": 0.2628,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-flash-preview": {
    "mode": "call",
    "perCall": 0.0365,
    "group": "default（默认分组）"
@@ -94,29 +111,9 @@
    "perCall": 0.146,
    "group": "default（默认分组）"
   },
-  "deepseek-v3-2": {
+  "gemini-4-carbon": {
    "mode": "call",
-   "perCall": 0.0876,
-   "group": "default（默认分组）"
-  },
-  "deepseek-v4-flash": {
-   "mode": "call",
-   "perCall": 0.073,
-   "group": "default（默认分组）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "call",
-   "perCall": 0.1022,
-   "group": "default（默认分组）"
-  },
-  "gemini-2-5-pro-thinking": {
-   "mode": "call",
-   "perCall": 0.146,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-high": {
-   "mode": "call",
-   "perCall": 0.2628,
+   "perCall": 1.752,
    "group": "default（默认分组）"
   },
   "glm-5-3-flash": {
@@ -124,19 +121,39 @@
    "perCall": 0.073,
    "group": "default（默认分组）"
   },
-  "deepseek-v4-pro": {
-   "mode": "call",
-   "perCall": 0.0876,
-   "group": "default（默认分组）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "call",
-   "perCall": 0.876,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-pro-preview-thinking": {
+  "gemini-2-5-pro-thinking": {
    "mode": "call",
    "perCall": 0.146,
+   "group": "default（默认分组）"
+  },
+  "gpt-5-6-sol": {
+   "mode": "call",
+   "perCall": 0.219,
+   "group": "default（默认分组）"
+  },
+  "qwen3-8-max": {
+   "mode": "call",
+   "perCall": 0.1825,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "call",
+   "perCall": 0.1022,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-preview-thinking": {
+   "mode": "call",
+   "perCall": 0.146,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "call",
+   "perCall": 0.0511,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-8-flash-low": {
+   "mode": "call",
+   "perCall": 0.1095,
    "group": "default（默认分组）"
   },
   "glm-5-3": {
@@ -147,23 +164,6 @@
   "qwen3-7-max": {
    "mode": "call",
    "perCall": 0.1606,
-   "group": "default（默认分组）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 8.03,
-   "output": 40.15,
-   "group": "default（默认分组）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "token",
-   "input": 3.796,
-   "output": 21.9,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-6-flash-high": {
-   "mode": "call",
-   "perCall": 0.1095,
    "group": "default（默认分组）"
   }
  }
