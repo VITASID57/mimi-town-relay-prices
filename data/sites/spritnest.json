@@ -1,10 +1,16 @@
 {
- "checkedAt": "2026-11-13",
+ "checkedAt": "2026-11-14",
  "recharge": {
   "rate": 0.2,
   "known": true
  },
  "offers": {
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 4.8,
+   "group": "cursor（cursorClaude）"
+  },
   "claude-sonnet-4-6": {
    "mode": "token",
    "input": 0.72,

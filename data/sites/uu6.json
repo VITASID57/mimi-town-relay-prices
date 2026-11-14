@@ -1,25 +1,60 @@
 {
- "checkedAt": "2026-11-13",
+ "checkedAt": "2026-11-14",
  "recharge": {
   "rate": 0.1,
   "known": true
  },
  "offers": {
-  "claude-sonnet-4-6-thinking": {
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 3.75,
+   "output": 7.5,
+   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-opus-4-8-thinking": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
+  },
+  "claude-sonnet-5-thinking": {
    "mode": "token",
    "input": 2.4,
    "output": 12,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
   "gemini-3-8-flash-high": {
    "mode": "call",
    "perCall": 0.02,
+   "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
+  },
+  "gemini-4-argon": {
+   "mode": "call",
+   "perCall": 0.2,
+   "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
+  },
+  "claude-opus-4-5-thinking": {
+   "mode": "token",
+   "input": 4,
+   "output": 20,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 60,
+   "output": 300,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 0.015,
+   "output": 0.075,
    "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
   },
   "gemini-4-carbon": {
@@ -28,58 +63,22 @@
    "output": 6,
    "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
   },
-  "claude-sonnet-5-thinking": {
+  "claude-sonnet-5": {
    "mode": "token",
    "input": 2.4,
    "output": 12,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-fable-5-2": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 0.015,
-   "output": 0.075,
-   "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 7.5,
-   "output": 45,
-   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 7.5,
-   "output": 15,
-   "group": "default（旧分组，别选，后面要删）"
-  },
   "gpt-6-sol": {
    "mode": "token",
-   "input": 7.5,
-   "output": 15,
+   "input": 3.75,
+   "output": 7.5,
    "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "gpt-6-1-sol": {
+  "claude-opus-4-5": {
    "mode": "token",
-   "input": 7.5,
-   "output": 15,
-   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 15,
-   "output": 75,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-5-5-thinking": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
+   "input": 60,
+   "output": 300,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
   "claude-opus-5-thinking": {
@@ -88,17 +87,35 @@
    "output": 20,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-sonnet-4-6": {
+  "claude-sonnet-4-6-thinking": {
    "mode": "token",
-   "input": 15,
-   "output": 75,
-   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
+   "input": 2.4,
+   "output": 12,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-sonnet-5-5": {
+  "claude-opus-4-8": {
    "mode": "token",
-   "input": 0.6,
-   "output": 3,
-   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
+   "input": 60,
+   "output": 300,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 60,
+   "output": 60,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 3.75,
+   "output": 22.5,
+   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 3.75,
+   "output": 7.5,
+   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
   "claude-opus-4-6-thinking": {
    "mode": "token",
@@ -112,75 +129,28 @@
    "output": 20,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 7.5,
-   "output": 45,
-   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-4-5-thinking": {
+  "claude-opus-5-5-thinking": {
    "mode": "token",
    "input": 4,
    "output": 20,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
-  "claude-opus-4-7": {
+  "claude-sonnet-4-6": {
    "mode": "token",
    "input": 15,
    "output": 75,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
+   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
   },
-  "claude-opus-5-5": {
+  "gemini-4-hydrogen": {
    "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-fable-5-1": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "gemini-4-argon": {
-   "mode": "call",
-   "perCall": 0.2,
+   "input": 1.5,
+   "output": 6,
    "group": "Gemini按次（每次请求收2分钱（充值倍率0.1 * 分组倍率 0.2 = 0.02元））"
   },
-  "claude-fable-5": {
+  "claude-opus-4-6": {
    "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 15,
-   "output": 75,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-haiku-5-5": {
-   "mode": "token",
-   "input": 0.08,
-   "output": 0.4,
-   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 15,
-   "output": 75,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 15,
-   "output": 15,
-   "group": "Cursor反代-Claude模型（Cursor反代包含claude-fable模型。充值倍率0.1 * 分组倍率 = 实际倍率）"
-  },
-  "claude-opus-4-8-thinking": {
-   "mode": "token",
-   "input": 4,
-   "output": 20,
+   "input": 60,
+   "output": 300,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
   },
   "claude-sonnet-5-5-thinking": {
@@ -188,6 +158,24 @@
    "input": 2.4,
    "output": 12,
    "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 3.75,
+   "output": 22.5,
+   "group": "ChatGPT-纯Pro自有池（不降智！超高缓存！充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-haiku-5-5": {
+   "mode": "token",
+   "input": 0.08,
+   "output": 0.4,
+   "group": "claude高缓存（充值倍率0.1 * 分组倍率 = 实际倍率）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3,
+   "group": "反重力Claude按次（每次请求收2毛钱（充值倍率0.1 * 分组倍率 2 = 0.2元））"
   }
  }
 }
