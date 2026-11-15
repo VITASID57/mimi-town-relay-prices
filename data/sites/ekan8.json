@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-14",
+ "checkedAt": "2026-11-15",
  "recharge": {
   "rate": 1,
   "known": true
@@ -10,14 +10,14 @@
    "perCall": 0.012,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-pro-preview": {
+  "gemini-3-1-pro-preview-search": {
    "mode": "call",
    "perCall": 0.065,
    "group": "default（默认分组）"
   },
-  "deepseek-v4-pro": {
+  "gpt-5-6-sol": {
    "mode": "call",
-   "perCall": 0.04,
+   "perCall": 0.09,
    "group": "default（默认分组）"
   },
   "gpt-6-luna": {
@@ -25,29 +25,9 @@
    "perCall": 0.05,
    "group": "default（默认分组）"
   },
-  "deepseek-v3-2": {
+  "gemini-3-8-flash": {
    "mode": "call",
-   "perCall": 0.05,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-7-flash-high": {
-   "mode": "call",
-   "perCall": 0.035,
-   "group": "default（默认分组）"
-  },
-  "gemini-4-hydrogen-xhigh": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default（默认分组）"
-  },
-  "gemini-4-argon": {
-   "mode": "call",
-   "perCall": 0.08,
-   "group": "default（默认分组）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "call",
-   "perCall": 0.05,
+   "perCall": 0.03,
    "group": "default（默认分组）"
   },
   "gemini-3-8-flash-high": {
@@ -60,9 +40,34 @@
    "perCall": 0.08,
    "group": "default（默认分组）"
   },
+  "deepseek-v4-pro": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "default（默认分组）"
+  },
   "gemini-3-5-flash": {
    "mode": "call",
    "perCall": 0.025,
+   "group": "default（默认分组）"
+  },
+  "gemini-4-argon": {
+   "mode": "call",
+   "perCall": 0.08,
+   "group": "default（默认分组）"
+  },
+  "gemini-4-hydrogen-xhigh": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "call",
+   "perCall": 0.065,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "call",
+   "perCall": 0.05,
    "group": "default（默认分组）"
   },
   "gpt-6-1-sol": {
@@ -75,19 +80,14 @@
    "perCall": 0.04,
    "group": "default（默认分组）"
   },
-  "gemini-3-8-flash": {
+  "gemini-3-7-flash-high": {
    "mode": "call",
-   "perCall": 0.03,
+   "perCall": 0.035,
    "group": "default（默认分组）"
   },
-  "gemini-3-1-pro-preview-search": {
+  "deepseek-v3-2": {
    "mode": "call",
-   "perCall": 0.065,
-   "group": "default（默认分组）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "call",
-   "perCall": 0.09,
+   "perCall": 0.05,
    "group": "default（默认分组）"
   }
  }
