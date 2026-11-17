@@ -1,20 +1,32 @@
 {
- "checkedAt": "2026-11-15",
+ "checkedAt": "2026-11-17",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "claude-opus-5-5": {
+  "claude-sonnet-4-6-thinking": {
    "mode": "token",
-   "input": 1.48,
-   "output": 7.4,
+   "input": 1.11,
+   "output": 5.55,
    "group": "default（🦋包含站内全部模型）"
   },
-  "claude-opus-4-7": {
+  "gemini-3-1-pro-preview-thinking": {
    "mode": "token",
-   "input": 1.85,
-   "output": 9.25,
+   "input": 4.8,
+   "output": 28.8,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 1.4,
+   "output": 7,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-fable-5-2": {
+   "mode": "token",
+   "input": 11.2,
+   "output": 56,
    "group": "default（🦋包含站内全部模型）"
   },
   "claude-opus-4-8": {
@@ -23,10 +35,39 @@
    "output": 9.25,
    "group": "default（🦋包含站内全部模型）"
   },
+  "gemini-3-flash-preview": {
+   "mode": "token",
+   "input": 1.35,
+   "output": 8.1,
+   "group": "量子花园（🦋按量Gemini：Google AI Studio，满血高质量T3）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 1.11,
+   "output": 5.55,
+   "group": "default（🦋包含站内全部模型）"
+  },
   "claude-opus-5": {
    "mode": "token",
    "input": 1.85,
    "output": 9.25,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 1.85,
+   "output": 9.25,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "gemini-3-8-flash-deepsearch": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "所有按次（🦋所有按次计费模型）"
+  },
+  "gemini-4-carbon": {
+   "mode": "token",
+   "input": 1.44,
+   "output": 7.2,
    "group": "default（🦋包含站内全部模型）"
   },
   "gemini-4-argon": {
@@ -35,54 +76,30 @@
    "output": 7.2,
    "group": "default（🦋包含站内全部模型）"
   },
-  "claude-sonnet-4-6": {
+  "claude-opus-4-6": {
    "mode": "token",
-   "input": 1.11,
-   "output": 5.55,
+   "input": 1.85,
+   "output": 9.25,
    "group": "default（🦋包含站内全部模型）"
   },
-  "gemini-2-5-pro": {
+  "claude-opus-5-5": {
    "mode": "token",
-   "input": 3.125,
-   "output": 25,
-   "group": "default（🦋包含站内全部模型）"
+   "input": 1.48,
+   "output": 7.4,
+   "group": "机械信使（🦋按量Claude：按量kiro，带缓存）"
   },
-  "claude-opus-4-8-thinking": {
-   "mode": "token",
-   "input": 7,
-   "output": 35,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-1-pro-preview-deepsearch": {
+  "gemini-3-flash": {
    "mode": "call",
-   "perCall": 0.06,
-   "group": "所有按次（🦋所有按次计费模型）"
-  },
-  "gemini-3-6-flash": {
-   "mode": "token",
-   "input": 1.875,
-   "output": 9.375,
+   "perCall": 0.02,
    "group": "default（🦋包含站内全部模型）"
   },
-  "claude-fable-5-1": {
+  "claude-sonnet-5": {
    "mode": "token",
-   "input": 14,
-   "output": 70,
+   "input": 0.74,
+   "output": 3.7,
    "group": "default（🦋包含站内全部模型）"
   },
-  "gemini-4-hydrogen": {
-   "mode": "token",
-   "input": 1.08,
-   "output": 5.4,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 14,
-   "output": 70,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-1-pro-preview-thinking": {
+  "gemini-3-1-pro-preview": {
    "mode": "token",
    "input": 4.8,
    "output": 28.8,
@@ -94,28 +111,10 @@
    "output": 2.7,
    "group": "default（🦋包含站内全部模型）"
   },
-  "gemini-3-1-flash-lite": {
+  "claude-opus-4-7": {
    "mode": "token",
-   "input": 0.675,
-   "output": 4.05,
-   "group": "量子花园（🦋按量Gemini：Google AI Studio，满血高质量T3）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 1.4,
-   "output": 7,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-sonnet-4-6-thinking": {
-   "mode": "token",
-   "input": 1.11,
-   "output": 5.55,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-opus-4-7-thinking": {
-   "mode": "token",
-   "input": 7,
-   "output": 35,
+   "input": 1.85,
+   "output": 9.25,
    "group": "default（🦋包含站内全部模型）"
   },
   "claude-sonnet-5-5": {
@@ -124,75 +123,34 @@
    "output": 14,
    "group": "default（🦋包含站内全部模型）"
   },
-  "gemini-4-carbon": {
-   "mode": "token",
-   "input": 1.44,
-   "output": 7.2,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 0.74,
-   "output": 3.7,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 1.85,
-   "output": 9.25,
-   "group": "机械信使（🦋按量Claude：按量kiro，带缓存）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 4.4,
-   "output": 26.4,
-   "group": "发条夜莺（🦋按量Gemini：Google Vertex）"
-  },
-  "claude-fable-5-2": {
-   "mode": "token",
-   "input": 11.2,
-   "output": 56,
-   "group": "default（🦋包含站内全部模型）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 1.85,
-   "output": 9.25,
-   "group": "default（🦋包含站内全部模型）"
-  },
   "claude-opus-5-thinking": {
    "mode": "token",
    "input": 1.85,
    "output": 9.25,
    "group": "default（🦋包含站内全部模型）"
   },
-  "gemini-3-flash": {
-   "mode": "call",
-   "perCall": 0.02,
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 14,
+   "output": 70,
    "group": "default（🦋包含站内全部模型）"
   },
-  "gemini-3-flash-preview": {
+  "gemini-2-5-pro": {
+   "mode": "call",
+   "perCall": 0.08,
+   "group": "所有按次（🦋所有按次计费模型）"
+  },
+  "gemini-4-hydrogen": {
    "mode": "token",
-   "input": 1.25,
-   "output": 7.5,
+   "input": 1.08,
+   "output": 5.4,
    "group": "default（🦋包含站内全部模型）"
   },
   "gemini-3-7-flash": {
    "mode": "token",
-   "input": 1.875,
-   "output": 9.375,
+   "input": 2.025,
+   "output": 10.125,
    "group": "default（🦋包含站内全部模型）"
-  },
-  "gemini-3-7-flash-deepsearch": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "所有按次（🦋所有按次计费模型）"
-  },
-  "claude-haiku-5-5": {
-   "mode": "token",
-   "input": 0.18,
-   "output": 0.9,
-   "group": "蝴蝶人偶（🦋按量Claude：CCMAX号池）"
   },
   "claude-opus-5-5-thinking": {
    "mode": "token",
@@ -200,10 +158,41 @@
    "output": 28,
    "group": "default（🦋包含站内全部模型）"
   },
-  "gemini-3-8-flash-deepsearch": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "所有按次（🦋所有按次计费模型）"
+  "gemini-3-1-flash-lite": {
+   "mode": "token",
+   "input": 0.675,
+   "output": 4.05,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-4-7-thinking": {
+   "mode": "token",
+   "input": 7,
+   "output": 35,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-fable-5-1": {
+   "mode": "token",
+   "input": 14,
+   "output": 70,
+   "group": "default（🦋包含站内全部模型）"
+  },
+  "claude-opus-4-8-thinking": {
+   "mode": "token",
+   "input": 7,
+   "output": 35,
+   "group": "蝴蝶人偶（🦋按量Claude：CCMAX号池）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 2.025,
+   "output": 10.125,
+   "group": "量子花园（🦋按量Gemini：Google AI Studio，满血高质量T3）"
+  },
+  "claude-haiku-5-5": {
+   "mode": "token",
+   "input": 0.18,
+   "output": 0.9,
+   "group": "蝴蝶人偶（🦋按量Claude：CCMAX号池）"
   }
  }
 }
