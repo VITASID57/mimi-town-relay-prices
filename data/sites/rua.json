@@ -1,10 +1,151 @@
 {
- "checkedAt": "2026-11-18",
+ "checkedAt": "2026-11-19",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "低价小克（低价小克）"
+  },
+  "claude-opus-4-5": {
+   "mode": "token",
+   "input": 12.5,
+   "output": 62.5,
+   "group": "AWSB-正价（AWSBedrock正价分组，不降智满血，不可蒸馏）"
+  },
+  "gemini-4-carbon": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "Gemini-4-专用分组（全Ultra，gemini4系列，比普通分组的稳定）"
+  },
+  "gemini-3-1-flash-lite": {
+   "mode": "token",
+   "input": 0.075,
+   "output": 0.45,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "token",
+   "input": 1.5,
+   "output": 7.5,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
+  },
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "Gemini-4-专用分组（全Ultra，gemini4系列，比普通分组的稳定）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 2,
+   "output": 10,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
+  },
+  "gemini-3-flash": {
+   "mode": "token",
+   "input": 0.15,
+   "output": 0.9,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-4-argon-search-enterprise": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "token",
+   "input": 0.8,
+   "output": 3.2,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
+  },
+  "glm-5-1": {
+   "mode": "token",
+   "input": 4,
+   "output": 14,
+   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
+  },
+  "deepseek-asr": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "Search | ASR | TTS | OCR 专用分组（DeepSeek Search / Fetch / OCR / ASR / TTS 专用。仅官方的1折）"
+  },
+  "kimi-k2-6": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "deepseek-v4-1-flash-1017": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 4.8,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 0.225,
+   "output": 1.125,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gemini-3-8-flash-high": {
+   "mode": "token",
+   "input": 0.225,
+   "output": 1.125,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "qwen3-7-plus": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "gemini-3-1-pro": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3.6,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "token",
+   "input": 1,
+   "output": 5,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
+  },
+  "gemini-4-hydrogen": {
+   "mode": "token",
+   "input": 0.75,
+   "output": 3.75,
+   "group": "Gemini-4-专用分组（全Ultra，gemini4系列，比普通分组的稳定）"
+  },
+  "gemini-3-1-flash-lite-preview": {
+   "mode": "token",
+   "input": 0.2,
+   "output": 1.2,
+   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 0.225,
+   "output": 1.125,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "kimi-k3": {
+   "mode": "token",
+   "input": 10,
+   "output": 50,
+   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
+  },
   "gemini-3-8-flash-3": {
    "mode": "token",
    "input": 0.6,
@@ -17,112 +158,23 @@
    "output": 25,
    "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
   },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 2,
-   "output": 10,
-   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
-  },
-  "grok-4-7": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.2,
-   "group": "Grok-按量（Grok Ultra满血版）"
-  },
-  "deepseek-v4-pro-0813": {
-   "mode": "token",
-   "input": 4.5,
-   "output": 13.5,
-   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 0.6,
-   "output": 3.6,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "claude-sonnet-4": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "AWS（AWS渠道claude）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "低价小克（低价小克）"
-  },
-  "gemini-3-flash": {
-   "mode": "token",
-   "input": 0.15,
-   "output": 0.9,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-4-carbon": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "Gemini-4-专用分组（全Ultra，gemini4系列，比普通分组的稳定）"
-  },
-  "gemini-4-hydrogen": {
-   "mode": "token",
-   "input": 0.75,
-   "output": 3.75,
-   "group": "Gemini-4-专用分组（全Ultra，gemini4系列，比普通分组的稳定）"
-  },
-  "gemini-3-6-flash": {
-   "mode": "token",
-   "input": 0.225,
-   "output": 1.125,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "grok-composer-2-5-fast": {
-   "mode": "token",
-   "input": 0.2,
-   "output": 0.4,
-   "group": "Grok-按量（Grok Ultra满血版）"
-  },
-  "gemini-2-5-flash": {
-   "mode": "token",
-   "input": 0.3,
-   "output": 0.75,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "qwen3-8-flash": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
-  },
   "gemini-2-5-flash-lite": {
    "mode": "token",
    "input": 0.03,
    "output": 0.12,
    "group": "Gemini-按量（24小时稳定）"
   },
-  "gemini-3-pro-preview": {
+  "gpt-6-sol": {
    "mode": "token",
-   "input": 1.6,
-   "output": 9.6,
-   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
-  },
-  "deepseek-ocr": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "Search | ASR | TTS | OCR 专用分组（DeepSeek Search / Fetch / OCR / ASR / TTS 专用。仅官方的1折）"
-  },
-  "gemini-4-argon": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "Gemini-4-专用分组（全Ultra，gemini4系列，比普通分组的稳定）"
-  },
-  "kimi-k2-7-code": {
-   "mode": "token",
-   "input": 3.25,
+   "input": 6.75,
    "output": 13.5,
-   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
+   "group": "GPT（没有luna）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
   },
   "gemini-3-5-flash-lite": {
    "mode": "token",
@@ -130,38 +182,27 @@
    "output": 0.05,
    "group": "限时活动（0.02了，报错就报错吧，额度刷完就没，此分组会经常刷新活动，所以请拉取模型列表）"
   },
-  "claude-sonnet-4-5-20250929-thinking": {
+  "claude-sonnet-5": {
    "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "AWS（AWS渠道claude）"
+   "input": 1,
+   "output": 5,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
   },
-  "deepseek-v4-pro": {
+  "kimi-k2-8": {
    "mode": "token",
-   "input": 4.5,
+   "input": 3.25,
    "output": 13.5,
    "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
   },
-  "deepseek-v4-1-flash-1017": {
+  "claude-sonnet-4-5": {
    "mode": "token",
-   "input": 1.2,
-   "output": 4.8,
-   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
+   "input": 7.5,
+   "output": 37.5,
+   "group": "AWSB-正价（AWSBedrock正价分组，不降智满血，不可蒸馏）"
   },
-  "gemini-4-hydrogen-search-enterprise": {
+  "gemini-4-carbon-enterprise": {
    "mode": "call",
    "perCall": 0.06,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
-  },
-  "grok-build-latest": {
-   "mode": "token",
-   "input": 0.2,
-   "output": 0.4,
-   "group": "Grok-按量（Grok Ultra满血版）"
-  },
-  "kimi-k2-6": {
-   "mode": "call",
-   "perCall": 0.04,
    "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
   },
   "glm-5-2": {
@@ -170,17 +211,29 @@
    "output": 14,
    "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
   },
-  "gemini-3-1-pro": {
+  "gemini-2-5-flash": {
    "mode": "token",
-   "input": 0.6,
-   "output": 3.6,
+   "input": 0.3,
+   "output": 0.75,
    "group": "Gemini-按量（24小时稳定）"
   },
-  "gemini-3-1-flash-lite": {
+  "deepseek-v4-pro": {
    "mode": "token",
-   "input": 0.075,
-   "output": 0.45,
-   "group": "Gemini-按量（24小时稳定）"
+   "input": 4.5,
+   "output": 13.5,
+   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
+  },
+  "kimi-k2-7-code": {
+   "mode": "token",
+   "input": 3.25,
+   "output": 13.5,
+   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
+  },
+  "deepseek-fetch": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "Search | ASR | TTS | OCR 专用分组（DeepSeek Search / Fetch / OCR / ASR / TTS 专用。仅官方的1折）"
   },
   "claude-fable-5-1": {
    "mode": "token",
@@ -188,82 +241,11 @@
    "output": 25,
    "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
   },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "AWS（AWS渠道claude）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 1,
-   "output": 5,
-   "group": "AWS（AWS渠道claude）"
-  },
-  "deepseek-asr": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "Search | ASR | TTS | OCR 专用分组（DeepSeek Search / Fetch / OCR / ASR / TTS 专用。仅官方的1折）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "低价小克（低价小克）"
-  },
-  "glm-5-1": {
-   "mode": "token",
-   "input": 4,
-   "output": 14,
-   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "token",
-   "input": 0.8,
-   "output": 3.2,
-   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
-  },
-  "glm-5-3-flash": {
+  "grok-4-5": {
    "mode": "token",
    "input": 0.4,
-   "output": 1.4,
-   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 0.5,
-   "output": 2.5,
-   "group": "AWS（AWS渠道claude）"
-  },
-  "claude-fable-5-2": {
-   "mode": "token",
-   "input": 12,
-   "output": 60,
-   "group": "满血小克（绝对满血不掺，随便测）"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "AWS（AWS渠道claude）"
-  },
-  "claude-sonnet-4-5-thinking": {
-   "mode": "token",
-   "input": 1.5,
-   "output": 7.5,
-   "group": "AWS（AWS渠道claude）"
-  },
-  "qwen3-8-max": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+   "output": 1.2,
+   "group": "Grok-按量（Grok Ultra满血版）"
   },
   "grok-4-6": {
    "mode": "token",
@@ -271,9 +253,170 @@
    "output": 1.2,
    "group": "Grok-按量（Grok Ultra满血版）"
   },
+  "claude-fable-5-2": {
+   "mode": "token",
+   "input": 12,
+   "output": 60,
+   "group": "满血小克（绝对满血不掺，随便测）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 0.6,
+   "output": 3.6,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "低价小克（低价小克）"
+  },
+  "grok-4-7": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.2,
+   "group": "Grok-按量（Grok Ultra满血版）"
+  },
+  "gemini-4-carbon-search-enterprise": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "deepseek-v4-flash": {
+   "mode": "call",
+   "perCall": 0.015,
+   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 6.75,
+   "output": 13.5,
+   "group": "GPT（没有luna）"
+  },
   "qwen3-7-max": {
    "mode": "call",
    "perCall": 0.02,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "token",
+   "input": 0.15,
+   "output": 0.9,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 0.5,
+   "output": 2.5,
+   "group": "低价小克（低价小克）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 0.225,
+   "output": 1.125,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "glm-5-3-flash": {
+   "mode": "token",
+   "input": 0.4,
+   "output": 1.4,
+   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
+  },
+  "deepseek-v4-pro-0813": {
+   "mode": "token",
+   "input": 4.5,
+   "output": 13.5,
+   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
+  },
+  "qwen3-8-max": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "glm-5-3": {
+   "mode": "token",
+   "input": 4,
+   "output": 14,
+   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
+  },
+  "deepseek-ocr": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "Search | ASR | TTS | OCR 专用分组（DeepSeek Search / Fetch / OCR / ASR / TTS 专用。仅官方的1折）"
+  },
+  "deepseek-search": {
+   "mode": "token",
+   "input": 75,
+   "output": 75,
+   "group": "Search | ASR | TTS | OCR 专用分组（DeepSeek Search / Fetch / OCR / ASR / TTS 专用。仅官方的1折）"
+  },
+  "qwen3-8-flash": {
+   "mode": "call",
+   "perCall": 0.02,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "claude-sonnet-4": {
+   "mode": "token",
+   "input": 7.5,
+   "output": 37.5,
+   "group": "AWSB-正价（AWSBedrock正价分组，不降智满血，不可蒸馏）"
+  },
+  "grok-build-latest": {
+   "mode": "token",
+   "input": 0.2,
+   "output": 0.4,
+   "group": "Grok-按量（Grok Ultra满血版）"
+  },
+  "gemini-3-7-flash": {
+   "mode": "token",
+   "input": 0.225,
+   "output": 1.125,
+   "group": "Gemini-按量（24小时稳定）"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.7,
+   "group": "GPT（没有luna）"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 0.18,
+   "output": 1.08,
+   "group": "GPT（没有luna）"
+  },
+  "gemini-3-pro-preview": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 9.6,
+   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "token",
+   "input": 0.625,
+   "output": 5,
+   "group": "Gemini-4-专用分组（全Ultra，gemini4系列，比普通分组的稳定）"
+  },
+  "grok-composer-2-5-fast": {
+   "mode": "token",
+   "input": 0.2,
+   "output": 0.4,
+   "group": "Grok-按量（Grok Ultra满血版）"
+  },
+  "gemini-4-hydrogen-enterprise": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "gemini-4-argon-enterprise": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
+  },
+  "gemini-4-hydrogen-search-enterprise": {
+   "mode": "call",
+   "perCall": 0.06,
    "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
   },
   "gemini-2-5-flash-thinking": {
@@ -282,165 +425,16 @@
    "output": 1.05,
    "group": "Gemini-按量（24小时稳定）"
   },
-  "kimi-k3": {
-   "mode": "token",
-   "input": 10,
-   "output": 50,
-   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 0.18,
-   "output": 1.08,
-   "group": "GPT（没有luna）"
-  },
-  "grok-4-5": {
-   "mode": "token",
-   "input": 0.4,
-   "output": 1.2,
-   "group": "Grok-按量（Grok Ultra满血版）"
-  },
   "claude-haiku-5-5": {
    "mode": "token",
    "input": 75,
    "output": 75,
    "group": "Vertex-Claude（Vertex渠道claude和满血没区别）"
   },
-  "gpt-6-1-sol": {
-   "mode": "token",
-   "input": 6.75,
-   "output": 13.5,
-   "group": "GPT（没有luna）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "token",
-   "input": 0.15,
-   "output": 0.9,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-3-5-flash": {
-   "mode": "token",
-   "input": 0.225,
-   "output": 1.125,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
-  },
-  "glm-5-3": {
-   "mode": "token",
-   "input": 4,
-   "output": 14,
-   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 0.225,
-   "output": 1.125,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "deepseek-v4-flash": {
-   "mode": "call",
-   "perCall": 0.015,
-   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
-  },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "薄甲系列（内置破甲实则0甲，理论空预设就能出，因要素过多此分组无任何补偿，别做违法的事情，别做违法的事情，别做违法的事情。）"
-  },
   "gpt-6-astra": {
    "mode": "token",
    "input": 0.9,
    "output": 4.5,
-   "group": "GPT（没有luna）"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 12.5,
-   "output": 62.5,
-   "group": "AWSB-正价（AWSBedrock正价分组，不降智满血，不可蒸馏）"
-  },
-  "gemini-4-hydrogen-enterprise": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 6.75,
-   "output": 13.5,
-   "group": "GPT（没有luna）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "token",
-   "input": 1,
-   "output": 8,
-   "group": "Vertex-Gemini（只有外审算是甲最薄的Gemini了）"
-  },
-  "deepseek-search": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "Search | ASR | TTS | OCR 专用分组（DeepSeek Search / Fetch / OCR / ASR / TTS 专用。仅官方的1折）"
-  },
-  "deepseek-fetch": {
-   "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "Search | ASR | TTS | OCR 专用分组（DeepSeek Search / Fetch / OCR / ASR / TTS 专用。仅官方的1折）"
-  },
-  "gemini-4-argon-enterprise": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
-  },
-  "kimi-k2-8": {
-   "mode": "token",
-   "input": 3.25,
-   "output": 13.5,
-   "group": "国模（自部署已更新，Deepseek速度可达190t/s，缓存99%）"
-  },
-  "gemini-4-carbon-enterprise": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
-  },
-  "gemini-3-1-flash-lite-preview": {
-   "mode": "token",
-   "input": 0.075,
-   "output": 0.45,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-4-carbon-search-enterprise": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
-  },
-  "qwen3-7-plus": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 0.225,
-   "output": 1.125,
-   "group": "Gemini-按量（24小时稳定）"
-  },
-  "gemini-4-argon-search-enterprise": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "按次大分组-注意embedding模型不是按次（次卡更优惠哦）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 0.45,
-   "output": 2.7,
    "group": "GPT（没有luna）"
   }
  }

@@ -1,16 +1,10 @@
 {
- "checkedAt": "2026-11-18",
+ "checkedAt": "2026-11-19",
  "recharge": {
   "rate": 0.2,
   "known": true
  },
  "offers": {
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 6,
-   "group": "cursor（cursorClaude）"
-  },
   "claude-opus-4-6-thinking": {
    "mode": "token",
    "input": 6,
@@ -46,6 +40,12 @@
    "input": 1,
    "output": 2,
    "group": "cc_stable（claudecode稳定分组，2倍计价）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 6,
+   "group": "cursor（cursorClaude）"
   }
  }
 }

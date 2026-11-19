@@ -1,58 +1,23 @@
 {
- "checkedAt": "2026-11-18",
+ "checkedAt": "2026-11-19",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "gemini-3-1-pro-preview-search": {
-   "mode": "call",
-   "perCall": 0.065,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-7-flash-high": {
-   "mode": "call",
-   "perCall": 0.035,
-   "group": "default（默认分组）"
-  },
-  "gemini-4-argon": {
-   "mode": "call",
-   "perCall": 0.08,
-   "group": "default（默认分组）"
-  },
   "gemini-3-1-pro-preview": {
    "mode": "call",
    "perCall": 0.06,
    "group": "default（默认分组）"
   },
-  "gemini-4-hydrogen-xhigh": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-5-flash": {
-   "mode": "call",
-   "perCall": 0.025,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-1-sol": {
+  "gemini-4-hydrogen": {
    "mode": "call",
    "perCall": 0.08,
    "group": "default（默认分组）"
   },
-  "grok-4-7": {
+  "deepseek-v4-pro": {
    "mode": "call",
    "perCall": 0.04,
-   "group": "default（默认分组）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "call",
-   "perCall": 0.05,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "call",
-   "perCall": 0.012,
    "group": "default（默认分组）"
   },
   "gemini-3-8-flash-high": {
@@ -65,9 +30,19 @@
    "perCall": 0.03,
    "group": "default（默认分组）"
   },
-  "gemini-2-5-pro": {
+  "gemini-4-argon": {
    "mode": "call",
    "perCall": 0.08,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-1-pro-preview-search": {
+   "mode": "call",
+   "perCall": 0.065,
+   "group": "default（默认分组）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "call",
+   "perCall": 0.05,
    "group": "default（默认分组）"
   },
   "gpt-5-6-sol": {
@@ -75,9 +50,34 @@
    "perCall": 0.09,
    "group": "default（默认分组）"
   },
+  "gemini-2-5-pro": {
+   "mode": "call",
+   "perCall": 0.08,
+   "group": "default（默认分组）"
+  },
   "gemini-4-carbon": {
    "mode": "call",
    "perCall": 0.2,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "call",
+   "perCall": 0.012,
+   "group": "default（默认分组）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "call",
+   "perCall": 0.08,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-7-flash-high": {
+   "mode": "call",
+   "perCall": 0.035,
+   "group": "default（默认分组）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "call",
+   "perCall": 0.03,
    "group": "default（默认分组）"
   },
   "gpt-6-luna": {
@@ -85,12 +85,17 @@
    "perCall": 0.05,
    "group": "default（默认分组）"
   },
-  "deepseek-v4-pro": {
+  "gemini-4-hydrogen-xhigh": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "default（默认分组）"
+  },
+  "grok-4-7": {
    "mode": "call",
    "perCall": 0.04,
    "group": "default（默认分组）"
   },
-  "gemini-4-hydrogen": {
+  "gpt-6-2-sol": {
    "mode": "call",
    "perCall": 0.08,
    "group": "default（默认分组）"
