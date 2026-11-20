@@ -1,21 +1,48 @@
 {
- "checkedAt": "2026-11-19",
+ "checkedAt": "2026-11-20",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "claude-sonnet-4-5-thinking": {
+  "claude-opus-4-6": {
    "mode": "token",
-   "input": 750,
-   "output": 3750,
-   "group": "蜜露柑（测试分组，勿选）"
+   "input": 8,
+   "output": 40,
+   "group": "胭脂莓（备用高价小克渠道）"
   },
-  "claude-fable-5-thinking": {
+  "gemini-3-1-pro-preview": {
+   "mode": "call",
+   "perCall": 0.1,
+   "group": "default（默认分组，所有模型都在这里）"
+  },
+  "claude-opus-4-8": {
    "mode": "token",
-   "input": 16,
-   "output": 80,
+   "input": 8,
+   "output": 40,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
+  },
+  "gemini-4-carbon": {
+   "mode": "call",
+   "perCall": 0.18,
+   "group": "default（默认分组，所有模型都在这里）"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 8,
+   "output": 40,
+   "group": "claude code专用（claude code专用 其他客户端不可用）"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 6.4,
+   "output": 32,
+   "group": "claude code专用（claude code专用 其他客户端不可用）"
+  },
+  "gemini-4-argon": {
+   "mode": "call",
+   "perCall": 0.16,
+   "group": "雪椰芯（官方正向哈基米，稳定好吃）"
   },
   "claude-haiku-4-5-20251001-thinking": {
    "mode": "token",
@@ -23,28 +50,34 @@
    "output": 8,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
-  "claude-opus-4-6": {
+  "claude-sonnet-4-6-thinking": {
    "mode": "token",
-   "input": 8,
-   "output": 40,
+   "input": 4.8,
+   "output": 24,
+   "group": "claude code专用（claude code专用 其他客户端不可用）"
+  },
+  "claude-fable-5": {
+   "mode": "token",
+   "input": 16,
+   "output": 80,
+   "group": "胭脂莓（备用高价小克渠道）"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 8,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
   "claude-sonnet-5-5": {
    "mode": "token",
    "input": 3.2,
    "output": 16,
-   "group": "胭脂莓（备用高价小克渠道）"
+   "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
-  "grok-4-3": {
+  "claude-sonnet-5-thinking": {
    "mode": "token",
-   "input": 75,
-   "output": 75,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "claude-opus-4-5-20251101-thinking": {
-   "mode": "token",
-   "input": 8,
-   "output": 40,
+   "input": 4.8,
+   "output": 24,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
   "gpt-5-6-terra": {
@@ -53,22 +86,35 @@
    "output": 9,
    "group": "codex专用（codex专用）"
   },
-  "gemini-3-8-flash": {
+  "glm-5-2": {
    "mode": "call",
-   "perCall": 0.03,
-   "group": "雪椰芯（官方正向哈基米，稳定好吃）"
+   "perCall": 0.06,
+   "group": "default（默认分组，所有模型都在这里）"
   },
-  "gemini-3-1-pro-preview": {
+  "claude-fable-5-thinking": {
+   "mode": "token",
+   "input": 16,
+   "output": 80,
+   "group": "claude code专用（claude code专用 其他客户端不可用）"
+  },
+  "gpt-6-2-sol": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 6,
+   "group": "codex专用（codex专用）"
+  },
+  "gemini-2-5-pro": {
    "mode": "call",
    "perCall": 0.1,
    "group": "default（默认分组，所有模型都在这里）"
   },
-  "glm-5-2": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "珊瑚柚（倍率1，备用分组，没有特殊情况勿选）"
+  "claude-haiku-4-5-thinking": {
+   "mode": "token",
+   "input": 750,
+   "output": 3750,
+   "group": "蜜露柑（测试分组，勿选）"
   },
-  "claude-opus-4-5": {
+  "claude-opus-4-8-thinking": {
    "mode": "token",
    "input": 8,
    "output": 40,
@@ -80,16 +126,10 @@
    "output": 3750,
    "group": "蜜露柑（测试分组，勿选）"
   },
-  "claude-fable-5-2": {
+  "claude-sonnet-4-6": {
    "mode": "token",
-   "input": 12.8,
-   "output": 64,
-   "group": "claude code专用（claude code专用 其他客户端不可用）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 1.6,
-   "output": 8,
+   "input": 4.8,
+   "output": 24,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
   "claude-opus-4-6-thinking": {
@@ -98,82 +138,15 @@
    "output": 40,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
-  "gemini-4-neon-search": {
-   "mode": "call",
-   "perCall": 0.16,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "glm-5-3": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "珊瑚柚（倍率1，备用分组，没有特殊情况勿选）"
-  },
-  "claude-sonnet-4-6-thinking": {
-   "mode": "token",
-   "input": 4.8,
-   "output": 24,
-   "group": "胭脂莓（备用高价小克渠道）"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 16,
-   "output": 80,
-   "group": "claude code专用（claude code专用 其他客户端不可用）"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 8,
-   "output": 40,
-   "group": "claude code专用（claude code专用 其他客户端不可用）"
-  },
-  "gemini-4-carbon-search-enterprise": {
-   "mode": "call",
-   "perCall": 0.18,
-   "group": "珊瑚柚（倍率1，备用分组，没有特殊情况勿选）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 6.4,
-   "output": 32,
-   "group": "胭脂莓（备用高价小克渠道）"
-  },
-  "grok-4-6": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "claude-opus-4-8-thinking": {
-   "mode": "token",
-   "input": 8,
-   "output": 40,
-   "group": "claude code专用（claude code专用 其他客户端不可用）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "call",
-   "perCall": 0.03,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "token",
-   "input": 4.8,
-   "output": 24,
-   "group": "claude code专用（claude code专用 其他客户端不可用）"
-  },
   "claude-opus-4-7": {
    "mode": "token",
    "input": 8,
    "output": 40,
-   "group": "claude code专用（claude code专用 其他客户端不可用）"
+   "group": "胭脂莓（备用高价小克渠道）"
   },
-  "claude-sonnet-5-thinking": {
-   "mode": "token",
-   "input": 4.8,
-   "output": 24,
-   "group": "claude code专用（claude code专用 其他客户端不可用）"
-  },
-  "gemini-4-argon-search": {
+  "gemini-4-hydrogen": {
    "mode": "call",
-   "perCall": 0.16,
+   "perCall": 0.08,
    "group": "default（默认分组，所有模型都在这里）"
   },
   "gemini-4-neon": {
@@ -181,26 +154,22 @@
    "perCall": 0.16,
    "group": "default（默认分组，所有模型都在这里）"
   },
-  "claude-opus-5": {
+  "deepseek-v4-flash": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（默认分组，所有模型都在这里）"
+  },
+  "claude-fable-5-2": {
    "mode": "token",
-   "input": 8,
-   "output": 40,
+   "input": 12.8,
+   "output": 64,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
-  "gemini-2-5-pro": {
-   "mode": "call",
-   "perCall": 0.1,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "gemini-4-argon": {
-   "mode": "call",
-   "perCall": 0.16,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "glm-5-1": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default（默认分组，所有模型都在这里）"
+  "claude-sonnet-4-5-thinking": {
+   "mode": "token",
+   "input": 750,
+   "output": 3750,
+   "group": "蜜露柑（测试分组，勿选）"
   },
   "claude-fable-5-1": {
    "mode": "token",
@@ -208,23 +177,60 @@
    "output": 80,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
-  "claude-haiku-4-5-thinking": {
+  "claude-opus-4-5": {
    "mode": "token",
-   "input": 750,
-   "output": 3750,
-   "group": "蜜露柑（测试分组，勿选）"
+   "input": 8,
+   "output": 40,
+   "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
-  "claude-sonnet-4-5": {
+  "gpt-5-6-sol": {
    "mode": "token",
-   "input": 750,
-   "output": 3750,
-   "group": "蜜露柑（测试分组，勿选）"
+   "input": 3,
+   "output": 18,
+   "group": "codex专用（codex专用）"
+  },
+  "gemini-3-8-flash": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（默认分组，所有模型都在这里）"
+  },
+  "glm-5-3": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "default（默认分组，所有模型都在这里）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 1.2,
+   "output": 6,
+   "group": "codex专用（codex专用）"
+  },
+  "gemini-4-argon-search": {
+   "mode": "call",
+   "perCall": 0.16,
+   "group": "雪椰芯（官方正向哈基米，稳定好吃）"
+  },
+  "gemini-4-neon-search": {
+   "mode": "call",
+   "perCall": 0.16,
+   "group": "雪椰芯（官方正向哈基米，稳定好吃）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（默认分组，所有模型都在这里）"
   },
   "claude-opus-4-7-thinking": {
    "mode": "token",
    "input": 8,
    "output": 40,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
+  },
+  "claude-opus-4-5-20251101-thinking": {
+   "mode": "token",
+   "input": 8,
+   "output": 40,
+   "group": "胭脂莓（备用高价小克渠道）"
   },
   "gpt-6-sol": {
    "mode": "token",
@@ -238,32 +244,38 @@
    "output": 24,
    "group": "codex专用（codex专用）"
   },
-  "claude-sonnet-5": {
+  "claude-fable-5-1-thinking": {
    "mode": "token",
-   "input": 4.8,
-   "output": 24,
+   "input": 16,
+   "output": 80,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
-  "claude-opus-5-thinking": {
+  "grok-4-3": {
    "mode": "token",
-   "input": 8,
-   "output": 40,
-   "group": "claude code专用（claude code专用 其他客户端不可用）"
+   "input": 75,
+   "output": 75,
+   "group": "default（默认分组，所有模型都在这里）"
+  },
+  "claude-sonnet-4-5": {
+   "mode": "token",
+   "input": 750,
+   "output": 3750,
+   "group": "蜜露柑（测试分组，勿选）"
   },
   "gpt-6-astra": {
    "mode": "token",
    "input": 6,
    "output": 30,
-   "group": "codex专用（codex专用）"
+   "group": "雪椰芯（官方正向哈基米，稳定好吃）"
   },
-  "gemini-4-hydrogen": {
-   "mode": "call",
-   "perCall": 0.08,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "gemini-4-carbon": {
+  "gemini-4-carbon-search-enterprise": {
    "mode": "call",
    "perCall": 0.18,
+   "group": "default（默认分组，所有模型都在这里）"
+  },
+  "glm-5-1": {
+   "mode": "call",
+   "perCall": 0.04,
    "group": "default（默认分组，所有模型都在这里）"
   },
   "grok-4-5": {
@@ -271,33 +283,21 @@
    "perCall": 0.06,
    "group": "default（默认分组，所有模型都在这里）"
   },
-  "gpt-6-1-sol": {
+  "claude-opus-5-thinking": {
    "mode": "token",
-   "input": 1.2,
-   "output": 6,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 3,
-   "output": 18,
-   "group": "default（默认分组，所有模型都在这里）"
-  },
-  "gpt-6-2-sol": {
-   "mode": "token",
-   "input": 1.2,
-   "output": 6,
-   "group": "codex专用（codex专用）"
-  },
-  "claude-fable-5-1-thinking": {
-   "mode": "token",
-   "input": 16,
-   "output": 80,
+   "input": 8,
+   "output": 40,
    "group": "claude code专用（claude code专用 其他客户端不可用）"
   },
-  "deepseek-v4-flash": {
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 4.8,
+   "output": 24,
+   "group": "claude code专用（claude code专用 其他客户端不可用）"
+  },
+  "grok-4-6": {
    "mode": "call",
-   "perCall": 0.03,
+   "perCall": 0.06,
    "group": "default（默认分组，所有模型都在这里）"
   }
  }
