@@ -1,38 +1,14 @@
 {
- "checkedAt": "2026-11-21",
+ "checkedAt": "2026-11-23",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "deepseek-v4-flash-0731": {
+  "deepseek-v4-flash": {
    "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "claude-sonnet-5-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
-  },
-  "deepseek-v4-pro": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "gemini-2-5-flash": {
-   "mode": "token",
-   "input": 60,
-   "output": 500,
-   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
-  },
-  "glm-5-2": {
-   "mode": "token",
-   "input": 0.7,
-   "output": 2.2,
+   "input": 37.5,
+   "output": 37.5,
    "group": "SiliconFlow（硅基流动  glm/ deepseek/ MiniMax/ kimi）"
   },
   "claude-sonnet-4-6": {
@@ -41,89 +17,17 @@
    "output": 150,
    "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
   },
-  "deepseek-r1": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 37.5,
-   "group": "SiliconFlow（硅基流动  glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "gemini-4-neon": {
-   "mode": "token",
-   "input": 2.4,
-   "output": 12,
-   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
-  },
-  "kimi-k3-1-pro": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Doubao（火山引擎 doubao/glm/deepseek）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 90,
-   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
-  },
-  "gemini-3-8-flash": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 90,
-   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
-  },
-  "claude-haiku-5-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
-  },
-  "claude-fable-5-1": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "gemini-4-argon": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 90,
-   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
-  },
   "claude-opus-4-5": {
    "mode": "token",
    "input": 30,
    "output": 150,
    "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
   },
-  "glm-5-1": {
+  "deepseek-v3-2": {
    "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "qwen3-7-max": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "gemini-3-1-flash-lite-preview": {
-   "mode": "token",
-   "input": 60,
-   "output": 240,
-   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
-  },
-  "deepseek-v4-flash-260425": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Doubao（火山引擎 doubao/glm/deepseek）"
+   "input": 0.29,
+   "output": 0.84,
+   "group": "SiliconFlow（硅基流动  glm/ deepseek/ MiniMax/ kimi）"
   },
   "kimi-k2-7-code": {
    "mode": "token",
@@ -131,124 +35,10 @@
    "output": 2,
    "group": "SiliconFlow（硅基流动  glm/ deepseek/ MiniMax/ kimi）"
   },
-  "deepseek-v4-flash": {
-   "mode": "token",
-   "input": 37.5,
-   "output": 37.5,
-   "group": "百度千帆（百度千帆  glm/ deepseek/ ernie/ kimi）"
-  },
-  "gemini-3-5-flash": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 90,
-   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
-  },
-  "glm-5-3": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "Zhipu（智谱官渠（有外审 🈲nsfw））"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 150,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
-  },
-  "deepseek-v4-pro-0813": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "glm-5-3-flash": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "Zhipu（智谱官渠（有外审 🈲nsfw））"
-  },
-  "kimi-k2-5": {
+  "claude-fable-5": {
    "mode": "token",
    "input": 30,
    "output": 30,
-   "group": "Moonshot（Moonshot官渠）"
-  },
-  "claude-sonnet-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
-  },
-  "gemini-2-5-flash-lite": {
-   "mode": "token",
-   "input": 60,
-   "output": 240,
-   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
-  },
-  "gpt-6-luna": {
-   "mode": "token",
-   "input": 11.25,
-   "output": 22.5,
-   "group": "OpenAI（OpenAI分组）"
-  },
-  "gpt-5-6-luna": {
-   "mode": "token",
-   "input": 11.25,
-   "output": 67.5,
-   "group": "OpenAI（OpenAI分组）"
-  },
-  "gemini-3-flash-preview": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 90,
-   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
-  },
-  "qwen3-8-max": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "claude-haiku-4-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 150,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
-  },
-  "qwen3-7-plus": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "glm-5": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 22.5,
-   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
-  },
-  "gemini-4-carbon": {
-   "mode": "token",
-   "input": 60,
-   "output": 240,
-   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 30,
-   "output": 150,
    "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
   },
   "deepseek-v4-1-flash-1017": {
@@ -257,7 +47,61 @@
    "output": 22.5,
    "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
   },
-  "kimi-k2-6": {
+  "kimi-k3-1-pro": {
+   "mode": "token",
+   "input": 30,
+   "output": 30,
+   "group": "Doubao（火山引擎 doubao/glm/deepseek）"
+  },
+  "deepseek-v4-pro": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 22.5,
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
+  },
+  "deepseek-r1": {
+   "mode": "token",
+   "input": 37.5,
+   "output": 37.5,
+   "group": "SiliconFlow（硅基流动  glm/ deepseek/ MiniMax/ kimi）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 90,
+   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 30,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "kimi-k3": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 22.5,
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
+  },
+  "gemini-4-neon": {
+   "mode": "token",
+   "input": 2.4,
+   "output": 12,
+   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
+  },
+  "deepseek-v4-pro-260425": {
+   "mode": "token",
+   "input": 30,
+   "output": 30,
+   "group": "Doubao（火山引擎 doubao/glm/deepseek）"
+  },
+  "gpt-5-6-luna": {
+   "mode": "token",
+   "input": 11.25,
+   "output": 67.5,
+   "group": "OpenAI（OpenAI分组）"
+  },
+  "glm-5-1": {
    "mode": "token",
    "input": 22.5,
    "output": 22.5,
@@ -269,29 +113,77 @@
    "output": 30,
    "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
   },
-  "deepseek-v4-pro-260425": {
+  "deepseek-v4-1-flash": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 22.5,
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 30,
+   "output": 150,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "qwen3-7-plus": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 22.5,
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
+  },
+  "gemini-2-5-flash": {
+   "mode": "token",
+   "input": 60,
+   "output": 500,
+   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
+  },
+  "gemini-3-pro-preview": {
+   "mode": "token",
+   "input": 1.6,
+   "output": 9.6,
+   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 11.25,
+   "output": 22.5,
+   "group": "OpenAI（OpenAI分组）"
+  },
+  "claude-sonnet-4-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 150,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "claude-fable-5-1": {
    "mode": "token",
    "input": 30,
    "output": 30,
-   "group": "Doubao（火山引擎 doubao/glm/deepseek）"
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
   },
-  "gpt-5-6-terra": {
+  "glm-5": {
    "mode": "token",
-   "input": 11.25,
-   "output": 67.5,
-   "group": "OpenAI（OpenAI分组）"
+   "input": 22.5,
+   "output": 22.5,
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
   },
-  "gemini-3-1-flash-lite": {
+  "gemini-3-7-flash": {
    "mode": "token",
    "input": 22.5,
    "output": 90,
    "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
   },
-  "deepseek-v3-2": {
+  "kimi-k2-6": {
    "mode": "token",
-   "input": 0.29,
-   "output": 0.84,
-   "group": "SiliconFlow（硅基流动  glm/ deepseek/ MiniMax/ kimi）"
+   "input": 22.5,
+   "output": 22.5,
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
+  },
+  "qwen3-8-max": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 22.5,
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
   },
   "gpt-6-2-sol": {
    "mode": "token",
@@ -305,35 +197,23 @@
    "output": 6,
    "group": "OpenAI（OpenAI分组）"
   },
-  "gemini-3-pro-preview": {
+  "gemini-2-5-pro": {
    "mode": "token",
-   "input": 1.6,
-   "output": 9.6,
+   "input": 60,
+   "output": 480,
    "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
   },
-  "gpt-6-1-terra": {
+  "glm-5-2": {
    "mode": "token",
-   "input": 11.25,
+   "input": 0.7,
+   "output": 2.2,
+   "group": "SiliconFlow（硅基流动  glm/ deepseek/ MiniMax/ kimi）"
+  },
+  "deepseek-v4-flash-0731": {
+   "mode": "token",
+   "input": 22.5,
    "output": 22.5,
-   "group": "OpenAI（OpenAI分组）"
-  },
-  "gpt-6-1-sol": {
-   "mode": "token",
-   "input": 11.25,
-   "output": 22.5,
-   "group": "OpenAI（OpenAI分组）"
-  },
-  "gemini-4-hydrogen": {
-   "mode": "token",
-   "input": 0.45,
-   "output": 2.25,
-   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
-  },
-  "claude-fable-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 30,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
   },
   "gpt-5-6-sol": {
    "mode": "token",
@@ -341,23 +221,11 @@
    "output": 67.5,
    "group": "OpenAI（OpenAI分组）"
   },
-  "gemini-3-1-pro-preview": {
+  "glm-5-3": {
    "mode": "token",
    "input": 22.5,
-   "output": 90,
-   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
-  },
-  "gemini-3-6-flash": {
-   "mode": "token",
-   "input": 22.5,
-   "output": 90,
-   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 30,
-   "output": 150,
-   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+   "output": 22.5,
+   "group": "Zhipu（智谱官渠（有外审 🈲nsfw））"
   },
   "claude-opus-4-7": {
    "mode": "token",
@@ -365,10 +233,64 @@
    "output": 150,
    "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
   },
-  "gpt-6-astra": {
+  "kimi-k2-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 30,
+   "group": "Moonshot（Moonshot官渠）"
+  },
+  "claude-haiku-5-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 30,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "deepseek-v4-flash-260425": {
+   "mode": "token",
+   "input": 30,
+   "output": 30,
+   "group": "Doubao（火山引擎 doubao/glm/deepseek）"
+  },
+  "gemini-2-5-flash-lite": {
+   "mode": "token",
+   "input": 60,
+   "output": 240,
+   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
+  },
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 90,
+   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
+  },
+  "claude-opus-5-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 30,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "qwen3-7-max": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 22.5,
+   "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
+  },
+  "gemini-3-1-flash-lite-preview": {
+   "mode": "token",
+   "input": 60,
+   "output": 240,
+   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
+  },
+  "gemini-4-carbon": {
+   "mode": "token",
+   "input": 60,
+   "output": 240,
+   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
+  },
+  "gpt-5-6-terra": {
    "mode": "token",
    "input": 11.25,
-   "output": 22.5,
+   "output": 67.5,
    "group": "OpenAI（OpenAI分组）"
   },
   "gpt-6-sol": {
@@ -377,17 +299,95 @@
    "output": 22.5,
    "group": "OpenAI（OpenAI分组）"
   },
-  "kimi-k3": {
+  "gpt-6-luna": {
+   "mode": "token",
+   "input": 11.25,
+   "output": 22.5,
+   "group": "OpenAI（OpenAI分组）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 90,
+   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
+  },
+  "claude-haiku-4-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 150,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "gemini-3-5-flash": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 90,
+   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
+  },
+  "gpt-6-1-terra": {
+   "mode": "token",
+   "input": 11.25,
+   "output": 22.5,
+   "group": "OpenAI（OpenAI分组）"
+  },
+  "deepseek-v4-pro-0813": {
    "mode": "token",
    "input": 22.5,
    "output": 22.5,
    "group": "百炼（阿里云百炼（有外审 🈲nsfw）qwen/ glm/ deepseek/ MiniMax/ kimi）"
   },
-  "gemini-2-5-pro": {
+  "claude-sonnet-5-5": {
    "mode": "token",
-   "input": 60,
-   "output": 480,
-   "group": "Gemini（Vertex AI）（Gemini（企业CLI/官转/Vertex））"
+   "input": 30,
+   "output": 30,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "gemini-3-flash-preview": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 90,
+   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
+  },
+  "gemini-3-1-flash-lite": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 90,
+   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 90,
+   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
+  },
+  "claude-sonnet-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 30,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 30,
+   "output": 150,
+   "group": "Claude（特价）（特价分组(awsq/kiro/官转/反重力/Vertex/逆向  )）"
+  },
+  "gemini-4-hydrogen": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.25,
+   "group": "Gemini（特价）（特价分组（企业CLI/官转/反重力/Vertex））"
+  },
+  "glm-5-3-flash": {
+   "mode": "token",
+   "input": 22.5,
+   "output": 22.5,
+   "group": "Zhipu（智谱官渠（有外审 🈲nsfw））"
+  },
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 11.25,
+   "output": 22.5,
+   "group": "OpenAI（OpenAI分组）"
   }
  }
 }
