@@ -1,89 +1,13 @@
 {
- "checkedAt": "2026-11-23",
+ "checkedAt": "2026-11-24",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
-  "claude-opus-4-8-thinking-max": {
+  "gemini-4-argon-search": {
    "mode": "call",
-   "perCall": 2.85,
-   "group": "default"
-  },
-  "gpt-5-4": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default"
-  },
-  "claude-opus-4-5": {
-   "mode": "token",
-   "input": 7,
-   "output": 35,
-   "group": "default"
-  },
-  "glm-5-3": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default"
-  },
-  "claude-opus-4-7": {
-   "mode": "token",
-   "input": 7,
-   "output": 35,
-   "group": "default"
-  },
-  "glm-5-3-flash": {
-   "mode": "call",
-   "perCall": 0.02,
-   "group": "default"
-  },
-  "claude-opus-4-7-thinking": {
-   "mode": "call",
-   "perCall": 0.22,
-   "group": "default"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "default"
-  },
-  "gemini-4-argon": {
-   "mode": "token",
-   "input": 5.6,
-   "output": 28,
-   "group": "default"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "default"
-  },
-  "deepseek-v4-flash-0731": {
-   "mode": "call",
-   "perCall": 0.046,
-   "group": "default"
-  },
-  "kimi-k3": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default"
-  },
-  "claude-opus-5-5": {
-   "mode": "token",
-   "input": 2.8,
-   "output": 14,
-   "group": "default"
-  },
-  "gemini-2-5-pro": {
-   "mode": "call",
-   "perCall": 0.055,
-   "group": "default"
-  },
-  "claude-sonnet-4-6": {
-   "mode": "call",
-   "perCall": 0.13,
+   "perCall": 0.09,
    "group": "default"
   },
   "claude-opus-5-5-thinking": {
@@ -92,143 +16,21 @@
    "output": 16,
    "group": "default"
   },
-  "gpt-6-astra": {
-   "mode": "token",
-   "input": 2.5,
-   "output": 12.5,
-   "group": "default"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "token",
-   "input": 5.6,
-   "output": 33,
-   "group": "default"
-  },
-  "gemini-4-carbon": {
-   "mode": "token",
-   "input": 5.6,
-   "output": 28,
-   "group": "default"
-  },
-  "claude-opus-5": {
-   "mode": "token",
-   "input": 7,
-   "output": 35,
-   "group": "default"
-  },
-  "claude-opus-4-8-thinking": {
-   "mode": "call",
-   "perCall": 0.22,
-   "group": "default"
-  },
-  "claude-opus-4-8": {
-   "mode": "token",
-   "input": 7,
-   "output": 35,
-   "group": "default"
-  },
-  "deepseek‑v4-1‑flash": {
-   "mode": "call",
-   "perCall": 0.04,
-   "group": "default"
-  },
-  "claude-opus-5-5-thinking-max": {
-   "mode": "call",
-   "perCall": 2.85,
-   "group": "default"
-  },
-  "claude-opus-4-5-thinking": {
-   "mode": "call",
-   "perCall": 0.22,
-   "group": "default"
-  },
-  "gpt-5-6-sol": {
-   "mode": "token",
-   "input": 1.25,
-   "output": 7.5,
-   "group": "default"
-  },
-  "gemini-4-carbon-search": {
-   "mode": "call",
-   "perCall": 0.09,
-   "group": "default"
-  },
   "gemini-4-neon": {
    "mode": "call",
    "perCall": 0.05,
    "group": "default"
   },
-  "gpt-5-5": {
-   "mode": "call",
-   "perCall": 0.045,
-   "group": "default"
-  },
-  "claude-opus-4-1": {
-   "mode": "call",
-   "perCall": 0.63,
-   "group": "default"
-  },
-  "gemini-4-hydrogen": {
-   "mode": "call",
-   "perCall": 0.038,
-   "group": "default"
-  },
-  "gemini-3-8-flash": {
+  "claude-opus-5-5": {
    "mode": "token",
-   "input": 0.45,
-   "output": 2.25,
+   "input": 2.8,
+   "output": 14,
    "group": "default"
   },
-  "claude-fable-5-1": {
+  "claude-opus-4-6": {
    "mode": "token",
-   "input": 14,
-   "output": 70,
-   "group": "default"
-  },
-  "gemini-4-hydrogen-search": {
-   "mode": "call",
-   "perCall": 0.08,
-   "group": "default"
-  },
-  "claude-opus-5-thinking": {
-   "mode": "call",
-   "perCall": 0.22,
-   "group": "default"
-  },
-  "claude-sonnet-5": {
-   "mode": "call",
-   "perCall": 0.13,
-   "group": "default"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 0.5,
-   "output": 2.5,
-   "group": "default"
-  },
-  "glm-5-2": {
-   "mode": "call",
-   "perCall": 0.05,
-   "group": "default"
-  },
-  "gemini-4-argon-search": {
-   "mode": "call",
-   "perCall": 0.09,
-   "group": "default"
-  },
-  "deepseek-v4-pro-0813": {
-   "mode": "call",
-   "perCall": 0.06,
-   "group": "default"
-  },
-  "claude-sonnet-5-thinking": {
-   "mode": "call",
-   "perCall": 0.13,
-   "group": "default"
-  },
-  "claude-opus-4-6-thinking-max": {
-   "mode": "call",
-   "perCall": 2.85,
+   "input": 2.5,
+   "output": 12.5,
    "group": "default"
   },
   "claude-fable-5": {
@@ -237,14 +39,103 @@
    "output": 70,
    "group": "default"
   },
+  "gemini-3-1-pro-preview-search": {
+   "mode": "call",
+   "perCall": 0.07,
+   "group": "default"
+  },
+  "gemini-4-hydrogen": {
+   "mode": "call",
+   "perCall": 0.038,
+   "group": "default"
+  },
+  "claude-opus-4-7": {
+   "mode": "token",
+   "input": 7,
+   "output": 35,
+   "group": "default"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "default"
+  },
+  "claude-opus-4-5": {
+   "mode": "token",
+   "input": 7,
+   "output": 35,
+   "group": "default"
+  },
+  "claude-sonnet-5-thinking": {
+   "mode": "call",
+   "perCall": 0.13,
+   "group": "default"
+  },
+  "gemini-3-8-flash": {
+   "mode": "token",
+   "input": 0.45,
+   "output": 2.25,
+   "group": "default"
+  },
+  "claude-opus-4-8-thinking-max": {
+   "mode": "call",
+   "perCall": 2.85,
+   "group": "default"
+  },
+  "gemini-4-carbon-search": {
+   "mode": "call",
+   "perCall": 0.09,
+   "group": "default"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "token",
+   "input": 5.6,
+   "output": 33,
+   "group": "default"
+  },
+  "claude-opus-4-8": {
+   "mode": "token",
+   "input": 7,
+   "output": 35,
+   "group": "default"
+  },
+  "claude-opus-5": {
+   "mode": "token",
+   "input": 7,
+   "output": 35,
+   "group": "default"
+  },
+  "claude-sonnet-5": {
+   "mode": "call",
+   "perCall": 0.13,
+   "group": "default"
+  },
   "claude-sonnet-4-5": {
    "mode": "call",
    "perCall": 0.04,
    "group": "default"
   },
-  "claude-sonnet-4-5-thinking": {
+  "gpt-6-astra": {
+   "mode": "token",
+   "input": 2.5,
+   "output": 12.5,
+   "group": "default"
+  },
+  "gemini-4-carbon": {
+   "mode": "token",
+   "input": 5.6,
+   "output": 28,
+   "group": "default"
+  },
+  "claude-opus-4-8-thinking": {
    "mode": "call",
-   "perCall": 0.04,
+   "perCall": 0.195,
+   "group": "default"
+  },
+  "glm-5-3-flash": {
+   "mode": "call",
+   "perCall": 0.02,
    "group": "default"
   },
   "gemini-4-neon-search": {
@@ -252,10 +143,139 @@
    "perCall": 0.09,
    "group": "default"
   },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 0.5,
+   "output": 2.5,
+   "group": "default"
+  },
+  "gemini-2-5-pro-search": {
+   "mode": "call",
+   "perCall": 0.07,
+   "group": "default"
+  },
+  "claude-sonnet-5-5": {
+   "mode": "call",
+   "perCall": 0.1,
+   "group": "default"
+  },
+  "claude-opus-4-5-thinking": {
+   "mode": "call",
+   "perCall": 0.195,
+   "group": "default"
+  },
+  "gemini-4-argon": {
+   "mode": "token",
+   "input": 5.6,
+   "output": 28,
+   "group": "default"
+  },
+  "claude-opus-5-thinking": {
+   "mode": "call",
+   "perCall": 0.195,
+   "group": "default"
+  },
   "gpt-6-1-sol": {
    "mode": "token",
    "input": 0.5,
    "output": 2.5,
+   "group": "default"
+  },
+  "deepseek-v4-pro-0813": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "default"
+  },
+  "gpt-5-5": {
+   "mode": "call",
+   "perCall": 0.045,
+   "group": "default"
+  },
+  "claude-opus-4-7-thinking": {
+   "mode": "call",
+   "perCall": 0.195,
+   "group": "default"
+  },
+  "gpt-5-6-sol": {
+   "mode": "token",
+   "input": 1.25,
+   "output": 7.5,
+   "group": "default"
+  },
+  "claude-fable-5-1": {
+   "mode": "token",
+   "input": 14,
+   "output": 70,
+   "group": "default"
+  },
+  "claude-opus-4-6-thinking-max": {
+   "mode": "call",
+   "perCall": 2.85,
+   "group": "default"
+  },
+  "gemini-4-hydrogen-search": {
+   "mode": "call",
+   "perCall": 0.08,
+   "group": "default"
+  },
+  "deepseek-v4-flash-0731": {
+   "mode": "call",
+   "perCall": 0.046,
+   "group": "default"
+  },
+  "gpt-5-4": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "default"
+  },
+  "gemini-2-5-pro": {
+   "mode": "call",
+   "perCall": 0.055,
+   "group": "default"
+  },
+  "glm-5-3": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "default"
+  },
+  "gemini-3-8-flash-search": {
+   "mode": "call",
+   "perCall": 0.07,
+   "group": "default"
+  },
+  "kimi-k3": {
+   "mode": "call",
+   "perCall": 0.06,
+   "group": "default"
+  },
+  "claude-sonnet-4-6": {
+   "mode": "call",
+   "perCall": 0.13,
+   "group": "default"
+  },
+  "glm-5-2": {
+   "mode": "call",
+   "perCall": 0.05,
+   "group": "default"
+  },
+  "claude-opus-4-1": {
+   "mode": "call",
+   "perCall": 0.63,
+   "group": "default"
+  },
+  "claude-opus-5-5-thinking-max": {
+   "mode": "call",
+   "perCall": 2.85,
+   "group": "default"
+  },
+  "deepseek‑v4-1‑flash": {
+   "mode": "call",
+   "perCall": 0.04,
+   "group": "default"
+  },
+  "claude-sonnet-4-5-thinking": {
+   "mode": "call",
+   "perCall": 0.04,
    "group": "default"
   }
  }
