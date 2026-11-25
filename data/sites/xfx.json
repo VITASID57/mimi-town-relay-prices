@@ -1,125 +1,60 @@
 {
- "checkedAt": "2026-11-24",
+ "checkedAt": "2026-11-25",
  "recharge": {
   "rate": 1,
   "known": false
  },
  "offers": {
-  "glm-5-3": {
-   "mode": "call",
-   "perCall": 2.5,
-   "group": "default（只包含文本模型）"
-  },
-  "claude-opus-4-6": {
-   "mode": "token",
-   "input": 125,
-   "output": 625,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-3-1-pro-preview": {
-   "mode": "call",
-   "perCall": 3,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-4-argon": {
-   "mode": "call",
-   "perCall": 2,
-   "group": "default（只包含文本模型）"
-  },
-  "grok-4-5": {
-   "mode": "token",
-   "input": 30,
-   "output": 90,
-   "group": "default（只包含文本模型）"
-  },
-  "glm-5-3-flash": {
-   "mode": "token",
-   "input": 12.5,
-   "output": 43.75,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-3-8-flash": {
-   "mode": "call",
-   "perCall": 0.75,
-   "group": "default（只包含文本模型）"
-  },
-  "claude-opus-5-5": {
-   "mode": "call",
-   "perCall": 8,
-   "group": "default（只包含文本模型）"
-  },
-  "grok-4-6": {
-   "mode": "token",
-   "input": 30,
-   "output": 90,
-   "group": "default（只包含文本模型）"
-  },
-  "claude-opus-5": {
-   "mode": "call",
-   "perCall": 8,
-   "group": "vip（包含文本和生图模型）"
-  },
-  "gemini-3-7-flash": {
-   "mode": "call",
-   "perCall": 0.5,
-   "group": "default（只包含文本模型）"
-  },
-  "deepseek-v4-1-flash": {
-   "mode": "token",
-   "input": 25,
-   "output": 100,
-   "group": "default（只包含文本模型）"
-  },
-  "gpt-5-5": {
-   "mode": "call",
-   "perCall": 3,
-   "group": "default（只包含文本模型）"
-  },
   "deepseek-v4-flash": {
    "mode": "call",
    "perCall": 1,
    "group": "default（只包含文本模型）"
-  },
-  "deepseek-v4-pro": {
-   "mode": "call",
-   "perCall": 1.5,
-   "group": "default（只包含文本模型）"
-  },
-  "claude-sonnet-4-5": {
-   "mode": "call",
-   "perCall": 0.75,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-4-neon": {
-   "mode": "call",
-   "perCall": 3.5,
-   "group": "default（只包含文本模型）"
-  },
-  "claude-opus-4-6-thinking": {
-   "mode": "token",
-   "input": 125,
-   "output": 625,
-   "group": "default（只包含文本模型）"
-  },
-  "gpt-6-1-sol": {
-   "mode": "token",
-   "input": 25,
-   "output": 150,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-3-pro": {
-   "mode": "call",
-   "perCall": 1.5,
-   "group": "vip（包含文本和生图模型）"
   },
   "glm-5-2": {
    "mode": "call",
    "perCall": 2.5,
    "group": "default（只包含文本模型）"
   },
-  "claude-opus-4-8": {
+  "gemini-4-hydrogen": {
    "mode": "call",
-   "perCall": 8,
+   "perCall": 0.75,
+   "group": "default（只包含文本模型）"
+  },
+  "gemini-4-carbon-search": {
+   "mode": "call",
+   "perCall": 4.5,
+   "group": "default（只包含文本模型）"
+  },
+  "gpt-6-sol": {
+   "mode": "token",
+   "input": 25,
+   "output": 150,
+   "group": "default（只包含文本模型）"
+  },
+  "gemini-3-6-flash": {
+   "mode": "call",
+   "perCall": 0.5,
+   "group": "default（只包含文本模型）"
+  },
+  "claude-opus-4-6": {
+   "mode": "token",
+   "input": 125,
+   "output": 625,
+   "group": "vip（包含文本和生图模型）"
+  },
+  "gemini-3-1-pro-preview": {
+   "mode": "call",
+   "perCall": 3,
+   "group": "vip（包含文本和生图模型）"
+  },
+  "gemini-4-argon": {
+   "mode": "call",
+   "perCall": 2,
+   "group": "default（只包含文本模型）"
+  },
+  "deepseek-v4-pro": {
+   "mode": "call",
+   "perCall": 1.5,
    "group": "default（只包含文本模型）"
   },
   "grok-4-7": {
@@ -133,36 +68,14 @@
    "perCall": 0.75,
    "group": "default（只包含文本模型）"
   },
+  "gemini-3-8-flash": {
+   "mode": "call",
+   "perCall": 0.75,
+   "group": "vip（包含文本和生图模型）"
+  },
   "gemini-4-carbon": {
    "mode": "call",
    "perCall": 4.5,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-4-hydrogen": {
-   "mode": "call",
-   "perCall": 0.75,
-   "group": "default（只包含文本模型）"
-  },
-  "qwen-3-7-max": {
-   "mode": "token",
-   "input": 100,
-   "output": 300,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-3-6-flash": {
-   "mode": "call",
-   "perCall": 0.5,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-4-argon-search": {
-   "mode": "call",
-   "perCall": 3.5,
-   "group": "default（只包含文本模型）"
-  },
-  "gpt-5-6-terra": {
-   "mode": "token",
-   "input": 25,
-   "output": 150,
    "group": "default（只包含文本模型）"
   },
   "qwen-3-7-plus": {
@@ -171,31 +84,118 @@
    "output": 60,
    "group": "default（只包含文本模型）"
   },
-  "gemini-4-carbon-search": {
+  "gpt-5-4": {
    "mode": "call",
-   "perCall": 4.5,
+   "perCall": 3,
+   "group": "vip（包含文本和生图模型）"
+  },
+  "claude-opus-5": {
+   "mode": "call",
+   "perCall": 8,
+   "group": "default（只包含文本模型）"
+  },
+  "gemini-3-pro": {
+   "mode": "call",
+   "perCall": 1.5,
+   "group": "default（只包含文本模型）"
+  },
+  "claude-opus-5-5": {
+   "mode": "call",
+   "perCall": 8,
+   "group": "default（只包含文本模型）"
+  },
+  "gpt-5-6-terra": {
+   "mode": "token",
+   "input": 25,
+   "output": 150,
+   "group": "default（只包含文本模型）"
+  },
+  "gemini-3-7-flash": {
+   "mode": "call",
+   "perCall": 0.5,
+   "group": "default（只包含文本模型）"
+  },
+  "gpt-5-5": {
+   "mode": "call",
+   "perCall": 3,
+   "group": "vip（包含文本和生图模型）"
+  },
+  "claude-sonnet-4-5": {
+   "mode": "call",
+   "perCall": 0.75,
+   "group": "default（只包含文本模型）"
+  },
+  "deepseek-v4-1-flash": {
+   "mode": "token",
+   "input": 25,
+   "output": 100,
+   "group": "default（只包含文本模型）"
+  },
+  "gemini-4-argon-search": {
+   "mode": "call",
+   "perCall": 3.5,
+   "group": "default（只包含文本模型）"
+  },
+  "glm-5-3-flash": {
+   "mode": "token",
+   "input": 12.5,
+   "output": 43.75,
+   "group": "default（只包含文本模型）"
+  },
+  "glm-5-3": {
+   "mode": "call",
+   "perCall": 2.5,
+   "group": "default（只包含文本模型）"
+  },
+  "grok-4-5": {
+   "mode": "token",
+   "input": 30,
+   "output": 90,
+   "group": "default（只包含文本模型）"
+  },
+  "gemini-2-5-pro": {
+   "mode": "call",
+   "perCall": 3,
+   "group": "default（只包含文本模型）"
+  },
+  "gpt-6-1-sol": {
+   "mode": "token",
+   "input": 25,
+   "output": 150,
+   "group": "default（只包含文本模型）"
+  },
+  "grok-4-6": {
+   "mode": "token",
+   "input": 30,
+   "output": 90,
+   "group": "default（只包含文本模型）"
+  },
+  "claude-opus-4-8": {
+   "mode": "call",
+   "perCall": 8,
+   "group": "vip（包含文本和生图模型）"
+  },
+  "claude-opus-4-6-thinking": {
+   "mode": "token",
+   "input": 125,
+   "output": 625,
+   "group": "default（只包含文本模型）"
+  },
+  "qwen-3-7-max": {
+   "mode": "token",
+   "input": 100,
+   "output": 300,
+   "group": "default（只包含文本模型）"
+  },
+  "gemini-4-neon": {
+   "mode": "call",
+   "perCall": 3.5,
    "group": "default（只包含文本模型）"
   },
   "deepseek-v4-1-flash-1017": {
    "mode": "token",
    "input": 25,
    "output": 100,
-   "group": "default（只包含文本模型）"
-  },
-  "gpt-5-4": {
-   "mode": "call",
-   "perCall": 3,
-   "group": "default（只包含文本模型）"
-  },
-  "gpt-6-sol": {
-   "mode": "token",
-   "input": 25,
-   "output": 150,
-   "group": "default（只包含文本模型）"
-  },
-  "gemini-2-5-pro": {
-   "mode": "call",
-   "perCall": 3,
    "group": "default（只包含文本模型）"
   },
   "gpt-6-astra": {
