@@ -1,18 +1,28 @@
 {
- "checkedAt": "2026-11-27",
+ "checkedAt": "2026-11-28",
  "recharge": {
   "rate": 1,
   "known": true
  },
  "offers": {
+  "gemini-3-5-flash": {
+   "mode": "call",
+   "perCall": 0.03,
+   "group": "default（默认分组）"
+  },
+  "gemini-4-argon": {
+   "mode": "call",
+   "perCall": 0.08,
+   "group": "default（默认分组）"
+  },
   "gemini-3-8-flash": {
    "mode": "call",
    "perCall": 0.03,
    "group": "default（默认分组）"
   },
-  "grok-4-7": {
+  "gemini-3-flash-preview": {
    "mode": "call",
-   "perCall": 0.04,
+   "perCall": 0.012,
    "group": "default（默认分组）"
   },
   "gemini-3-1-pro-preview": {
@@ -20,27 +30,7 @@
    "perCall": 0.065,
    "group": "default（默认分组）"
   },
-  "deepseek-v4-1-flash": {
-   "mode": "call",
-   "perCall": 0.05,
-   "group": "default（默认分组）"
-  },
-  "gemini-4-hydrogen": {
-   "mode": "call",
-   "perCall": 0.08,
-   "group": "default（默认分组）"
-  },
-  "gpt-6-luna": {
-   "mode": "call",
-   "perCall": 0.05,
-   "group": "default（默认分组）"
-  },
-  "gemini-3-1-pro-preview-search": {
-   "mode": "call",
-   "perCall": 0.065,
-   "group": "default（默认分组）"
-  },
-  "gemini-4-argon": {
+  "gpt-6-1-sol": {
    "mode": "call",
    "perCall": 0.08,
    "group": "default（默认分组）"
@@ -55,14 +45,14 @@
    "perCall": 0.04,
    "group": "default（默认分组）"
   },
-  "gemini-3-flash-preview": {
+  "grok-4-7": {
    "mode": "call",
-   "perCall": 0.012,
+   "perCall": 0.04,
    "group": "default（默认分组）"
   },
-  "gemini-3-5-flash": {
+  "gemini-4-hydrogen": {
    "mode": "call",
-   "perCall": 0.03,
+   "perCall": 0.08,
    "group": "default（默认分组）"
   },
   "gpt-5-6-sol": {
@@ -70,9 +60,9 @@
    "perCall": 0.09,
    "group": "default（默认分组）"
   },
-  "gpt-6-1-sol": {
+  "deepseek-v4-1-flash": {
    "mode": "call",
-   "perCall": 0.08,
+   "perCall": 0.05,
    "group": "default（默认分组）"
   },
   "gpt-6-2-sol": {
@@ -80,14 +70,14 @@
    "perCall": 0.08,
    "group": "default（默认分组）"
   },
-  "gemini-4-carbon": {
+  "gpt-6-luna": {
    "mode": "call",
-   "perCall": 0.2,
+   "perCall": 0.05,
    "group": "default（默认分组）"
   },
-  "gemini-4-neon": {
+  "gemini-3-1-pro-preview-search": {
    "mode": "call",
-   "perCall": 0.15,
+   "perCall": 0.065,
    "group": "default（默认分组）"
   }
  }
